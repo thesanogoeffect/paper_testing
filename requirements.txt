@@ -1,3 +1,5 @@
 grobid-client-python
 jupyter
 tqdm
+requests
+PyMuPDF
