@@ -4,7 +4,7 @@ from locust import HttpUser, task, between
 from urllib.parse import urljoin
 from os import path as os_path
 HF_CPU_ONLY_SERVER = "https://thesanogoeffect-grobid-papercheck.hf.space:8070"
-DIGITAL_OCEAN_SERVER = "https://144.126.230.137:8070"
+DIGITAL_OCEAN_SERVER = "http://144.126.230.137:8070"
 LOCALHOST_SERVER = "http://localhost:8070"
 CALL = "/api/processFulltextDocument"
 CONFIG_PATH = '/home/jakub/Projects/paper_testing/config.json'
