@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" coords="1,62.36,86.81,333.26,15.73;1,62.36,106.77,322.27,15.73;1,62.36,126.78,345.25,15.73;1,62.36,146.79,113.88,15.73">What does it mean to be engaged with digital health interventions? A qualitative study into the experiences of engaged users and the views of professionals</title>
+				<funder ref="#_2Tcsz2c">
+					<orgName type="full">University of Twente</orgName>
+				</funder>
+				<funder ref="#_t3bPe4y #_SFHT7K8">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_YMnTGDx">
+					<orgName type="full">Netherlands Organisation for Scientific Research (NWO)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,62.36,199.80,82.69,10.49"><forename type="first">Saskia</forename><forename type="middle">M</forename><surname>Kelders</surname></persName>
+							<email>s.m.kelders@utwente.nl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Health, Psychology and Technology</orgName>
+								<orgName type="institution">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Optentia Research Unit</orgName>
+								<orgName type="institution">North-West University</orgName>
+								<address>
+									<settlement>Vanderbijlpark</settlement>
+									<country key="ZA">South Africa</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,178.07,199.80,59.80,10.49"><forename type="first">Hanneke</forename><surname>Kip</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Health, Psychology and Technology</orgName>
+								<orgName type="institution">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Research</orgName>
+								<orgName type="institution">Transfore</orgName>
+								<address>
+									<settlement>Deventer</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,270.88,199.80,118.44,10.49"><forename type="first">Nienke</forename><surname>Beerlage-De Jong</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Section of Health Technology and Services Research</orgName>
+								<orgName type="department" key="dep2">Technical Medical Centre</orgName>
+								<orgName type="institution">University of Twente</orgName>
+								<address>
+									<settlement>Enschede</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,83.85,213.80,63.20,10.49"><forename type="first">Nadine</forename><surname>Köhle</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Health, Psychology and Technology</orgName>
+								<orgName type="institution">Stichting Mindfit</orgName>
+								<address>
+									<settlement>Thubble Deventer</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="12,89.57,503.20,43.94,7.92"><forename type="first">Elena</forename><surname>Bosse</surname></persName>
+						</author>
+						<author>
+							<persName coords="12,141.50,503.20,57.32,7.92"><forename type="first">Tizian</forename><surname>Eckhardt</surname></persName>
+						</author>
+						<author>
+							<persName coords="12,206.70,503.20,56.92,7.92"><forename type="first">Petra</forename><surname>Ter Denge</surname></persName>
+						</author>
+						<author>
+							<persName coords="12,160.33,536.19,53.09,7.92"><forename type="first">Marleen</forename><surname>Aben</surname></persName>
+						</author>
+						<author>
+							<persName coords="12,223.99,536.19,56.89,7.92"><forename type="first">Pasi</forename><surname>Karppinen</surname></persName>
+						</author>
+						<author>
+							<persName coords="12,49.61,547.19,63.36,7.92"><forename type="first">Matthijs</forename><surname>Noordzij</surname></persName>
+						</author>
+						<author>
+							<persName coords="12,120.30,547.19,56.74,7.92"><forename type="first">Stefano</forename><surname>Triberti</surname></persName>
+						</author>
+						<author>
+							<persName coords="12,183.91,547.19,57.72,7.92"><forename type="first">Roelof</forename><surname>De Vries</surname></persName>
+						</author>
+						<author>
+							<persName coords="12,248.82,547.19,36.05,7.92;12,49.61,558.19,12.93,7.92"><forename type="first">Llewellyn</forename><surname>Van</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">University of Twente</orgName>
+								<address>
+									<addrLine>Cubicus</addrLine>
+									<postBox>PO Box 217</postBox>
+									<postCode>B114</postCode>
+									<settlement>Enschede</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" coords="1,62.36,86.81,333.26,15.73;1,62.36,106.77,322.27,15.73;1,62.36,126.78,345.25,15.73;1,62.36,146.79,113.88,15.73">What does it mean to be engaged with digital health interventions? A qualitative study into the experiences of engaged users and the views of professionals</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E5360E7AE5B24957B1CF1E45565B0C98</idno>
+					<idno type="DOI">10.1177/20552076241283530</idno>
+					<note type="submission">Submission date: 7 March 2024; Acceptance date: 8 August 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-07-21T15:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-13-g799bc392e</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[persName, figure, ref, biblStruct, formula, s, note, title], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Digital health interventions</term>
+					<term>engagement</term>
+					<term>qualitative study</term>
+					<term>behavioral engagement</term>
+					<term>cognitive engagement</term>
+					<term>affective engagement</term>
+					<term>eHealth</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective: Digital health interventions (DHIs) hold promise for influencing health behaviors positively, but their widespread implementation and effectiveness remain limited. Engagement is crucial for DHI effectiveness, yet its conceptualization is debated. This qualitative study explores engagement from user and professional perspectives.</p><p>Methods: Twenty self-proclaimed engaged health app users participated in semistructured interviews, and 13 professionals working with DHIs completed an online survey.</p><p>Results: Interviews with health app users revealed three key components of their sense of engagement: behavioral, cognitive, and affective. Behavioral engagement includes routine, effortless, and dynamic usage; emphasizing the importance of the quality of fit between user and technology over frequency of use. Cognitive engagement encompasses the technology's utility as a tool for supporting behavior change, providing new insights, and enhancing motivation. Affective engagement involves enjoying progress, deriving pleasure from using the technology, and identifying with the technology. Notably, participants exhibited varying emphasis on these components. Professionals, in a parallel inquiry, agreed on the relevance of behavior, cognition, and affect in defining engagement. In their understanding, behavioral engagement is often associated with adherence and frequency of use, while cognitive engagement emphasizes understanding, motivation, and achieving cognitive outcomes. Affective engagement, although diverse, is recognized as a critical dimension. In addition, it was noticeable that users and professionals perceived microengagement (with the DHI) and macroengagement (with the target behavior) as interconnected.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>To conclude, this study contributes a nuanced understanding of the multifaceted nature of engagement, informing future measurement of the concept, DHI design, and implementation strategies for improved user experiences and outcomes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Digital health interventions (DHIs) are a specific form of eHealth. They are a valuable asset for positively influencing health-related behaviors. They have shown to be effective for a wide target group and a wide variety of (mental) health conditions, such as cardiac rehabilitation, 1 diabetes and obesity, <ref type="bibr" coords="2,98.14,151.10,3.75,5.87" target="#b1">2</ref> and depression. <ref type="bibr" coords="2,167.07,151.10,3.75,5.87" target="#b2">3</ref> However, in real life, widespread implementation and effectiveness of these interventions is still scarce. <ref type="bibr" coords="2,124.67,175.08,6.25,5.87" target="#b3">4,</ref><ref type="bibr" coords="2,130.92,175.08,3.12,5.87" target="#b4">5</ref> Engagement is often mentioned as an important concept that may explain or overcome these issues on implementation and effectiveness. <ref type="bibr" coords="2,245.37,199.12,3.74,5.87" target="#b5">[6]</ref><ref type="bibr" coords="2,249.11,199.12,3.74,5.87" target="#b6">[7]</ref><ref type="bibr" coords="2,252.85,199.12,3.74,5.87" target="#b7">[8]</ref> It is posited that a certain degree of engagement of a user with the DHI is necessary for DHIs to be effective <ref type="bibr" coords="2,243.33,223.10,3.75,5.87" target="#b8">9</ref> and that more engagement is related to more effectiveness. <ref type="bibr" coords="2,252.06,235.12,6.43,5.87" target="#b6">7,</ref><ref type="bibr" coords="2,258.48,235.12,9.64,5.87" target="#b9">10,</ref><ref type="bibr" coords="2,268.13,235.12,6.43,5.87" target="#b10">11</ref> A lack of engagement is therefore seen as a major issue that hampers DHIs reaching their potential effectiveness, <ref type="bibr" coords="2,271.73,259.10,6.56,5.87" target="#b7">8,</ref><ref type="bibr" coords="2,278.29,259.10,6.56,5.87" target="#b11">12</ref> especially in DHIs where there is little or no (health care) professional involvement, such as in health apps. <ref type="bibr" coords="2,256.88,283.08,10.12,5.87" target="#b12">13,</ref><ref type="bibr" coords="2,267.00,283.08,6.75,5.87" target="#b13">14</ref> If we want to overcome issues with low engagement and accompanying lower effectiveness in DHIs, we should have a good understanding of what the engaging experience is that we need to measure and design for. <ref type="bibr" coords="2,223.03,331.10,6.43,5.87" target="#b5">6,</ref><ref type="bibr" coords="2,229.46,331.10,9.64,5.87" target="#b11">12,</ref><ref type="bibr" coords="2,239.10,331.10,6.43,5.87" target="#b14">15</ref> Not only can this insight be used to design more engaging interventions for different target groups, but measuring engagement during the intervention period also opens up the way to continuously adapt interventions to individuals' needs and context over time.</p><p>However, there still is a debate on what engagement to eHealth or DHIs is. A view that has become more prominent in recent years, is that engagement is more than just frequent use of DHIs. <ref type="bibr" coords="2,127.56,439.49,3.44,5.87" target="#b5">[6]</ref><ref type="bibr" coords="2,131.00,439.49,3.44,5.87" target="#b6">[7]</ref><ref type="bibr" coords="2,134.45,439.49,6.89,5.87" target="#b7">[8]</ref><ref type="bibr" coords="2,141.34,439.49,6.89,5.87" target="#b11">12</ref> This marks the difference with a concept as adherence, which is seen as the degree to which DHIs are used as intended by the developers of these interventions. <ref type="bibr" coords="2,128.69,476.12,10.12,5.87" target="#b15">16,</ref><ref type="bibr" coords="2,138.82,476.12,6.75,5.87" target="#b16">17</ref> However, there is discussion on what this "more than usage" is. A review on engagement in DHIs described engagement as the extent of usage and a subjective experience characterized by attention, interest, and affect. <ref type="bibr" coords="2,91.45,524.87,3.75,5.87" target="#b6">7</ref> Additionally, other researchers stress that there is a difference between microengagement and macroengagement, where microengagement focuses on engagement with the DHI itself, while macroengagement focuses on engagement with the wider intervention goals, that is, the health or behavior change goals. <ref type="bibr" coords="2,186.92,585.93,3.75,5.87" target="#b7">8</ref> Our review described engagement to DHIs as a combination of behavior, cognition, and affect, as is common in other fields where engagement is studied. <ref type="bibr" coords="2,113.33,622.50,3.75,5.87" target="#b5">6</ref> However, this review acknowledged that the precise content and qualities of the behavioral, cognitive, and affective aspects of engagement to DHI should be further investigated, together with how these components are related to each other and to (health) outcomes. These insights are needed to come to a useful conceptualization of engagement, that can be used to measure the concept and serve as input for design recommendations of DHIs.</p><p>What the outcomes of these reviews have in common, is that engagement is, at least partly, shaped by the experience of the people who use DHIs. There have been studies that focus on user's experiences of engagement, for example by reviewing studies on barriers and facilitators for engagement, <ref type="bibr" coords="2,319.97,132.10,10.12,5.87" target="#b17">18,</ref><ref type="bibr" coords="2,330.10,132.10,6.75,5.87" target="#b18">19</ref> or on studying the influence of specific features such as gamification on the user experience of engagement. <ref type="bibr" coords="2,319.97,156.09,10.12,5.87" target="#b19">20,</ref><ref type="bibr" coords="2,330.10,156.09,6.75,5.87" target="#b20">21</ref> However, most of these studies investigate why some participants did engage with or adhere to a specific DHI, while others did not, thereby focusing on engaging features or predictors of engagement and not on the multifaceted concept of engagement itself. Although this does yield interesting information for the studied DHIs, it is difficult to generalize these findings to other DHIs and to a more encompassing view of what it means to be engaged with a DHI. This last aspect is needed to yield more insight into the content and quality of the components of engagement, as advocated in our earlier review. <ref type="bibr" coords="2,491.81,276.10,3.75,5.87" target="#b5">6</ref> To learn more about what it means to be engaged with a DHI, this study focuses on engagement, both directly from the users' perspective, as well as from the perspective of professionals working with DHIs, for example, mental healthcare professionals and researchers. This last perspective is added to make use of knowledge that exists in the field but has not yet made its way to the slower dissemination path of scientific publications.</p><p>The goal of this qualitative study is to gain more insight into how self-proclaimed engaged DHI users (in this case users of health apps, since engagement with these apps is varied <ref type="bibr" coords="2,322.36,420.10,7.50,5.87" target="#b21">22</ref> ), and professionals who work with DHIs, view engagement. This will yield more insight into how to operationalize the different components of engagement (behavior, cognition, and affect) in this context and whether there are any other components to consider. Moreover, this study aims to give insight into the relative importance of the different components of engagement to each other in the context of health apps. Together, these insights might help us gain a better conceptualization of engagement and in that way, in overcoming issues with a lack of engagement and effectiveness of DHIs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>For this study, 20 semistructured interviews were conducted with people who are self-proclaimed engaged DHI users, specifically health apps. Health apps were chosen for this study as they are a specific form of DHIs that seem to be able to invoke high engagement in certain people, but not in others. <ref type="bibr" coords="2,469.19,648.12,7.72,5.87" target="#b22">23</ref> App stores contain a broad range of apps focused on health and wellbeing, for example fitness apps (often suitable to be used in combination with a wearable), diet-related apps, or mindfulness apps. Some of these apps have been shown to be effective in improving health outcomes, but evidence remains scarce. <ref type="bibr" coords="2,468.23,720.12,10.72,5.87" target="#b23">24,</ref><ref type="bibr" coords="2,478.95,720.12,7.15,5.87" target="#b24">25</ref> Although only a small proportion of all available health apps are actually used over a longer period of time, some of these seem to induce high engagement levels in certain users. <ref type="bibr" coords="3,86.68,108.07,10.75,5.87" target="#b22">23,</ref><ref type="bibr" coords="3,97.44,108.07,7.17,5.87" target="#b25">26</ref> This makes self-proclaimed engaged health app users an interesting group to learn from what it is that they see as being engaged with a health technology. Additionally, 13 professionals participated in an online survey addressing their views on what engagement to DHIs is.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>For the interviews, inclusion criteria were being over 18 years of age and feeling engaged with a health app used on a smart phone. As there is still much unclarity about what it means to be engaged with a health app and this is the topic of the current study, we did not objectively assess whether or not potential participants were engaged. Rather, we relied on participants' own experience as feeling "engaged or in some way involved" with the app, without going into detail what that may mean. Twenty participants were included through convenience sampling. The mean age of the participants was 28 years (ranging from 20 to 60 years) and 13 were female. Twelve participants were university students and the other eight were employed. Five participants used multiple apps with which they were engaged. In total, 19 participants used an app focused on physical health, 8 of which focused on physical activity and diet, 8 focused only on physical activity, 2 on diet only, and 1 on physical activity and sleep. One participant used an app for mental health (Mindfulness). Fifteen participants used an app in combination with a wearable (Fitbit, Garmin, Apple Watch).</p><p>For the online survey, professionals who work on or with DHIs (e.g. researchers or psychologists using DHIs for their patients) were invited to participate using the professional networks of the authors. Thirteen professionals with a mean age of 38 years (ranging from 29 to 54 years) participated in the online survey. Of these, seven identified as male and six as female. Most professionals were Dutch (n = 7), two were South African, one Finnish, one Italian, and one did not disclose their nationality. Eight professionals worked in academics, ranging from researcher to associate professor, and five professionals worked in mental health practice as for example, social worker, project leader on eHealth, or clinical psychologist. On average, they indicated having 9.3 years of expertise in their field (ranging from 2 to 17 years). Ten participants considered themselves as experts in DHIs ("somewhat agree" or "strongly agree" with the statement "I'm an expert in eHealth"), eight as experts in psychology, and seven participants considered themselves an expert in Human Computer Interaction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure and materials</head><p>Interviews with DHI users were held in a quiet space at the participants' home or at the University of Twente, they were audio recorded and took between 20 and 45 minutes (see also COREQ checklist in Supplemental Appendix 1). Interviews were conducted by four psychology students (see Acknowledgements) under supervision of the first author (SK), who was not present during the interviews. Three of these students identified as female and one as male. All had completed a BSc degree in psychology at the time of data collection and did these interviews as part of their MSc thesis. All students received multiple courses on qualitative research and interviews. Participants for the interviews were recruited through the personal network of the students who conducted the interviews (e.g. using What's app, phone calls, or in person). All participants knew the interviewer before the interview and the student explained that these interviews were conducted for their thesis but within a larger project. The online survey with professionals was made available through an online survey system (Qualtrics) and took between 12 and 60 minutes. Written Informed consent was obtained from participants before the start of the interview, and participants in the online survey provided informed consent within the first page of the online survey. Ethical approval for the study was obtained from the Behavioural Management and Social Sciences, domain Humanities and Social Sciences, ethics committee of the University of Twente (numbers 18223 and 191052).</p><p>The semistructured interview scheme for the selfproclaimed engaged users consisted of three major topics to get the participants talking about the health app they use and what that means to them. Prompts were used to let participants explain what they do, think, and feel while using the app. The first topic was focused on which app(s) they were using and with which goals. An example question was "Why did you start using this app?". The second topic focused on how they use the app in their daily lives. An example question was "Can you explain or show what you usually do with the app?". The last topic focused on what the app means to them. An example question was "You have indicated that the app is important to you. Can you elaborate on that?". Questions were deliberately kept open to give participants the opportunity to explain in their own words what it means for them to be engaged to a DHI. The interview scheme was pilot tested and adapted where necessary to make sure that the questions were understood and answerable by participants.</p><p>Within the online survey, five open questions were posed on what the professionals considered as engagement to eHealth interventions (see Supplemental Appendix 2). First, a general description of engagement was asked, without prompting any definition or viewpoint in advance. This was done by asking how the professionals would describe engagement to DHIs to a student or client. Second, professionals were asked how they would describe the behavioral, cognitive, and affective components of engagement. These components were introduced in the survey as "behavior (what does the patient do), cognition (what does the patient know and think), and affect (what emotion is the patient experiencing)". Lastly, professionals were asked for their professional opinion of these components of engagement as to whether these are applicable and together comprise the concept of engagement to DHIs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis</head><p>Interviews were transcribed verbatim and thematically analyzed using Atlas.ti 9. First, all interviews were read by the first author to familiarize herself with the data. Second, all fragments pertaining to what engagement is to the participants were identified. Next, these fragments were deductively categorized in behavioral, cognitive, and affective engagement. Any fragments that did pertain to engagement, but did not seem to fit into any of the deductive categories remained unlabeled in this first step. Afterwards, all fragments within each component were coded inductively: that is, codes were made from the content of the fragments. As a first step, this was done with 11 interviews and this resulted in 3 coding schemes-1 for each component. These coding schemes were then applied to all fragments, including the previously unlabeled fragments. The last nine interviews did not yield any new codes but gave insight in the content and diversity within the codes. This indicated that data saturation may have been reached.</p><p>The first three interviews were coded by two authors (SK and HK), with an initial agreement of 73% (Cohen's kappa = 0.69). All disagreements were discussed until agreement was reached. The code schemes were subsequently adjusted to include the insights from these discussions. The final coding scheme covered the three components behavioral, cognitive, and affective engagement, but additionally included three subcodes for each component. Lastly, an overview was created of how many times each component was coded for each participant.</p><p>The answers to the open questions in the online survey for professionals were coded inductively per question as each question covered a different topic (i.e. engagement in general, components of engagement, and applicability and comprehensiveness of components). Inductive analysis was chosen instead of using the code schemes from the interviews with engaged users, to see whether and how the professional view of engagement is different to the user view. First, all answers were read by the first author to familiarize herself with the data. Second, each answer was split into meaningful units which confer a single idea pertaining to the question. Third, each meaningful unit was given an inductive code. After this, the inductive codes were grouped until there was one code scheme for each question. All answers were coded by two authors (SK and HK) and discussed until agreement was reached on the code schemes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interviews with engaged users</head><p>Three hundred and sixty-four fragments that covered what it means to be engaged with a health app for participants were identified. Table <ref type="table" coords="4,388.35,204.62,5.00,8.80" target="#tab_0">1</ref> gives an overview of the different codes and the number of times each code was found. All participants mentioned all three different components of engagement. Overall, the number of quotes coded in the components behavior (37.6%; n = 137) and cognition (37.1%; n = 135) were similar and somewhat more frequent than quotes relating to affective engagement (25.3%; n = 92). No additional components were identified: any unlabeled fragments from step one of the analysis could be coded within the inductive codes of the three components.</p><p>Behavior. Within the component behavioral engagement, the subcodes "routine" (n = 61, 44.5%), "effortless usage" (n = 43, 31.4%) and "dynamic usage" (n = 33, 24.1%) were found.</p><p>Routine. Most behavioral engagement quotes were about having a routine with the app and this code was found in every interview. Nineteen participants mentioned that they created a routine with using the app (i.e., using the app at set points during the day and having embedded this in their daily lives): "I use the app three or four times a day. I use it after breakfast, lunch and dinner and for gaining an overview at the end of the day" (p. 5). One participant mentioned that he was on the way to create a routine. Participants also mentioned that using the app had become part of their daily lives and part of the behavior they support with the app. For example: "If I eat something, I type it in" (p. 20) and "Running is my hobby but the app is part of it" (p. 4).</p><p>Effortless usage. "Effortless usage" was coded second most in the behavioral engagement category and was found in all but one interview. Participants mentioned that using their app is easy and they do not have to think about it. This was seen as part of being engaged with the app. If the app was not user-friendly or would cost more effort, they would stop using it. The following quotes illustrate this: "But a quick look at it is enough to have everything in your mind. And that is motivating. I think it is clever." (p. 8) and: "You scan a code on your food and then you have automatically the data of it. […] In this way it is really easy, really handy and has a strong relation to the everyday life here. That is a great help and because of this, any other app is out of question for me." (p. 18). Dynamic usage. The third code in this category is dynamic usage and was found in 14 interviews. Participants mentioned that while they do feel engaged with the app, there still are periods of active use and of moderate or nonuse. First, when just starting with a new app, participants mentioned that they use it more intensely, for example, "When I started using the app, I did not take the wearable off. That was so sick! (laughs)" (p. 3). But when participants got more used to what to expect, usage can become less intensive, but participants still feel engaged, for example, "When you have been using the app for a while, you learn how many calories a particular meal has. You can go on without being supported by an app" (p. 5). Changing goals can also influence the intensity of usage, for example, "Since four months [I use the app] even more intensely, because my motivation changed. Before, it was important to have an overview over my results, but it was not that important to reach my goals every day. (…) At the moment I keep my results and goals in mind and monitor my behavior regularly" (p. 6). Lastly, participants also mention a risk of dynamic usage, namely that it can be easy to slip into an unwanted nonuse pattern after a few days of nonuse: "If I, if you take a break from two days then it is no longer in your rhythm. And then you take a longer break. I realize it quickly, that you do not think about it." (p. 11).</p><p>Cognition. Within the component of cognitive engagement, the subcodes supportive tool (n = 64, 47.4%), new insights (n = 37, 27.4%) and motivation (n = 34, 25.2%) were found.</p><p>Supportive tool. The subcode supportive tool is mentioned most often in this category, and by almost all participants (19 out of 20). This code describes that participants belief the app supports them in achieving their goals, by doing things they cannot do themselves, or that the app does it better than they could have done by themselves, which means that "both devices [app and wearable] support me and it's all about being more active" </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effortless usage</head><p>The DHI is seen as user friendly, and participants do not have to think about how to use it 43 (19)   Dynamic usage</p><p>The DHI allows for variation in use, accommodating periods of active use and of nonuse/ moderate use 33 (14)   Cognition 135 (20)   Supportive tool</p><p>The participant beliefs that the DHI is supportive in reaching their goals, often related to the DHI giving an overview of collected information 64 (19)   New insight The participant feels that the DHI provides them with useful information and new insights 37 ( <ref type="formula" coords="5,504.03,291.44,6.64,7.85">16</ref>)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Motivation</head><p>The participant beliefs that the DHI motivates them in reaching their goals 34 (12)   Affect 92 (20)   Enjoy progress</p><p>Enjoying using the DHI because or when it shows the progress you make 34 (16)   Enjoy app Using the DHI itself is enjoyable and can be addictive 30 ( <ref type="formula" coords="5,504.03,388.44,6.64,7.85">16</ref>)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identity</head><p>Feeling a connection with the DHI or missing something when it's not there 28 (15)   DHI: digital health intervention.</p><p>(p. 1). This novel way of supporting behavior change is often related to collecting and presenting data on, for example, the number of steps participants have taken, or the number of calories burned since this provides them with new knowledge that is hard to gain without the use of the app. For some participants, this overview helps them gain a sense of control on their behavior. For example, "What [does the app] mean to me? Yes, it is a nice gadget. It is not essential, that I could not live without it, but it offers a special control and overview over my habits that I want to correct. Yeah, that is in some ways pretty important" (p. 17). For others, the overview's benefit lies in gaining confirmation of what that have done, for example, "It is exactly shown how often you meditated, how many sessions you completed the average time you meditated." (p. 11). When this overview is lost, participants can experience frustration: "I need the confirmation that I really did the run. Some time ago, the app did not track my run. I was really upset and considered doing it again just in order to have the confirmation that I did it." (p. 4). Lastly, for some, having this supportive tool also entails commitment, or putting in effort themselves, for example, in working with the app or making sense of the collected data. This is not something that seems to bother them, it is part of how they are engaged. Participants described, for example, that they spend quite some time entering data: "(…) It takes some time to track a meal but I think it is worth it. Other people often do not understand that." (p. 5).</p><p>New insights. The second most used code in the cognitive engagement category is new insights. This code was mentioned by 16 participants and is about being engaged with the app because of the new insight the app gives them based on the information that is provided by the app. As participant 12 puts it: "It just gives me insight, and that is the most important thing to me." (p. 12). Participants explain that the information itself is interesting to them, but that they also use the information to draw conclusions on how they are doing in relation to their goals. They, for example, compare their data from different times to gain insight in their progress (e.g., "I like that I can compare my current data with the data from the past." (p. 1)), or use the information to adjust their plans on how to achieve their goals: "And I also count my calories and then I adapt my eating behavior." (p. 10). Compared to the subcode supportive tool, fragments with the code insight are more related to giving meaning to the data, while the fragments with the code supportive tool are about that the app collects or shows data.</p><p>Motivation. The last subcode within cognitive engagement is motivation. This code is mentioned by 12 participants and is about that the app increases their motivation for the targeted health behavior. The source of the motivation can be the app itself, the data the app collects, or the insight that participants gain from that. The most important aspect within this subcode is that participants specifically mention the motivation that comes with this. Examples are participant 6 who indicates "Well, it's my motivator to do more sport. It's motivating me every day new." (p. 6), or participant 4 who states, "I would not be able to motivate myself without the app" (p. 4). For some, the messages or reminders during the day are the most important motivator (e.g. "[the app says] 'you're doing great!', and that literally motivates!" (p. 13), but for others, it is the more long-term overview of what they have done that motivates them: "I think the app is important as it is motivating. The app motivates me by creating graphics in which current personal data is compared to earlier entries" (p. 1).</p><p>Affect. Within the component of affective engagement, the subcodes "enjoyment of progress" (n = 34, 37.0%), "enjoyment of the app" (n = 30, 32.6%) and "identity" (n = 28, 30.4%) were found almost equally often.</p><p>Enjoyment of Progress. Enjoy progress was mentioned by 16 participants who explained that they enjoy achieving their goals supported by the app. They stated that the app makes them feel satisfied, proud or happy by showing that they are achieving their own goals, for example, by complimenting them or displaying fireworks: "I like the special effects when achieving my goal. I enjoy them" (p. 3) or "Yeah, if you reach 10,000 steps, you get fireworks!" (p. 15). It also seems to make them enjoy the target behavior more, for example, "Using the app is not a hobby, no. But it makes my hobby more enjoyable." (p. 5). However, there is another side to this code as participants can feel frustrated when not reaching their goals (e.g. "It is fun, except when you stop exercising" (p. 3)), or not even use the app when they know it is likely that they will not achieve their goals.</p><p>Enjoyment of the App. Sixteen participants mentioned that they enjoy using the app itself. Participants described that using the app itself is "just fun" (p. 16) or "it is cool!" (p. 19). Some participants go further into saying "I love using my watch!" (p. 10) and three participants note that they feel or have felt addicted to the app. There seems to be an inter-relationship between addiction to the app and to the behavior which participants do not seem to differentiate between as can be seen in the following quote: "First, I thought that I would use the app and the wearable for only a few days, but now I am addicted. I always want to achieve my goal of taking 10.000 steps now." (p. 2).</p><p>Identity. Identity is mentioned by 15 participants. Most participants mention that they feel a connection with the app and that it fits them as a person. They state that they "would miss something if it was not there anymore" (p. 2), or that the app is their "buddy": "It means a lot to me, for sports. It is and will be my buddy. I can't do without my watch" (p. 15). They state that the app is an important part of their life, but it is "of course not the elixir of life!" (p. 7). Some participants seem to go further in identifying with the app, for example, "I would not exchange it against another app. I want to use this specific one." (p. 6) and even "I cannot live without it, I think. I am in a really bad mood when I cannot wear it." (p. 10).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Salience of components in individuals.</head><p>To explore whether there are differences in the salience of the components behavioral, cognitive, and affective engagement for individuals, an overview of the proportion of quotes from each interview relating to each of the components of engagement was made (see Table <ref type="table" coords="7,149.50,279.00,3.57,8.80" target="#tab_1">2</ref>). From the table it can be seen that all components of engagement are visible in all participants, but the percentages range from 11 to 61, indicating that there is some variance in the salience of components between individuals.</p><p>Eight participants mentioned behavioral engagement most often (between 40% and 61%). They seem to use the app quite routinely and it does not cost them much effort, but they do not have really strong feelings or thoughts about it. Interestingly, two these participants mentioned that they have started using the app because they have the wearable and it is expensive. This was not found in any of the other interviews. Seven participants mentioned cognitive engagement most often (between 40% and 57%). For these participants, the app seems to be mostly a means to achieve a goal: they know the app can enhance their motivation and ability to reach their goals and that makes it important to them. In three participants, all categories are mentioned relatively evenly (between 30% and 40%), seemingly making them engaged on all levels. One participant scored relatively high on both behavioral and cognitive engagement (both 43%, p. 5). For this participant, emotions do not seem to play a real role in engaging with the app. Lastly, one participant mentioned affective engagement most often (40%, p. 10). They really enjoyed (even loved) using the app and felt connected to it, which seems to be their form of engagement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Professional view on engagement</head><p>Engagement in general. From the answers to the question how the professionals would describe engagement to a student or patient, 24 fragments were coded. Of these, three fragments from three different professionals were coded as not pertaining to engagement as they described actual DHIs, and not engagement to DHIs. The remaining 21 fragments stemmed from the interviews of 10 different professionals. Two participants mentioned the components behavior, cognition, and affect without being prompted. Other participants described their view on engagement in general terms, conveying often one main dimension Note: White is 0-20%; light green 21-40%; green 41-60%; and dark green &gt;60%.</p><p>(n = 5), or describe multiple related dimensions. The most often mentioned code was "usage" (n = 4) in which (part of) engagement was related to how often a DHI was used, expressed, for example, as "engagement is strong when the patient uses the intervention on regular basis, preferably every day." (exp12). Three professionals stressed that engagement was closely "goal-related" (n = 3), for example, "It relates to patients and caregivers productively using the technology to achieve previously set goals in everyday health management of chronic conditions." (exp10). "Motivation," "understanding," and "involvement" were all mentioned by two professionals to be important aspects of engagement. Involvement was often used as a general description of engagement (e.g., "[engagement is] the extent to which people are involved in an intervention" (exp7), while motivation and understanding are mentioned as things that engaged users are likely to experience (e.g., "Participants who are fully engaged in a task will experience a high level of motivation to continue to engage with the task at hand." (exp5)). Other codes that were mentioned in describing engagement by one professional are: bond, curiosity, enjoyment, a positive attitude, a rich user experience, openness to new experiences, and a willingness to use eHealth technology.</p><p>Components of engagement. Table <ref type="table" coords="8,435.17,171.06,5.00,8.80" target="#tab_2">3</ref> presents the codes used to describe behavioral, cognitive and affective engagement by the 13 professionals. Most professionals view behavioral engagement as related to the use of the DHI, either participants using the intervention as intended by the developers or prescribers of the intervention (n = 5) or participants using the intervention (more) frequently (n = 3). Some professionals relate behavioral engagement to behavioral outcomes of the intervention (n = 3), for example, "they come to appointments more often, can reach out more easily, and have more contact with counselors that way" (exp2). Other professionals seem to refer to a certain quality of behavior that is seen as engaged: attention or interest while using the technology (n = 3), openness to using the intervention (n = 2), or putting in effort in using the technology (n = 1). Experiencing cognitive outcomes are most often mentioned as being part of cognitive engagement (n = 5). An example is: "They feel they are learning something new, and they are changing behavior based on this" (exp12). Other professionals mention that cognitive engagement means that participants see the added value of the technology (n = 3), or are motivated (n = 3) to use the intervention or to perform the goal behavior of the intervention. Lastly, professionals mention different aspects related to how people use or experience the use of the DHI as part of cognitive engagement. Examples include putting in mental effort while using the technology (n = 3), understanding how to use the technology (n = 2), or experiencing that the technology provides the right level of challenge (n = 1).</p><p>The views on what affective engagement entails seem more diverse than the views on behavioral and cognitive engagement, with a total of 14 different codes. Professionals vary in their views on what kind of emotions make up affective engagement. Some mention "emotions" (n = 2) or an "emotional connection" (n = 2) as a broad view of affective engagement, while others are more specific in adding that these emotions or attitudes should be positive (both n = 2). Others mention specific emotions or feelings as "pride" or being "comfortable using" the intervention (both n = 1). Enjoyment is mentioned twice as a specific emotion. Similar to the interviews with users of DHIs, it was mentioned (n = 1) as enjoying to use the intervention and (n = 1) as enjoying the progress a participant can experience with the intervention. Lastly, one professional mentioned that it might not be "always so useful" to make a distinction between cognitive and affective engagement as "having a dedicated intention for sustained use has a dynamic intertwined cognitive and affective aspect" (exp11).</p><p>On the question whether describing engagement as consisting of the components behavior, cognition, and affect is applicable to eHealth interventions all 13 professionals answered positively. A few remarks were made stating that it might be that there are other aspects in play as well (n = 1), and that it remains important not to confuse engagement to eHealth technology with other forms of engagement as patient engagement (n = 1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Principal results</head><p>This study aimed to give more insight into both the experience of engagement in users of DHIs-in this case health apps-and professionals' views on what engagement is.</p><p>In both groups, we found support for the previously established view of engagement consisting of behavior, cognition, and affect. <ref type="bibr" coords="9,376.04,96.10,3.75,5.87" target="#b5">6</ref> Moreover, this study has yielded more insight into the qualities of engaged behavior, cognition, and affect. Based on the interviews with self-proclaimed engaged health app users, it appeared that all participants were in some way and to some extent engaged behaviorally, cognitively, and affectively. In this study, we found that for being behaviorally engaged, routine is important as well as having to spend little to no effort in using the technology. Moreover, use is dynamic: there are active periods in which participants use a technology more intensively and periods of moderate or even nonuse. However, having these periods of moderate or nonuse in itself does not mean participants are not engaged anymore. Rather, this seems to be part of the process of engagement. Being cognitively engaged consists of users knowing that the technology is a supportive tool that can help them achieve their goals. Moreover, the technology gives new insights and motivates users to achieve their goals. Affective engagement consists of users experiencing positive emotions in working with the technology itself and in the progress that they achieve with the technology. Moreover, affectively engaged users identify with the technology in some way.</p><p>In this study, behavioral engagement seemed to be more about having a routine in using the technology and making it a part of your life, than about the frequency of using it, as is often used as a measure of engagement in DHIs. <ref type="bibr" coords="9,335.40,420.10,3.75,5.87" target="#b6">7</ref> Participants seemed to focus more on incorporating it in routines since the frequency of using an app is much more dependent on what technology you use, with what goals, and in what phase of (dynamic) use you are. This is similar to the argument made in the paper of Sieverink et al. on that adherence is more than just the frequency of use. <ref type="bibr" coords="9,417.09,492.10,7.72,5.87" target="#b16">17</ref> For adherence, it is not "the more use of a technology, the better," but it's about adhering to the intended use that corresponds to the goals you want to achieve. Behavioral engagement seems to be even less about the frequency of use than adherence: the ability of an individual to create a routine with a DHI, and to adapt this routine based on their current goals and progress, seems to be an important part of behavioral engagement. That behavioral engagement itself is already more than simply using the technology as often as possible, mirrors insights in different fields such as work engagement. In work engagement, "vigor" can be seen as behavioral engagement. <ref type="bibr" coords="9,518.12,636.10,7.72,5.87" target="#b26">27</ref> But this is not just seen as showing up for work, but also as the quality of the behavior, in this case working with a high level of energy, putting in effort and showing persistence even when facing difficulties. <ref type="bibr" coords="9,468.51,684.07,7.72,5.87" target="#b26">27</ref> For engagement with DHIs, in this case using a health app, the quality of the behavior might be (1) making it a routine, (2) using without needing to spend effort, and (3) being able to adapt the routine to your own goals. This entails that it is important to distinguish concepts as (behavioral) engagement, adherence, and usage, and that for example, usage cannot be employed to measure engagement, as is often still done. <ref type="bibr" coords="10,91.22,120.09,10.62,5.87" target="#b17">18,</ref><ref type="bibr" coords="10,101.84,120.09,7.08,5.87" target="#b27">28</ref> Cognitive engagement with a DHI was found to be prominently related to the goals of the users. People have to have the belief that the technology is a supportive tool, that, by for example, giving an overview of their behavior, can give new insights and motivation to achieve their goals. This connection to personal goals is related to the importance of personal relevance to engagement as stated in earlier studies on DHIs. <ref type="bibr" coords="10,146.15,216.07,9.84,5.87" target="#b10">11,</ref><ref type="bibr" coords="10,156.00,216.07,9.84,5.87" target="#b28">29,</ref><ref type="bibr" coords="10,165.84,216.07,6.56,5.87" target="#b29">30</ref> The aspect of new insights also has some similarity to the "attention and interest" part of the definition of engagement of Perski et al., <ref type="bibr" coords="10,269.23,240.10,3.75,5.87" target="#b6">7</ref> in the sense that participants can only achieve this insight when they pay attention to the DHI and are at least somewhat interested in it. However, the current study suggests cognitive engagement is broader than suggested in other definitions of DHI engagement. <ref type="bibr" coords="10,180.79,300.09,6.56,5.87" target="#b6">7,</ref><ref type="bibr" coords="10,187.36,300.09,6.56,5.87" target="#b30">31</ref> Interesting to note is that while cognitively engaged, participants were willing to put in mental effort as long as it helps them reach their goals. This is somewhat conflicting with being behaviorally engaged, which is enhanced by not needing to put in effort. It seems that although technology should make things easier, if people think technology can be supportive for them, they are willing to spend time and energy to gain most out of it. When designing for engagement, it seems to be useful to keep this in mind and design DHIs in such a way that the users are guided to and are given the opportunity to spend their mental effort at the most useful point, for example, where there is a need for reflection on their earlier behavior. However, it might be beneficial to make this mental effort optional to also cater to individuals who are more behaviorally engaged.</p><p>Lastly, this study found that affective engagement played a role for every participant, but was less salient in most participants. Interestingly, affect was not only focused on the technology itself, but also on achieving goals, so it seems to be more than just user-engagement. <ref type="bibr" coords="10,277.40,540.07,7.50,5.87" target="#b30">31</ref> Second, although most participants mentioned positive affect when achieving goals, negative affect also seemed to play a role. Participants experienced frustration when not achieving their goals and for some this may enhance their motivation to go on. However, as it is important to make sure goals are achievable, <ref type="bibr" coords="10,183.46,612.07,7.50,5.87" target="#b31">32</ref> it seems important to limit the number of times people do not achieve their goals or adapt the way this is communicated. Nonetheless, it might be interesting to see if there is a way to harness this negative affect or even use aversive feedback to increase the persuasive power of a DHI. <ref type="bibr" coords="10,277.34,672.10,7.50,5.87" target="#b32">33</ref> Lastly, identity seemed to play a role in affective engagement: users need to be able to identify in some way with the technology and what it stands for. Within, for example, mental health, this might pose a challenge as many people might not want to identify themselves with issues such as depression or anxiety. However, framing a technology in more positive terms (e.g. using positive psychology to focus on strengths to overcome depressive feelings) might help overcome this issue. <ref type="bibr" coords="10,463.07,120.09,7.50,5.87" target="#b33">34</ref> The results of the professional views on engagement mostly corroborated earlier studies (e.g. <ref type="bibr" coords="10,473.27,144.07,6.25,5.87" target="#b5">6,</ref><ref type="bibr" coords="10,479.52,144.07,6.25,5.87" target="#b6">7,</ref><ref type="bibr" coords="10,485.77,144.07,6.25,5.87" target="#b34">35</ref> ) and the results of the interviews with health app users. First, the definitions of engagement given by the professionals varied widely, resonating that there is still a lot of debate regarding the precise definition of engagement in literature. <ref type="bibr" coords="10,315.44,204.10,6.56,5.87" target="#b5">6,</ref><ref type="bibr" coords="10,322.00,204.10,6.56,5.87" target="#b11">12</ref> Second, usage was the most often mentioned aspect of engagement by the professionals, which seems to be related to the issue that the frequency of use is still often used to measure engagement, whereas the view that engagement is more than usage is becoming more prominent and also corroborated by the results of interviews with engaged users in this study. <ref type="bibr" coords="10,409.89,276.10,6.25,5.87" target="#b5">6,</ref><ref type="bibr" coords="10,416.14,276.10,6.25,5.87" target="#b7">8,</ref><ref type="bibr" coords="10,422.39,276.10,6.25,5.87" target="#b11">12</ref> When prompted with the components behavior, cognition, and affect, all professionals agreed that these are relevant. However, when asked about what these components entail, a diffuse image comes forward, showing that more insight in what the concepts entail is needed. Interestingly, in specifying these components, not only behaviors or cognitions related to the DHI itself, but also outcomes of being engaged with a DHI were often mentioned. This might show that professionals tend to see engagement with a DHI and with the target behavior as a singular-or at least complementary concepts, which was also how engaged users in this study seemed to view engagement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concept of engagement</head><p>Together, behavior, cognition, and affect seem to be the core building blocks that shape individual engagement. From this study, we have seen that these building blocks can have different sizes and importance in different individuals. It seems that these differently sized blocks shape an individual's engagement: the blocks can be larger or smaller and they can be arranged in a different way so that the blocks support each other in different ways. We do not yet know what influences how users shape their own engagement, but this would be interesting to explore in future research. In the context of DHIs, we can hypothesize that having at least some of each component of engagement is beneficial. For example, it might be that for one individual behavioral engagement is largest: they have created a routine with it, which costs them little effort, but there are periods in which they slip from their routine. If this person also has some cognitive or affective engagement, this might be enough to re-engage them and end a nonactive period. They might realize that they know the app enhances their ability to achieve their goals, or they might miss the enjoyment of seeing that they reached their goal within the app. This is similar to the description of the stages of engagement from O'Brien et al., <ref type="bibr" coords="11,255.17,72.07,7.50,5.87" target="#b30">31</ref> where it is suggested that there are different stages of engagement (e.g., point of engagement, disengagement, and re-engagement) and during these stages, different aspects are important. However, from the current study, it cannot be said that there is a best "shape" of engagement or a "usual way" of getting re-engaged (as proposed by O'Brien and Toms 31 ), as this seems to highly vary between individuals. Furthermore, the shape of engagement might also depend on the target behavior. For example, in medication adherence apps, it might be enough to just be behaviorally engaged, because this is mainly about performing a desired behavior. However, this might pose a danger in a period of less engagement as little is done to get people to re-engage. Cognitive engagement might be more important in, for example, mental health interventions where people are expected to reflect on themselves and thus put in mental effort; and affective engagement might be more important for people who cannot, or do not want to, rely on cognitive abilities primarily. All in all, it seems important for the technology to allow and design for the different forms of engagement to make sure users will not be dependent on one form or shape of engagement that does not fit their own engagement style.</p><p>Another interesting finding from this study is that, for users and professionals, being engaged with an app (microengagement) and with a target behavior (macroengagement) are strongly related and it seems that they cannot be understood as separate entities. This is seen in behavioral engagement, where routine is important, but this is both a routine with using the technology as with performing the target behavior. In cognitive engagement, this is seen in the close link between the technology and the goals it is used for, and in affective engagement this is seen in the importance of enjoying both the technology and the target behavior. This finding resonates with other studies that have indicated that within DHIs, emphasis should be on fostering engagement with the treatment and not on engagement with the technology, <ref type="bibr" coords="11,166.62,528.10,10.12,5.87" target="#b34">35,</ref><ref type="bibr" coords="11,176.74,528.10,6.75,5.87" target="#b35">36</ref> or that engagement with the technology and with the target behavior should both be considered. <ref type="bibr" coords="11,93.43,552.09,3.75,5.87" target="#b7">8</ref> The current study supports those views in that it once again indicates that it is important to consider engagement with the target behavior (or treatment). Moreover, it adds that in practice the two types of engagement cannot be viewed separately. For engaged users, they are so intertwined that they are often viewed as one thing. In theory, it would be great if people use an app to change their behavior and get so engaged with the new behavior that they don't need the app anymore. However, it might be very helpful to also induce engagement with the app, as this can provide a method for re-engagement with the behavior when this is needed. So, in this context, designing for engagement should, in our view, always focus on the intertwined engagement with the technology and the target behavior.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations and future work</head><p>Our goal was to provide insight into the experience of engagement with DHIs. For that purpose, we chose to interview users of health apps. Almost all of the included participants used a health app focused on physical health (activity and diet), often in combination with a wearable. Our results should be interpreted within this context, especially considering the intertwined relationship between target behavior and engagement; it might be that some codes we found are specific to users of this kind of apps which have certain specific characteristics. First, this kind of health apps are often only briefly used each time: for example, a quick view to see how many steps have already been taken. Attributes as challenge or esthetics that have been found to be important to user-engagement in general, <ref type="bibr" coords="11,353.71,260.91,7.50,5.87" target="#b30">31</ref> might not be that important in this context, but may play a role in DHIs that rely on longer interactions, such as completing modules in an eMental health intervention. <ref type="bibr" coords="11,328.31,297.36,7.50,5.87" target="#b36">37</ref> However, this might make our finding that enjoying the use of the technology is important more striking: if it is already important in brief interactions, it may be even more important in longer interactions. Second, the finding that enjoying progress is an important part of being affectively engaged, might be specific for apps focusing on physical activity, especially in combination with a wearable. In this context, progress can be monitored and seen all the time and there are specific goals that you can reach every day (e.g., a certain number of steps). In other areas it might be more difficult to show progress or achieving goals daily, as for example, in mental health there might not be progress every day and in chronic disease management the focus is even on stability rather than progress. However, as enjoying progress can be an important part of engagement, these fields might employ, for example, principles from gamification or goalsetting to show daily progress and thereby enhance engagement. <ref type="bibr" coords="11,483.08,504.12,7.49,5.87" target="#b37">[38]</ref><ref type="bibr" coords="11,490.57,504.12,3.75,5.87" target="#b38">[39]</ref><ref type="bibr" coords="11,494.32,504.12,7.49,5.87" target="#b39">[40]</ref> A last limitation is that although in this paper we have presented the components of engagement as separate from each other, it seems to be not as clear cut in reality, as we have seen that the components can influence each other, or even blend into each other. For example, technology as a supportive tool (or a lack thereof) is part of cognitive engagement, but can also induce strong emotions (affective engagement). Or for example, routine (behavioral engagement) might only be established after a user has been cognitively and affectively engaged for a while. The idea that the components of engagement are not mutually exclusive and influence each other is also seen in different fields, for example, in student-engagement where the dynamic interplay between the components is seen as crucial to understanding engagement. <ref type="bibr" coords="11,420.15,684.12,7.50,5.87" target="#b40">41</ref> Based on the results of this study, future work should validate these findings in other DHI-related contexts. Furthermore, it seems essential that there is a validated way of measuring the different components of engagement to DHIs. This would allow research to step away from measuring usage of a system or self-proclaimed engagement as a proxy for actual engagement and towards objectively measuring the full concept of engagement. This could lead to much more insight into different levels and shapes of engagement and would provide a better starting point to create more engaging eHealth technologies. The results of this study have already served as a starting point for creating such a validated measure of engagement, namely the TWente Engagement with Ehealth Technologies Scale (TWEETS). <ref type="bibr" coords="12,97.68,204.10,7.50,5.87" target="#b41">42</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>To conclude, this study provides evidence that behavior, cognition, and affect are the building blocks that shape individual engagement. We have shown that routine, effortless, and dynamic usage are important when it comes to behavioral engagement, which stresses that engagement should be seen and measured as something other than usage of a system. Cognitive engagement consists of technology as a supportive tool, new insights, and motivation, which shows that engagement should always be seen in the context of the goals of the users. Affective engagement is seen as a combination of enjoying the technology, enjoying progress, and identity, which indicates that creating a pleasurable user-experience is part of the key to designing engaging eHealth technologies, but that it is not the whole story. Overall, we can conclude that engagement is a multifaceted concept with interrelated components, and measurement should strive to integrate all different aspects instead. More research is needed on the interrelatedness of (components of) engagement, design, and effectiveness of DHIs.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="5,62.36,74.36,477.28,84.38"><head>Table 1 .</head><label>1</label><figDesc>Overview of used codes in the interviews with engaged users.</figDesc><table coords="5,68.37,94.43,471.27,64.31"><row><cell></cell><cell></cell><cell># Quotes</cell></row><row><cell>Code</cell><cell>Definition</cell><cell>(# participants)</cell></row><row><cell>Behavior</cell><cell></cell><cell>137 (20)</cell></row><row><cell>Routine</cell><cell>Using the DHI (becoming) a routine in daily life and is part of the health behavior</cell><cell>61 (20)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="7,310.39,74.36,235.30,552.92"><head>Table 2 .</head><label>2</label><figDesc>Individual distribution of quotes of engaged users over the components.</figDesc><table coords="7,316.40,105.43,223.30,521.85"><row><cell>Participant</cell><cell>% Behavior</cell><cell>% Cognition</cell><cell>% Affect</cell></row><row><cell>1</cell><cell>2 1</cell><cell>4 3</cell><cell>3 6</cell></row><row><cell>2</cell><cell>5 0</cell><cell>2 0</cell><cell>3 0</cell></row><row><cell>3</cell><cell>3 9</cell><cell>3 1</cell><cell>3 1</cell></row><row><cell>4</cell><cell>2 7</cell><cell>5 3</cell><cell>2 0</cell></row><row><cell>5</cell><cell>4 3</cell><cell>4 3</cell><cell>1 4</cell></row><row><cell>6</cell><cell>2 9</cell><cell>5 5</cell><cell>1 6</cell></row><row><cell>7</cell><cell>4 1</cell><cell>2 9</cell><cell>2 9</cell></row><row><cell>8</cell><cell>5 8</cell><cell>1 6</cell><cell>2 6</cell></row><row><cell>9</cell><cell>5 0</cell><cell>2 1</cell><cell>2 9</cell></row><row><cell>10</cell><cell>25</cell><cell>35</cell><cell>40</cell></row><row><cell>11</cell><cell>39</cell><cell>31</cell><cell>31</cell></row><row><cell>12</cell><cell>31</cell><cell>31</cell><cell>38</cell></row><row><cell>13</cell><cell>35</cell><cell>45</cell><cell>20</cell></row><row><cell>14</cell><cell>40</cell><cell>33</cell><cell>27</cell></row><row><cell>15</cell><cell>29</cell><cell>57</cell><cell>14</cell></row><row><cell>16</cell><cell>25</cell><cell>40</cell><cell>35</cell></row><row><cell>17</cell><cell>23</cell><cell>54</cell><cell>23</cell></row><row><cell>18</cell><cell>61</cell><cell>28</cell><cell>11</cell></row><row><cell>19</cell><cell>46</cell><cell>36</cell><cell>18</cell></row><row><cell>20</cell><cell>56</cell><cell>33</cell><cell>11</cell></row><row><cell>Total</cell><cell>38</cell><cell>37</cell><cell>25</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="8,49.61,303.40,458.44,418.89"><head>Table 3 .</head><label>3</label><figDesc>Overview of used codes by the professionals in the questionnaire.</figDesc><table coords="8,55.61,323.41,452.44,398.88"><row><cell></cell><cell># Fragments (#</cell><cell></cell><cell># Fragments (#</cell><cell></cell><cell># Fragments (#</cell></row><row><cell>Behavior</cell><cell>professionals)</cell><cell>Cognition</cell><cell>professionals)</cell><cell>Affect</cell><cell>professionals)</cell></row><row><cell>Use as</cell><cell>5 (5)</cell><cell>Cognitive</cell><cell>6 (5)</cell><cell>Emotional connection</cell><cell>2 (2)</cell></row><row><cell>intended</cell><cell></cell><cell>outcomes</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Frequent use</cell><cell>3 (3)</cell><cell>Added value</cell><cell>3 (3)</cell><cell>Emotions</cell><cell>2 (2)</cell></row><row><cell>Behavioral</cell><cell>3 (3)</cell><cell>Motivation</cell><cell>3 (3)</cell><cell>Positive attitude</cell><cell>2 (2)</cell></row><row><cell>outcomes</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Attention/</cell><cell>3 (2)</cell><cell>Mental effort</cell><cell>3 (3)</cell><cell>Positive emotions</cell><cell>2 (2)</cell></row><row><cell>interest</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Openness</cell><cell>2 (2)</cell><cell>Attention/</cell><cell>2 (2)</cell><cell>Pride</cell><cell>1 (1)</cell></row><row><cell></cell><cell></cell><cell>interest</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Effort</cell><cell>1 (1)</cell><cell>Understanding</cell><cell>2 (2)</cell><cell>Support</cell><cell>1 (1)</cell></row><row><cell></cell><cell></cell><cell>Right challenge</cell><cell>1 (1)</cell><cell>Trust</cell><cell>1 (1)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Comfortable using</cell><cell>1 (1)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Enjoy intervention</cell><cell>1 (1)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Enjoy progress</cell><cell>1 (1)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Involvement</cell><cell>1 (1)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Loyalty</cell><cell>1 (1)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Motivation</cell><cell>1 (1)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>No distinction between</cell><cell>1 (1)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>cognition and affect</cell><cell></cell></row><row><cell>Total</cell><cell>17</cell><cell>Total</cell><cell>20</cell><cell>Total</cell><cell>18</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements:</head><p>The authors would like to thank <rs type="person">Meike</rs></p></div>
+			</div>
+			<div type="funding">
+<div><p>The ethics committee of the BMS faculty of the <rs type="funder">University of Twente</rs> approved this study (numbers <rs type="grantNumber">18223</rs> and <rs type="grantNumber">191052</rs>).</p></div>
+			</div>
+			<div type="funding">
+<div><p>Funding: The authors disclosed receipt of the following financial support for the research, authorship, and/or publication of this article: this work was supported by the <rs type="funder">Netherlands Organisation for Scientific Research (NWO)</rs> through the <rs type="programName">Innovational Research Incentives Scheme</rs><rs type="projectName">-VENI-</rs>project of the first author (<rs type="projectName">The Personalization Approach: Using engagement as a mediator for the effectiveness of eMental Health interventions</rs>; grant number <rs type="grantNumber">451-17-031</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_2Tcsz2c">
+					<idno type="grant-number">18223</idno>
+				</org>
+				<org type="funding" xml:id="_t3bPe4y">
+					<idno type="grant-number">191052</idno>
+				</org>
+				<org type="funded-project" xml:id="_YMnTGDx">
+					<orgName type="project" subtype="full">-VENI-</orgName>
+					<orgName type="program" subtype="full">Innovational Research Incentives Scheme</orgName>
+				</org>
+				<org type="funded-project" xml:id="_SFHT7K8">
+					<idno type="grant-number">451-17-031</idno>
+					<orgName type="project" subtype="full">The Personalization Approach: Using engagement as a mediator for the effectiveness of eMental Health interventions</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Guarantor: SK ORCID iDs: Saskia M Kelders <ref type="url" coords="12,432.57,205.28,100.32,7.92;12,297.64,216.28,38.90,7.92" target="https://orcid.org/0000-0001-8949-6871">https://orcid.org/0000-0001- 8949-6871</ref> Hanneke Kip <ref type="url" coords="12,361.70,227.28,139.22,7.92" target="https://orcid.org/0000-0002-6661-2128">https://orcid.org/0000-0002-6661-2128</ref> Supplemental material: Supplemental material for this article is available online.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,305.49,305.23,227.43,7.92;12,313.40,316.23,219.47,7.92;12,313.40,327.23,166.50,7.92" status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coords="12,483.93,305.23,48.99,7.92;12,313.40,316.23,219.47,7.92;12,313.40,327.23,22.63,7.92">Digital health interventions for cardiac rehabilitation: systematic literature review</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Wongvibulsin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">E</forename><surname>Habeos</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">P</forename><surname>Huynh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="12,342.48,327.31,68.79,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">18773</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305.49,338.22,227.43,7.92;12,313.40,349.22,219.53,7.92;12,313.40,360.22,219.51,7.92;12,313.40,371.16,125.23,7.92" status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coords="12,424.29,338.22,108.64,7.92;12,313.40,349.22,219.53,7.92;12,313.40,360.22,188.90,7.92">Effectiveness of mobile health interventions on diabetes and obesity treatment and management: systematic review of systematic reviews</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Min</forename><forename type="middle">J</forename><surname>Khuri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="12,513.24,360.30,19.67,7.73;12,313.40,371.24,61.13,7.73">JMIR Mhealth Uhealth</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">e15400</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305.49,382.16,227.40,7.92;12,313.40,393.16,219.48,7.92;12,313.40,404.16,74.99,7.92" status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coords="12,447.64,382.16,85.24,7.92;12,313.40,393.16,184.60,7.92">Digital interventions for the treatment of depression: a meta-analytic review</title>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Moshe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Terhorst</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Philippi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="12,504.68,393.24,28.20,7.73;12,313.40,404.24,14.80,7.73">Psychol Bull</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page">749</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305.49,415.15,227.40,7.92;12,313.40,426.15,219.53,7.92;12,313.40,437.15,152.46,7.92" status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coords="12,476.61,415.15,56.28,7.92;12,313.40,426.15,219.53,7.92;12,313.40,437.15,43.54,7.92">Implementation strategies for digital mental health interventions in health care settings</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">K</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">G</forename><surname>Lattie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">J</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="12,362.89,437.23,42.77,7.73">Am Psychol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page">1080</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305.49,448.15,227.39,7.92;12,313.40,459.15,219.49,7.92;12,313.40,470.14,219.53,7.92;12,313.40,481.14,43.96,7.92" status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coords="12,470.15,448.15,62.73,7.92;12,313.40,459.15,219.49,7.92;12,313.40,470.14,153.57,7.92">Deploying digital health tools within large, complex health systems: key considerations for adoption and implementation</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">S</forename><surname>Marwaha</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">B</forename><surname>Landman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">A</forename><surname>Brat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="12,475.03,470.22,57.90,7.73">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305.49,492.14,227.43,7.92;12,313.40,503.14,219.48,7.92;12,313.40,514.14,197.78,7.92" status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coords="12,457.86,492.14,75.06,7.92;12,313.40,503.14,219.48,7.92;12,313.40,514.14,89.37,7.92">The concept and components of engagement in different domains applied to eHealth: a systematic scoping review</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Kelders</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Van</forename><surname>Zyl</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">E</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ludden</forename><surname>Gd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="12,408.75,514.22,49.28,7.73">Front Psychol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">926</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305.49,525.08,227.40,7.92;12,313.40,536.08,219.48,7.92;12,313.40,547.07,219.51,7.92;12,313.40,558.07,173.64,7.92" status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coords="12,474.91,525.08,57.98,7.92;12,313.40,536.08,219.48,7.92;12,313.40,547.07,219.51,7.92;12,313.40,558.07,31.44,7.92">Conceptualising engagement with digital behaviour change interventions: a systematic review using principles from critical interpretive synthesis</title>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Perski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Blandford</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>West</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="12,350.98,558.15,66.85,7.73">Transl Behav Med</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="254" to="267" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305.49,569.07,227.42,7.92;12,313.40,580.07,219.53,7.92;12,313.40,591.07,181.58,7.92" status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coords="12,447.87,569.07,85.04,7.92;12,313.40,580.07,219.53,7.92;12,313.40,591.07,45.22,7.92">Understanding and promoting effective engagement with digital behavior change interventions</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Yardley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">J</forename><surname>Spring</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Riper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="12,364.76,591.15,56.54,7.73">Am J Prev Med</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="833" to="842" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305.49,602.07,227.40,7.92;12,313.40,613.06,219.53,7.92;12,313.40,624.06,219.51,7.92;12,313.40,635.06,124.92,7.92" status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coords="12,478.54,602.07,54.35,7.92;12,313.40,613.06,219.53,7.92;12,313.40,624.06,219.51,7.92;12,313.40,635.06,13.64,7.92">Rethinking the dose-response relationship between usage and outcome in an online intervention for depression: randomized controlled trial</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Donkin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><forename type="middle">B</forename><surname>Hickie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Christensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="12,332.45,635.14,68.79,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305.14,646.06,227.79,7.92;12,313.40,657.06,219.48,7.92;12,313.40,668.05,219.49,7.92;12,313.40,679.05,219.54,7.92;12,313.40,690.00,157.39,7.92" status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coords="12,443.79,646.06,89.13,7.92;12,313.40,657.06,219.48,7.92;12,313.40,668.05,95.66,7.92">Engagement with online mental health interventions: an exploratory clinical study of a treatment for depression</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Coyle</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Sharry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" coords="12,430.07,668.05,102.82,7.92;12,313.40,679.05,215.54,7.92">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+		<meeting>the SIGCHI Conference on Human Factors in Computing Systems<address><addrLine>Austin, Texas, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="1421" to="1430" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,305.14,700.99,227.78,7.92;12,313.40,711.99,219.51,7.92;12,313.40,722.99,170.80,7.92" status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coords="12,359.77,700.99,173.14,7.92;12,313.40,711.99,55.31,7.92">Involvement as a working mechanism for persuasive technology</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Kelders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" coords="12,390.55,711.99,142.35,7.92;12,313.40,722.99,39.74,7.92">International Conference on Persuasive Technology</title>
+		<meeting><address><addrLine>Chicago, IL, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="3" to="14" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,74.32,227.78,7.92;13,78.12,85.32,219.50,7.92;13,78.12,96.32,194.48,7.92" status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coords="13,214.30,74.32,83.34,7.92;13,78.12,85.32,219.50,7.92;13,78.12,96.32,82.01,7.92">Measuring engagement in eHealth and mHealth behavior change interventions: viewpoint of methodologies</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">E</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Desmet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Woods</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,166.73,96.40,68.79,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,107.31,227.74,7.92;13,78.12,118.31,219.51,7.92;13,78.12,129.31,128.42,7.92" status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coords="13,231.19,107.31,66.41,7.92;13,78.12,118.31,215.77,7.92">Online prevention aimed at lifestyle behaviors: a systematic review of reviews</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">F</forename><surname>Kohl</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Crutzen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">K</forename><surname>De Vries</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,78.12,129.39,68.79,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">e146</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,140.31,227.78,7.92;13,78.12,151.31,219.52,7.92;13,78.12,162.25,189.68,7.92" status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coords="13,187.20,140.31,110.44,7.92;13,78.12,151.31,219.52,7.92;13,78.12,162.25,47.39,7.92">Computer-based psychological treatments for depression: a systematic review and meta-analysis</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Richardson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,131.87,162.33,62.23,7.73">Clin Psychol Rev</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="329" to="342" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,173.25,227.76,7.92;13,78.12,184.25,219.53,7.92;13,78.12,195.24,219.53,7.92;13,78.12,206.24,219.46,7.92;13,78.12,217.24,106.17,7.92" status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coords="13,125.01,173.25,172.61,7.92;13,78.12,184.25,68.97,7.92">Design for engagement of online positive psychology interventions</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Kelders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" coords="13,99.38,195.32,198.27,7.73;13,78.12,206.32,129.33,7.73">Positive psychological intervention design and protocols for multi-cultural contexts</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Van Zyl</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Rothmann</forename><forename type="middle">S</forename><surname>Sr</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="297" to="313" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,228.24,227.78,7.92;13,78.12,239.24,219.50,7.92;13,78.12,250.23,180.25,7.92" status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coords="13,233.01,228.24,64.64,7.92;13,78.12,239.24,219.50,7.92;13,78.12,250.23,68.24,7.92">Persuasive system design does matter: a systematic review of adherence to webbased interventions</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Kelders</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">N</forename><surname>Kok</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">C</forename><surname>Ossebaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,152.50,250.32,68.85,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,261.23,227.78,7.92;13,78.12,272.23,219.49,7.92;13,78.12,283.23,219.50,7.92;13,78.12,294.23,105.81,7.92" status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coords="13,78.12,272.23,219.49,7.92;13,78.12,283.23,215.67,7.92">Clarifying the concept of adherence to eHealth technology: systematic review on when usage becomes adherence</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Sieverink</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Kelders</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jewc</forename><surname>Van Gemert-Pijnen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,78.12,294.31,68.79,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,305.22,227.84,7.92;13,78.12,316.22,219.57,7.92;13,78.12,327.16,202.55,7.92" status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coords="13,207.21,305.22,90.50,7.92;13,78.12,316.22,219.57,7.92;13,78.12,327.16,61.44,7.92">Barriers to and facilitators of user engagement with digital mental health interventions: systematic review</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Borghouts</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Eikey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Mark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,145.87,327.24,67.53,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">24387</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,338.16,227.74,7.92;13,78.12,349.16,219.53,7.92;13,78.12,360.16,194.77,7.92" status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coords="13,221.10,338.16,76.51,7.92;13,78.12,349.16,219.53,7.92;13,78.12,360.16,66.51,7.92">Examining factors of engagement with digital interventions for weight management: rapid review</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">E</forename><surname>Sharpe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Karasouli</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,151.09,360.24,62.19,7.73">JMIR Res Protoc</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">6059</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,371.16,227.79,7.92;13,78.12,382.15,219.51,7.92;13,78.12,393.15,200.78,7.92" status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coords="13,225.75,371.16,71.90,7.92;13,78.12,382.15,219.51,7.92;13,78.12,393.15,58.18,7.92">Game on? Smoking cessation through the gamification of mHealth: a longitudinal qualitative study</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">A</forename><surname>El-Hilly</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">S</forename><surname>Iqbal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Ahmed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,142.58,393.23,76.70,7.73">JMIR Serious Games</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">5678</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,404.15,227.74,7.92;13,78.12,415.15,219.53,7.92;13,78.12,426.15,219.49,7.92;13,78.12,437.14,127.86,7.92" status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coords="13,214.53,404.15,83.07,7.92;13,78.12,415.15,219.53,7.92;13,78.12,426.15,219.49,7.92;13,78.12,437.14,23.92,7.92">Exploring the use of a gamified intervention for encouraging physical activity in adolescents: a qualitative longitudinal study in Northern Ireland</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Corepal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O'</forename><surname>Neill</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,108.17,437.22,38.84,7.73">BMJ Open</title>
+		<imprint>
+			<biblScope unit="page">19663</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,448.14,227.75,7.92;13,78.12,459.14,219.51,7.92;13,78.12,470.14,219.51,7.92;13,78.12,481.08,120.92,7.92" status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coords="13,237.14,448.14,60.47,7.92;13,78.12,459.14,219.51,7.92;13,78.12,470.14,190.94,7.92">User experience, engagement, and popularity in mental health apps: secondary analysis of app analytics and expert app reviews</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">T</forename><surname>Kaveladze</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">R</forename><surname>Wasil</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">B</forename><surname>Bunyi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,277.97,470.22,19.67,7.73;13,78.12,481.16,56.81,7.73">JMIR Human Factors</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">30766</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,492.08,227.77,7.92;13,78.12,503.08,219.49,7.92;13,78.12,514.07,219.50,7.92;13,78.12,525.07,219.50,7.92;13,78.12,536.07,85.67,7.92" status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coords="13,203.07,492.08,94.56,7.92;13,78.12,503.08,216.08,7.92">Understanding quantifiedselfers&apos; practices in collecting and exploring personal data</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">K</forename><surname>Choe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" coords="13,92.07,514.07,205.55,7.92;13,78.12,525.07,139.86,7.92">Proceedings of the 32nd Annual ACM Conference on Human Factors in Computing Systems</title>
+		<meeting>the 32nd Annual ACM Conference on Human Factors in Computing Systems<address><addrLine>Toronto, ON, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="1143" to="1152" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,547.07,227.79,7.92;13,78.12,558.07,219.52,7.92;13,78.12,569.06,189.24,7.92" status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coords="13,194.00,547.07,103.65,7.92;13,78.12,558.07,219.52,7.92;13,78.12,569.06,52.88,7.92">Contribution of mobile health applications to self-management by consumers: review of published evidence</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">M</forename><surname>Emmerton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,137.31,569.14,57.74,7.73">Aust Health Rev</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="591" to="597" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,580.06,227.78,7.92;13,78.12,591.06,219.53,7.92;13,78.12,602.06,184.30,7.92" status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coords="13,244.23,580.06,53.41,7.92;13,78.12,591.06,219.53,7.92;13,78.12,602.06,62.77,7.92">Measuring and influencing physical activity with smartphone technology: a systematic review</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Bort-Roig</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">D</forename><surname>Gilson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Puig-Ribera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,147.40,602.14,41.34,7.73">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="671" to="686" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,613.06,227.74,7.92;13,78.12,624.05,157.91,7.92" status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coords="13,133.34,613.06,164.26,7.92;13,78.12,624.05,44.26,7.92">Sustaining user engagement with behaviorchange tools</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Karapanos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,128.35,624.14,42.98,7.73">Interactions</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="48" to="52" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,635.00,227.79,7.92;13,78.12,645.99,219.50,7.92;13,78.12,656.99,151.93,7.92" status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coords="13,245.88,635.00,51.78,7.92;13,78.12,645.99,219.50,7.92;13,78.12,656.99,18.90,7.92">Work engagement: an emerging concept in occupational health psychology</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">B</forename><surname>Bakker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">B</forename><surname>Schaufeli</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">P</forename><surname>Leiter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,103.47,657.07,52.89,7.73">Work &amp; Stress</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="187" to="200" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,69.86,667.99,227.78,7.92;13,78.12,678.99,219.54,7.92;13,326.16,74.30,219.51,7.92;13,326.16,85.30,61.96,7.92" status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coords="13,219.34,667.99,78.30,7.92;13,78.12,678.99,219.54,7.92;13,326.16,74.30,137.47,7.92">Effect of engagement with digital interventions on mental health outcomes: a systematic review and meta-analysis</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">Z</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Mcgillivray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,472.48,74.38,73.18,7.73">Front Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">764079</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.90,96.30,227.69,7.92;13,326.15,107.31,219.55,7.92;13,326.15,118.31,219.54,7.92;13,326.15,129.31,35.58,7.92" status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coords="13,428.91,96.30,116.67,7.92;13,326.15,107.31,219.55,7.92;13,326.15,118.31,134.20,7.92">Motivators and motivations to persist with online psychological interventions: a qualitative study of treatment completers</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Donkin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Glozier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,468.96,118.39,76.73,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,140.31,227.82,7.92;13,326.15,151.31,219.58,7.92;13,326.15,162.25,219.50,7.92;13,326.15,173.25,64.27,7.92" status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coords="13,507.53,140.31,38.19,7.92;13,326.15,151.31,219.58,7.92;13,326.15,162.25,131.29,7.92">Designing engaging online behaviour change interventions: a proposed model of user engagement</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">E</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">L</forename><surname>Rebar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">C</forename><surname>Plotnikoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,466.98,162.33,78.68,7.73">Eur Health Psychol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="32" to="38" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,184.25,227.79,7.92;13,326.15,195.24,219.52,7.92;13,326.15,206.24,195.24,7.92" status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coords="13,425.48,184.25,120.20,7.92;13,326.15,195.24,219.52,7.92;13,326.15,206.24,23.30,7.92">What is user engagement? A conceptual framework for defining user engagement with technology</title>
+		<author>
+			<persName coords=""><forename type="first">O'</forename><surname>Brien</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">L</forename><surname>Toms</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,355.97,206.32,91.75,7.73">J Am Soc Inf Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="938" to="955" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,217.24,227.80,7.92;13,326.15,228.24,219.53,7.92;13,326.15,239.24,219.51,7.92;13,326.15,250.23,25.61,7.92" status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coords="13,490.80,217.24,54.90,7.92;13,326.15,228.24,219.53,7.92;13,326.15,239.24,94.07,7.92">Goal setting as a strategy for dietary and physical activity behavior change: a review of the literature</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">K</forename><surname>Shilts</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Horowitz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">S</forename><surname>Townsend</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,426.84,239.32,79.06,7.73">Am J Health Promot</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="81" to="93" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,261.23,227.79,7.92;13,326.15,272.23,219.55,7.92;13,326.15,283.23,219.52,7.92;13,326.16,294.23,212.58,7.92" status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coords="13,462.05,261.23,83.63,7.92;13,326.15,272.23,215.82,7.92">There&apos;s a monster in my kitchen: using aversive feedback to motivate behaviour change</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Kirman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Linehan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Lawson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" coords="13,343.29,283.23,202.38,7.92;13,326.16,294.23,67.06,7.92">CHI&apos;10 Extended Abstracts on Human Factors in Computing Systems</title>
+		<meeting><address><addrLine>Atlanta, GA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="2685" to="2694" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,305.22,227.79,7.92;13,326.16,316.22,219.48,7.92;13,326.16,327.16,34.32,7.92" status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coords="13,429.00,305.22,116.69,7.92;13,326.16,316.22,142.28,7.92">Disseminating self-help: positive psychology exercises in an online trial</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Schueller</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">C</forename><surname>Parks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,474.63,316.30,71.00,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,338.16,227.77,7.92;13,326.16,349.16,219.52,7.92;13,326.16,360.16,219.56,7.92;13,326.16,371.16,33.75,7.92" status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coords="13,326.16,349.16,219.52,7.92;13,326.16,360.16,69.49,7.92">Macro-engagement in mHealth: exploring user engagement beyond the screen</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Villegas Mejía</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Remmerswaal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">C</forename><surname>Engels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,404.62,360.24,47.95,7.73">Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="2055207623" to="2051225591" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,382.15,227.73,7.92;13,326.16,393.15,219.48,7.92;13,326.16,404.15,219.49,7.92;13,326.16,415.15,219.54,7.92;13,326.16,426.15,152.12,7.92" status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coords="13,419.36,382.15,126.27,7.92;13,326.16,393.15,219.48,7.92;13,326.16,404.15,69.03,7.92">Clinical evaluations and collaborative design: developing new technologies for mental healthcare interventions</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Coyle</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Doherty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" coords="13,426.78,404.15,118.86,7.92;13,326.16,415.15,215.54,7.92">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+		<meeting>the SIGCHI Conference on Human Factors in Computing Systems<address><addrLine>Boston, MA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="2051" to="2060" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,437.14,227.78,7.92;13,326.15,448.14,219.50,7.92;13,326.15,459.14,219.53,7.92;13,326.15,470.14,150.77,7.92" status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coords="13,326.15,448.14,219.50,7.92;13,326.15,459.14,219.53,7.92;13,326.15,470.14,39.44,7.92">Participants, usage, and use patterns of a web-based intervention for the prevention of depression within a randomized controlled trial</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Kelders</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">T</forename><surname>Bohlmeijer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jewc</forename><surname>Van Gemert-Pijnen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,371.06,470.22,68.79,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,481.08,227.76,7.92;13,326.15,492.08,219.53,7.92;13,326.15,503.08,219.48,7.92;13,326.15,514.07,219.54,7.92;13,326.15,525.07,66.35,7.92" status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coords="13,464.65,481.08,81.00,7.92;13,326.15,492.08,157.52,7.92">From game design elements to gamefulness: defining gamification</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Deterding</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Khaled</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" coords="13,502.13,492.08,43.56,7.92;13,326.15,503.08,219.48,7.92;13,326.15,514.07,151.83,7.92">Proceedings of the 15th International Academic MindTrek Conference: Envisioning Future Media Environments</title>
+		<meeting>the 15th International Academic MindTrek Conference: Envisioning Future Media Environments<address><addrLine>Tampere, Finland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="9" to="15" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,536.07,227.76,7.92;13,326.15,547.07,219.52,7.92;13,326.15,557.27,219.48,9.00;13,326.15,569.07,99.18,7.92" status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coords="13,326.15,547.07,219.52,7.92;13,326.15,557.27,207.23,9.00">Investigating the direct impact of a gamified versus nongamified well-being intervention: an exploratory experiment</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Kelders</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Sommers-Spijkerman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Goldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,541.70,558.15,3.93,7.73;13,326.15,569.15,62.16,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,580.06,227.76,7.92;13,326.15,591.06,219.52,7.92;13,326.15,602.06,219.54,7.92;13,326.15,613.06,47.84,7.92" status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coords="13,464.09,580.06,81.57,7.92;13,326.15,591.06,219.52,7.92;13,326.15,602.06,111.79,7.92">The use of goal-based outcome measures in digital therapy with adults: what goals are set, and are they achieved?</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Banwell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Salhi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Hanley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,440.79,602.14,81.60,7.73">Couns Psychother Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="770" to="780" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,624.06,227.78,7.92;13,326.15,635.00,203.40,7.92" status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coords="13,372.47,624.06,173.20,7.92;13,326.15,635.00,27.47,7.92">Student engagement: a principle-based concept analysis</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">S</forename><surname>Bernard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,359.72,635.08,96.17,7.73">Int J Nurs Educ Scholarsh</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="111" to="121" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,317.89,646.00,227.80,7.92;13,326.15,656.99,219.52,7.92;13,326.15,667.99,219.49,7.92;13,326.15,678.99,28.68,7.92" status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coords="13,447.82,646.00,97.88,7.92;13,326.15,656.99,219.52,7.92;13,326.15,667.99,104.72,7.92">Psychometric evaluation of the TWente engagement with ehealth technologies scale (TWEETS): evaluation study</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Kelders</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kip</forename><forename type="middle">H</forename><surname>Greeff</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="13,437.55,668.07,70.04,7.73">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">17757</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

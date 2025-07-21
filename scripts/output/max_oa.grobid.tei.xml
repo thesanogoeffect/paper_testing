@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" coords="1,48.00,103.89,345.92,15.77;1,48.00,123.88,339.79,15.77;1,48.00,143.88,293.36,15.77">Estranged and Unhappy? Examining the Dynamics of Personal and Relationship Well-Being Surrounding Infidelity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,48.00,197.64,79.79,10.51"><forename type="first">Olga</forename><surname>Stavrova</surname></persName>
+							<email>o.stavrova@uvt.nl</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Social Psychology</orgName>
+								<orgName type="institution">Tilburg University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,150.07,197.64,60.97,10.51"><forename type="first">Tila</forename><surname>Pronk</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Social Psychology</orgName>
+								<orgName type="institution">Tilburg University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,248.18,197.64,81.13,10.51"><forename type="first">Jaap</forename><surname>Denissen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Developmental Psychology</orgName>
+								<orgName type="institution">Utrecht University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Tilburg University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" coords="1,48.00,103.89,345.92,15.77;1,48.00,123.88,339.79,15.77;1,48.00,143.88,293.36,15.77">Estranged and Unhappy? Examining the Dynamics of Personal and Relationship Well-Being Surrounding Infidelity</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6A89BD1CDF8E031721A1F0A7134E58A3</idno>
+					<idno type="DOI">10.1177/09567976221116892</idno>
+					<note type="submission">Received 7/23/21; Revision accepted 6/8/22</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-07-21T15:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-13-g799bc392e</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[persName, figure, ref, biblStruct, formula, s, note, title], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>infidelity</term>
+					<term>life events</term>
+					<term>relationship satisfaction</term>
+					<term>life satisfaction</term>
+					<term>self-esteem</term>
+					<term>relationship quality</term>
+					<term>discontinuous change models</term>
+					<term>open data</term>
+					<term>open materials</term>
+					<term>preregistered</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Sexual infidelity, also referred to as extradyadic sexual involvement, cheating, or unfaithfulness <ref type="bibr" coords="1,220.38,486.77,72.22,8.76;1,48.00,498.77,22.17,8.76" target="#b25">(Hall &amp; Fincham, 2009)</ref>, represents one of the most harshly condemned relationship transgressions <ref type="bibr" coords="1,168.46,510.77,61.57,8.76" target="#b23">(Gallup, 2008)</ref>, and couples often report it as a reason for separation or couple therapy <ref type="bibr" coords="1,66.55,534.77,94.23,8.76" target="#b0">(Allen &amp; Atkins, 2012;</ref><ref type="bibr" coords="1,163.64,534.77,96.35,8.76" target="#b3">Amato &amp; Previti, 2003;</ref><ref type="bibr" coords="1,262.85,534.77,29.62,8.76;1,48.00,546.77,22.13,8.76" target="#b9">Betzig, 1989)</ref>. It is indeed true that infidelity is correlated with a range of problems in individual and relationship functioning. However, such correlations fall short of establishing whether infidelity leads to relationship trouble or represents a consequence of relationships that are unhappy in the first place-a question that has been subject to theoretical debate for decades.</p><p>Relationship theories often describe stressful events in a couple's life, such as infidelity, as core determinants of psychological distress and relationship dissatisfaction (e.g., the vulnerability-stress-adaptation framework; <ref type="bibr" coords="1,48.00,678.77,119.15,8.76" target="#b28">Karney &amp; Bradbury, 1995;</ref><ref type="bibr" coords="1,171.87,678.77,116.36,8.76" target="#b29">Lavner &amp; Bradbury, 2010)</ref>. Consequently, couple counseling approaches to infidelity often focus on managing the couple's painful emotions in the aftermath of infidelity <ref type="bibr" coords="1,436.47,474.77,97.40,8.76" target="#b34">(Peluso &amp; Spina, 2008)</ref>. On the contrary, other work, including the investment model of dating infidelity <ref type="bibr" coords="1,395.25,498.77,95.42,8.76" target="#b18">(Drigotas et al., 1999)</ref> and emerging findings from personality psychology on developmental changes around major life events <ref type="bibr" coords="1,458.28,522.77,96.53,8.76" target="#b17">(Denissen et al., 2018;</ref><ref type="bibr" coords="1,310.50,534.77,91.32,8.76" target="#b31">Luhmann et al., 2012)</ref>, hints at the possibility of infidelity being a consequence, rather than a cause, of poor relationship functioning.</p><p>There have been only two studies using longitudinal data that attempted to establish whether infidelity is an antecedent or a consequence of poor well-being. These studies came to opposite conclusions: <ref type="bibr" coords="1,478.28,606.77,76.77,8.76;1,310.50,618.77,27.80,8.76" target="#b25">Hall and Fincham (2009)</ref> found baseline psychological distress to predict later infidelity (but not the other way around), whereas <ref type="bibr" coords="1,310.50,642.77,108.57,8.76" target="#b35">Previti and Amato (2004)</ref> showed early instances of infidelity to predict later marital dissatisfaction (but not the 1116892P SSXXX10.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="23" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="24" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="25" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="26" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+		<surface n="27" ulx="0.0" uly="0.0" lrx="603.0" lry="783.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>other way around), when controlling for initial divorce proneness. In the present research, we used a large nationally representative sample of Germans followed for up to 12 years (8 years on average; focal relationship tracked for 5 years on average) and applied advanced longitudinal data analysis techniques (discontinuous change models; <ref type="bibr" coords="2,120.94,141.77,99.80,8.76" target="#b44">Singer &amp; Willett, 2003)</ref> that allow for a better description of event-related changes and can thus contribute to settling the theoretical debates regarding the role of infidelity in relationship functioning.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Infidelity Might Be Followed by Declines in Well-Being</head><p>Unfaithful partners might experience lower psychological well-being because of a feeling of guilt, a compromised moral self-image and dissonance, the stress of concealing infidelity, or relationship strain in case one's infidelity is discovered by one's partner <ref type="bibr" coords="2,235.29,287.77,57.22,8.76;2,48.00,299.77,23.44,8.76" target="#b1">(Allen et al., 2005;</ref><ref type="bibr" coords="2,74.42,299.77,92.00,8.76" target="#b21">Foster &amp; Misra, 2013)</ref>. Indeed, infidelity has been associated with increased psychological distress and depression in perpetrators <ref type="bibr" coords="2,173.00,323.77,85.14,8.76" target="#b1">(Allen et al., 2005;</ref><ref type="bibr" coords="2,262.70,323.77,29.62,8.76;2,48.00,335.77,67.60,8.76" target="#b25">Hall &amp; Fincham, 2009;</ref><ref type="bibr" coords="2,119.18,335.77,103.26,8.76" target="#b49">Wenger &amp; Frisco, 2021)</ref>. From the perspective of the victims, infidelity represents a major violation of trust and might cause anger, a lack of selfesteem, and even major depressive episodes <ref type="bibr" coords="2,265.08,371.77,27.50,8.76;2,48.00,383.77,52.66,8.76" target="#b1">(Allen et al., 2005;</ref><ref type="bibr" coords="2,104.71,383.77,102.01,8.76" target="#b15">Cano &amp; O'Leary, 2000;</ref><ref type="bibr" coords="2,210.77,383.77,81.73,8.76;2,48.00,395.77,23.48,8.76" target="#b42">Shackelford et al., 2000;</ref><ref type="bibr" coords="2,75.27,395.77,103.22,8.76" target="#b43">Shrout &amp; Weigel, 2018;</ref><ref type="bibr" coords="2,182.28,395.77,70.48,8.76" target="#b50">Whisman, 2016)</ref>. Having an unfaithful partner might have negative consequences even if the affair never comes to light. For example, the cheater's preoccupation with the undisclosed affair might divert attention from the primary partner <ref type="bibr" coords="2,265.41,443.77,26.90,8.76;2,48.00,455.77,51.11,8.76" target="#b1">(Allen et al., 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declines in Well-Being Might Precede Infidelity</head><p>Infidelity might also represent a consequence (rather than a cause) of relationship trouble. For example, the investment model of infidelity highlights the role of individuals' commitment to their relationship as a major factor determining whether they will engage in infidelity <ref type="bibr" coords="2,63.38,577.77,98.63,8.76" target="#b18">(Drigotas et al., 1999)</ref>. Indeed, falling out of love predicts not only the likelihood of unfaithfulness but also longer affairs and more public displays of involvement with the affair partner <ref type="bibr" coords="2,184.35,613.77,103.59,8.76" target="#b40">(Selterman et al., 2019</ref><ref type="bibr" coords="2,48.00,625.77,22.75,8.76" target="#b41">(Selterman et al., , 2021))</ref>. Individuals with lower relationship satisfaction, and more sexual and communication problems, tend to have an increased likelihood of perpetrating infidelity <ref type="bibr" coords="2,63.74,661.77,86.51,8.76" target="#b2">(Allen et al., 2008;</ref><ref type="bibr" coords="2,155.05,661.77,67.97,8.76" target="#b16">DeMaris, 2009;</ref><ref type="bibr" coords="2,227.82,661.77,64.61,8.76;2,48.00,673.77,51.84,8.76" target="#b33">Maddox Shaw et al., 2013;</ref><ref type="bibr" coords="2,103.48,673.77,76.23,8.76" target="#b39">Scott et al., 2017)</ref>.</p><p>Can poor relationship and personal well-being be an antecedent of becoming a victim of infidelity as well? Although this question has not been explored in the infidelity research, the well-being literature showed that unhappy people are less likely to be preferred as social and romantic/marital partners <ref type="bibr" coords="2,456.85,386.21,98.00,8.76" target="#b11">(Botwin et al., 1997;</ref><ref type="bibr" coords="2,310.50,398.21,129.63,8.76" target="#b45">Stavrova &amp; Luhmann, 2016)</ref>. Hence, one's partner's unhappiness might be associated with a stronger willingness to look out for alternatives. Likewise, a deterioration in personal and relationship well-being could precede the events of both cheating and being cheated on.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Present Research</head><p>We used a nationally representative sample of German adults followed for up to 12 years (8 years on average; focal relationship tracked for 5 years on average) to examine the temporal dynamics of personal and relationship well-being surrounding the event of infidelity from the perspective of victims and perpetrators. We capitalized on the strength of this study design in a number of ways. First, we applied discontinuous change models to track well-being changes in people who experienced infidelity; this allowed us to establish whether a decrease in well-being precedes and/or follows infidelity experiences. Second, we compared these changes with a propensity-score-matched control group (couples who did not experience infidelity throughout the study period), which allowed us to make sure that the observed changes were a result of infidelity rather than a reflection of normative changes in couple relationship development. Third, we made use of the dyadic data structure and explored how infidelity affects both</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statement of Relevance</head><p>Infidelity is largely believed to have damaging consequences for personal and relationship wellbeing. Yet the empirical literature remains inconclusive regarding whether infidelity leads to relationship problems, represents a mere symptom of troubled relationships, or both. Longitudinal analyses of about 1,000 infidelity events showed that infidelity events were preceded by a gradual decrease in relationship well-being in both victims and perpetrators that, in contrast to most other negative life events, did not recover in the follow-up years. The only exceptions were individuals with lower initial commitment and unfaithful women who returned to their initial well-being-or even exceeded it. By highlighting how changes in relationship well-being precede infidelity behaviors, the study contributes to the academic literature on the role of infidelity in relationship functioning and can potentially inform counseling practice. partners' well-being. Fourth, by tracking the development of both relationship-related (e.g., relationship satisfaction) and personal (e.g., life satisfaction) well-being, we sought to establish whether the negative impact of infidelity extends beyond relationship-related feelings but also individuals' personal well-being and could therefore have a long-term impact on an individual's life, even after the relationship ends.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open Practices Statement</head><p>The data and study materials are available at <ref type="url" coords="3,259.19,201.77,33.14,8.76;3,48.00,213.77,77.11,8.76" target="https://www.pairfam.de/">https://  www.pairfam.de/</ref>. The analysis plans were preregistered (<ref type="url" coords="3,78.01,225.77,86.21,8.76" target="https://osf.io/vmjk5">https://osf.io/vmjk5</ref>). The list of deviations from the preregistration and analysis scripts can be downloaded from <ref type="url" coords="3,113.90,249.77,96.73,8.76" target="https://osf.io/fqm84/">https://osf.io/fqm84/</ref>. The work was reviewed and approved by the ethics review board of the School of Social and Behavioral Sciences at Tilburg University.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>We used the data from the Panel Analysis of Intimate Relationships and Family Dynamics (Release 12.0; <ref type="bibr" coords="3,48.00,357.77,84.18,8.76" target="#b13">Brüderl et al., 2020)</ref>, a longitudinal study on partnership and family dynamics conducted in Germany since 2008. The data are collected annually from a nationwide random sample of more than 12,000 persons (referred to as "anchors") of the three birth cohorts <ref type="bibr" coords="3,242.03,405.77,50.66,8.76;3,48.00,417.77,123.36,8.76">1971-1973, 1981-1983, and 1991-1993</ref> as well as their partners, parents, and children <ref type="bibr" coords="3,145.92,429.77,61.26,8.76">(if applicable)</ref>. This data set provides a (self-report) measure of cheating behavior, relationship satisfaction, and psychological well-being in both the anchor and step-up (children of anchors after they reach age 16 years) data sets. Although the interviews are conducted face to face, sensitive questions (relationship characteristics, infidelity) are self-completed by the participants (using tablets or drop-off paper-andpencil questionnaires). A detailed description of the study can be found in the work by <ref type="bibr" coords="3,200.61,537.77,87.99,8.76" target="#b27">Huinink et al. (2011)</ref>. The present analyses are based on the data collected between 2008 and 2020 (12 waves). On average, there were about 8 assessment years available per individual and about 5 assessment years available per couple (see Table <ref type="table" coords="3,75.87,597.77,3.88,8.76" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>We selected individuals (N = 14,216) who reported being in a committed relationship in at least one wave ("In the following, I'll ask you about intimate relationships. Do you currently have a partner in this sense?" yes/no).</p><p>Infidelity sample. We selected participants in a committed relationship who experienced an infidelity event.</p><p>The study distinguished between three types of infidelity: participants unilaterally committing infidelity (perpetrator infidelity), participants reporting that their partner unilaterally committed infidelity (victim infidelity), and participants reporting that both they and their partner committed infidelity (mutual infidelity). Given that mutual infidelity events were relatively rare (n = 111, resulting in insufficient power; for sensitivity analyses, see the Supplemental Material available online), we decided to focus on unilateral perpetrator and victim infidelity events here and report the analyses of mutual infidelity in the Supplemental Material. We also removed the cases that reported different types of infidelity events (e.g., perpetrator and victim) in different waves within the same relationship (n = 43). We focused on the first reported infidelity event per individual. For most participants, the infidelity event happened only once (i.e., in one wave) during the study (81% of perpetrators and 91% of victims; the maximum number of infidelity waves per participant was four for victims, or 0.3% of participants, and six for perpetrators, or 0.3% of participants). Overall, the analyses of actor outcomes were based on the data from 947 individuals (609 perpetrators and 338 victims). Because not all partners completed the study, the data basis for the analyses of partner outcomes ranged between 860 and 864 individuals, depending on the outcome (559-562 partners of perpetrators and 301-302 partners of victims). More details about the sample characteristics are provided in Table <ref type="table" coords="3,337.06,429.77,3.80,8.76" target="#tab_0">1</ref>.</p><p>Control sample. To ensure that the control sample is as similar as possible to the infidelity sample, we used propensity-score matching <ref type="bibr" coords="3,433.29,477.77,117.60,8.76" target="#b46">(Thoemmes &amp; Kim, 2011)</ref>. This method calculates a propensity score that reflects an individual's likelihood of experiencing an event based on the individual's baseline characteristics (e.g., sociodemographics). Each individual who experienced the event is then matched with at least one individual who had the same propensity score-that is, the same likelihood of experiencing the event-but did not experience it. Comparing individuals in the infidelity sample with the propensity-score-matched controls allowed us to rule out potential differences between individuals/couples who experienced infidelity versus individuals/couples who stayed faithful (e.g., coresident status or relationship duration).</p><p>First, we selected participants in a committed relationship who did not report infidelity throughout the study period. Because participants could have multiple relationships during the study time, we randomly selected one relationship for each participant. Second, following <ref type="bibr" coords="5,93.47,69.77,57.93,8.76" target="#b5">Austin (2010)</ref>, we applied the nearest neighbor propensity-score-matching procedure with replacement ( = 2; matching each individual in the infidelity sample to two individuals in the pool of potential control participants; this method has a number of advantages, such as increasing power and reducing random pruning). Matching was based on the following variables: actor and partner age and gender, actor and partner education level and employment status, actor income, marital status (married vs. not married), coresident status (living together vs. not living together), relationship duration before the study began (in months), number of joint children, and number of waves the participant contributed (1-12). For all time-varying variables, the matching was based on the values at study onset (e.g., participant's education level in Wave 1); for relationship variables (e.g., marital status or number of joint children), the matching was based on the values in the wave when the relationship was first reported. We used the MatchIt package <ref type="bibr" coords="5,182.21,297.77,72.18,8.76" target="#b26">(Ho et al., 2011)</ref> in the R programming environment. We conducted separate matching procedures for the samples of victims and perpetrators. As a result, each of the 609 perpetrators and 338 victims was matched with control participants (the balance statistics in the full and matched samples are reported in the Supplemental Material).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measures</head><p>Infidelity. Participants responded to the following question: "Did you or your partner have an extra-marital affair during the past year?" (1 = Yes, I did; 2 = Yes, my partner did; 3 = Yes, both my partner and I did; 4 = No). This question was posed only to the actor (not the partner); in Waves 1 to 3, it was included annually, and in Waves 5 to 11, biennially. In Waves 2 to 11, the previous interview date (rather than "past year") was used as the reference point. We used this variable to create two types of infidelity events:</p><p>• • Perpetrator infidelity: To indicate an event of committing infidelity unilaterally, we created a dummy variable with values of 1 (cheated; Response 1) versus 0 (neither I nor my partner cheated; Response 4). • • Victim infidelity: To indicate an event of being cheated on by a partner, we created a dummy with values of 1 (my partner cheated; Response 2) versus 0 (neither I nor my partner cheated; Response 4).</p><p>Relationship and personal well-being. For the present analyses, we selected the indicators of personal and relationship well-being that were measured annually (in all waves, from 1 to 12). The respective scales were completed by both members of each couple. We refer to the measures completed by actors as actor well-being and to the measures completed by partners as partner well-being. Because only actors (but not partners) were asked about infidelity, note that in case of perpetrator infidelity, partners might not be aware that they were cheated on. Given that not all partners completed the study (see the Participants section), we conducted separate analyses for actor and partner well-being. All variables were standardized (by subtracting the sample mean and dividing by the standard deviation in the long format, i.e., across all observations) before the analyses were conducted. The analyses included two indicators of personal well-being (life satisfaction and self-esteem) and five indicators of relationship well-being (relationship satisfaction, intimacy, admiration, dominance, and conflict).</p><p>Life satisfaction was measured with one item: "All in all, how satisfied are you with your life at the moment?" (0 = very dissatisfied, 10 = very satisfied; rescaled to range from 1 to 5 for consistency reasons). To measure self-esteem, we included a short, three-item self-esteem scale in the data set <ref type="bibr" coords="5,406.87,321.77,80.20,8.76" target="#b36">(Rosenberg, 1965)</ref>: "Sometimes I believe that I'm worthless," "I like myself just the way I am," and "All in all, I am pleased with myself" (1 = not at all, 5 = absolutely; Cronbach's α = .77, both actor and partner responses).</p><p>Relationship satisfaction was measured with two items that originated in the Relationship Assessment Scale developed to measure satisfaction in dyadic relationships <ref type="bibr" coords="5,355.09,417.77,110.13,8.76" target="#b38">(Sander &amp; Böcker, 1993)</ref>: "[Name of current partner] can fulfill my needs very well" (1 = not at all, 5 = absolutely) and "All in all, how satisfied are you with your relationship?" (0 = very dissatisfied, 10 = very satisfied; rescaled to range from 1 to 5 for consistency reasons). We combined these items into a scale of relationship satisfaction (correlation between the items: r = .46 in actors and r = .51 in partners, p &lt; .001).</p><p>We used four subscales (with two items each) of the Network of Relationships Inventory <ref type="bibr" coords="5,500.19,525.77,54.70,8.76;5,310.46,537.77,84.31,8.76" target="#b22">(Furman &amp; Buhrmester, 2009)</ref> to measure relationship intimacy, admiration, dominance, and conflict: Intimacy ("How often do you tell [name of current partner] what you're thinking?" and "How often do you share your secrets and private feelings with [name of current partner]?"; r = .58 in actors and r = .59 in partners, p &lt; .001), admiration ("How often does [name of current partner] express recognition for what you've done?" and "How often does [name of current partner] show that he/she appreciates you?"; r = .65 in actors and r = .66 in partners, p &lt; .001), dominance ("How often does [name of current partner] get his/her way when you can't agree on something?" and "How often does [name of current partner] make you do things his/her way?"; r = .49 in actors and r = .38 in partners, p &lt; .001), and conflict ("How often do you and [name of current partner] disagree and quarrel?" and "How often are you and [name of current partner] annoyed or angry with each other?"; r = .66 in actors and r = .64 in partners, p &lt; .001). Responses were given on a scale ranging from 1 = never to 5 = always.</p><p>The analyses of relationship well-being (relationship satisfaction, intimacy, admiration, dominance, and conflict) were based on the values from the waves during which the participant was in the focal romantic relationship (i.e., affected by infidelity in the infidelity sample vs. not affected by infidelity in the control sample). The analyses of personal well-being (life satisfaction and self-esteem) were based on the values from all the waves in which participants took part, including the waves in which no romantic relationship was reported. This allowed us to examine whether the impact of infidelity experience extends beyond the relationship in which infidelity happened. These analyses additionally controlled for whether in each specific wave, the focal relationship was still ongoing (separation status 1 : 1 = separated, 0 = relationship ongoing) and whether the participant had a romantic partner at all (relationship status: 1 = yes, 0 = no). These variables were coded in the same way in the infidelity samples as well as in the control samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analytic strategy</head><p>Because the data have a nested structure with measurement waves nested within persons, we used multilevel regression with participants as random effects. In addition, as a result of the one-to-two matching procedure, the same participants in the control sample could be matched with several participants in the infidelity sample and matched participants were clustered within matching sets. To account for this additional clustering, we included the matching set as a random effect as well <ref type="bibr" coords="6,48.00,516.27,60.83,8.76" target="#b6">(Austin, 2011)</ref>.</p><p>To examine the temporal dynamics of relationship and personal well-being around the event of infidelity, we used discontinuous change models <ref type="bibr" coords="6,246.14,552.27,46.30,8.76;6,48.00,564.27,60.84,8.76" target="#b44">(Singer &amp; Willett, 2003)</ref>. We indexed time in 1-year intervals. However, from Wave 5 onward, the infidelity event was recorded biennially, so we set the time point of infidelity events in the middle of the 2-year period.</p><p>For each type of infidelity event, our analyses included the following event-related variables:</p><p>• The event selection variable (1 = experienced the event, 0 = did not experience the event) captured differences between individuals who did not experience the event during the study period (e.g., committed infidelity) and those who did in at least one wave.</p><p>• The post-event baseline change variable is a dummy variable with values of 0 for waves before the event and values of 1 in the wave when the event happened and all the waves after that. The coefficient of this variable reflects a sudden baseline shift in well-being after the event (i.e., difference in well-being during all the years before and all the years after the event). • The linear anticipation variable has negative values on all the waves before the event (e.g., Year 3 before the event = -3, Year 2 before the event = -2, year preceding the event = -1) and 0 on the wave when the event happened and all the following years. The coefficient of this variable captured linear change in well-being during the time preceding the event.</p><p>• The linear socialization variable has values of 0 on all the waves preceding the event and positive values on the waves following the event (e.g., year when the event happened = 0, Year 1 after the event = 1). The coefficient of this variable reflects the linear change in well-being following the event.</p><p>All the time variables had a value of 0 for individuals in the control sample; the model coefficients therefore reflect changes in personal and relationship well-being in the infidelity sample, above and beyond any changes that could be experienced by the propensity-scorematched control sample.</p><p>Because infidelity prevalence and its perceived justifiability might differ across sociodemographic groups (e.g., gender, age, relationship type; <ref type="bibr" coords="6,481.00,459.27,73.96,8.76;6,310.47,471.27,22.50,8.76" target="#b19">Fincham &amp; May, 2017)</ref>, the models included the linear (grand mean centered) and the quadratic terms of age, 2 actor gender (1 = male, 0 = female) and sexual orientation (1 = gay male or lesbian, 0 = heterosexual), two indicators of relationship status that were entered as time-varying predictors (married/civil partnership vs. not and living together vs. not; i.e., "Do you live together with [name of partner] in the same dwelling?" yes/no), and the number of waves in which infidelity was reported (0-6 in the perpetrator sample and 0-4 in the victim sample). To account for testing effects, we also included a variable that indicated the respective wave number of each participant (0 = first assessment, 1 = second assessment, etc.).</p><p>To look for potential nonlinear developmental trends, we tested two sets of models for each outcome and infidelity type: Model A included only linear anticipation and socialization terms, and model B included both linear and quadratic terms of anticipation and socialization effects. We compared the model fit using the chisquare test and report the results of the best-fitting model (the model fit statistics are reported in the Supplemental Material).</p><p>Given the relatively high number of tests, we made p-value adjustments. Following the preregistration, we distinguished between more general indicators of personal and relationship well-being (life satisfaction and relationship satisfaction, respectively), which we refer to as primary outcome variables, and more specific indicators (self-esteem, intimacy, admiration, dominance, and conflict), which we refer to as secondary outcome variables. We took a p value of .10 as a starting point (for details, see the preregistration). For the primary outcomes, given two dependent variables and four focal predictors (event selection, post-event baseline change, linear anticipation, and linear socialization), we considered the coefficients associated with a p value of .0125 (.10/2/4) or smaller as statistically significant. For the five secondary outcomes (selfesteem, intimacy, admiration, dominance, and conflict), we considered the coefficients associated with a p value of .005 (.10/5/4) or smaller as statistically significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Means, standard deviations, and zero-order correlations among the variables are presented in Table <ref type="table" coords="7,258.60,369.27,3.96,8.76" target="#tab_2">2</ref>. Both members of the couples who experienced infidelity during the study period were more likely to report lower levels of personal and relationship well-being and higher levels of relationship conflict, on average across the years.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discontinuous change models</head><p>Model coefficients are presented in Tables <ref type="table" coords="7,242.81,477.27,24.81,8.76" target="#tab_6">3 to 6</ref>.</p><p>Event selection. We found strong selection effects in cases of perpetrator infidelity: Individuals who committed infidelity and their partners scored lower on life satisfaction, reported lower relationship satisfaction, and reported higher relationship conflict, on average across the years, compared with individuals in the control sample. Interestingly, neither individuals who reported being cheated on nor their partners differed significantly in any well-being measures from the control sample, on average across the years. Event selection coefficients are shown in Figure <ref type="figure" coords="7,89.60,621.27,8.27,8.76" target="#fig_2">1a</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Post-event baseline change</head><p>Perpetrators of infidelity experienced a baseline shift in well-being: During the time after (relative to before) the event, perpetrators reported lower self-esteem, lower relationship satisfaction and intimacy, and more relationship conflicts. In contrast, the evidence for a baseline shift in well-being was less conclusive for victims of infidelity: They reported less self-esteem and more relationship conflict after (vs. before) they were cheated on but experienced no change in other indicators of well-being. We found no evidence for partner effects, with the exception of lower relationship satisfaction reported by cheaters' partners. Post-event baseline change coefficients are shown in Figure <ref type="figure" coords="7,486.46,165.27,8.95,8.76" target="#fig_2">1b</ref>, and average personal and relationship well-being values before and after infidelity are shown in Figure <ref type="figure" coords="7,469.39,189.27,3.89,8.76" target="#fig_3">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anticipation effects</head><p>For both perpetrators and victims of infidelity, we observed a gradual deterioration in most indicators of relationship well-being that started before the event (see Fig. <ref type="figure" coords="7,351.55,273.27,3.88,8.76">3</ref>). For most outcomes, this deterioration was linear (the linear specification showed better fit than the quadratic in 23 of 28 models; see Tables <ref type="table" coords="7,511.66,297.27,10.02,8.76" target="#tab_3">S3</ref> and <ref type="table" coords="7,544.83,297.27,10.02,8.76" target="#tab_4">S4</ref> in the Supplemental Material). Both perpetrators and victims of infidelity experienced a decrease in relationship satisfaction and admiration and an increase in relationship conflict prior to infidelity events (perpetrators additionally experienced a decrease in intimacy before they reported having cheated on their partner). The analyses of partner outcomes showed a similar trend: Partners experienced anticipatory deterioration in well-being (decreasing relationship satisfaction and increasing conflict) prior to when the infidelity event was reported by their respective anchors. In some cases, this anticipatory effect took a nonlinear form (e.g., for perpetrators, the decrease in intimacy was preceded by an initial increase; for victims, the decrease in relationship satisfaction was restricted to the years immediately before the event). The patterns of personal and relationship well-being development before infidelity are presented in Figure <ref type="figure" coords="7,433.66,513.27,3.91,8.76">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Socialization effects</head><p>For most outcomes (23 of 28 models), the linear specification showed better fit than the quadratic (see Tables <ref type="table" coords="7,310.50,585.27,10.13,8.76" target="#tab_3">S3</ref> and <ref type="table" coords="7,347.33,585.27,8.50,8.76" target="#tab_4">S4</ref>). As suggested by the coefficients of the socialization effect, for most indicators of relationship well-being (reported by both actors and partners), there was little evidence of rebound effects. With the exception of a gradual increase in relationship satisfaction in perpetrators and a gradual decrease in conflict in victims, neither victims nor perpetrators seemed to bounce back to their initial levels of relationship well-being. However, a more consistent socialization pattern emerged with respect to personal well-being: Both victims and perpetrators experienced a gradual increase        <ref type="table" coords="13,178.34,540.20,3.53,7.01" target="#tab_3">3</ref><ref type="table" coords="13,181.88,540.20,3.53,7.01" target="#tab_4">4</ref><ref type="table" coords="13,181.88,540.20,3.53,7.01" target="#tab_5">5</ref><ref type="table" coords="13,185.41,540.20,3.53,7.01" target="#tab_6">6</ref>). Red dots indicate effects significant at the level specified in the preregistration, corrected for multiple tests (.0125 for primary outcomes and .005 for secondary outcomes); black dots indicate nonsignificant effects.</p><p>in life satisfaction and self-esteem in the years following the event (note that in victims, the increase in selfesteem reversed several years after the event). We detected no partner effects. The patterns of personal and relationship well-being development after infidelity are presented in Figure <ref type="figure" coords="13,156.68,641.27,3.91,8.76">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Commitment</head><p>Prompted by an anonymous reviewer's suggestion, we explored whether individual differences in initial relationship commitment could represent a source of between-individuals heterogeneity in individuals' responses to infidelity. On the one hand, according to the investment model, high commitment is associated with relationship maintenance behaviors, such as willingness to sacrifice and to forgive <ref type="bibr" coords="13,463.58,629.27,91.21,8.76" target="#b37">(Rusbult et al., 1991;</ref><ref type="bibr" coords="13,310.50,641.27,106.82,8.76" target="#b51">Wieselquist et al., 1999)</ref>. Individuals with higher relationship commitment are more likely to forgive their partners after a betrayal <ref type="bibr" coords="13,417.08,665.27,83.13,8.76" target="#b20">(Finkel et al., 2002;</ref><ref type="bibr" coords="13,503.00,665.27,52.30,8.76;13,310.50,677.27,22.75,8.76" target="#b48">Tsang et al., 2006)</ref>. Alternatively, according to the expectancy violation theory <ref type="bibr" coords="13,366.54,689.27,73.33,8.76" target="#b14">(Burgoon, 1993)</ref>, highly committed individuals might show stronger negative reactions to the infidelity event because it would be associated with a  <ref type="table" coords="14,205.13,525.30,3.65,7.01" target="#tab_3">3</ref><ref type="table" coords="14,208.78,525.30,3.65,7.01" target="#tab_4">4</ref><ref type="table" coords="14,208.78,525.30,3.65,7.01" target="#tab_5">5</ref><ref type="table" coords="14,212.43,525.30,3.65,7.01" target="#tab_6">6</ref>; the graphs were created using the SjPlot package). Outcome variables were standardized (in the long format, across all observations); we selected the outcome variables where at least one effect was significant (at the level specified in the preregistration, corrected for multiple tests; .0125 for primary outcomes and .005 for secondary outcomes).</p><p>stronger disappointment for them (compared with individuals with lower initial relationship commitment).</p><p>To measure relationship commitment, we included two subscales of the relationship commitment scale in the survey <ref type="bibr" coords="14,98.85,632.67,81.58,8.76" target="#b24">(Grau et al., 2001)</ref>: future orientation (two items, e.g., "I'm counting on a long-term future together with [partner's name]"; r = .67 for actor and r = .64 for partners) and tolerance of conflicts (two items, e.g., "If our partnership no longer makes us happy, then separation from [partner's name] would be the only way out"; r = .53 in actors and r = .49 in partners, p &lt; .001). These items were completed using a scale ranging from 1 to 5 in Waves 1 to 3 and every odd-numbered wave afterward, and they were averaged into a commitment scale.</p><p>We tested whether the initial level of relationship commitment (i.e., during the first wave when the relationship was reported) moderated post-event baseline change and socialization effects. We computed a series of models that included the respective interaction effects and the random slopes of post-event baseline -10 -10 -10 -5 0 5 10 -10 -5 0 5 10 -1.0 -0.5 Years In 58 108 220 541 -5 0 5 10 -10 -5 0 5 10 -1.0 -0.5 0.0 0.5 1.0 Years Admiration Actor Perpetrator / Partner Victim Control 6 58 108 220 540 Actor Outcome Partner Outcome -5 0 5 10 -10 -5 0 5 10 -1.0 -0.5 0.0 0.5 1.0 Years Dominance Actor Perpetrator / Partner Victim Control 6 58 108 220 539 Actor Outcome Partner Outcome -5 0 5 10 -10 -5 0 5 10 -1.0 -0.5 0.0 0.5 1.0 Years Conflict Actor Perpetrator / Partner Victim Control 6 58 108 220 540 Actor Outcome Partner Outcome -10 -5 0 5 10 -1.0 -0.5 0.0 0.5 1.0 Years Life Satisfaction Actor Victim / Partner Perpetrator Control 3 39 83 146 447 Actor Outcome Partner Outcome -10 -5 0 5 10 -1.0 -0.5 0.0 0.5 1.0 Self-esteem Actor Victim / Partner Perpetrator 3 34 77 146 435 Actor Outcome Partner Outcome -10 -5 0 5 10 -10 -5 0 5 10 b  -10 -5 0 5 10 -10 -5 0 5 10 -1.0 -0.5 Years Actor Victim / Partner Perpetrator Control -10 -5 0 5 10 -10 -5 0 5 10 -1.0 -0.5 0.0 0.5 1.0 Years Dominance Actor Victim / Partner Perpetrator Control 3 32 67 110 275 Actor Outcome Partner Outcome -10 -5 0 5 10 -10 -5 0 5 10 -1.0 -0.5 0.0 0.5 1.0 Years Conflict Actor Victim / Partner Perpetrator Control 3 32 67 110 277 Actor Outcome Partner Outcome Fig. 3. Personal and relationship well-being trajectories surrounding infidelity events. (a) Perpetrator infidelity (actor reported having cheated on partner). (b) Victim infidelity (actor reported being cheated on by partner). Zero indicates the event year. For the control sample, it is the year in which the propensity-score-matched participant in the infidelity sample experienced the event. Outcome variables were standardized (using the long format, i.e., across all observations). Data points represent average (raw) outcome values in each assessment year, observed in the infidelity and control samples; point size indicates the number of observations (the legend shows five values: minimum, first quartile, median, third quartile, and maximum). Note that, sometimes, patterns that can be observed in the raw values are not reflected in the model coefficients because they are based on small observation numbers. The confidence bands represent the 95% confidence intervals. The plots were created using the loess smoothing function of the ggplot2 package.</p><p>change and socialization terms. We used actor commitment values in the analyses of actor outcomes and partner commitment values in the analyses of partner outcomes. The analyses were restricted to the outcome values measured during the waves when the relationship was ongoing. We adjusted the p value to the number of tests (we took .05 as the starting value because of the exploratory nature of the analysis; seven outcomes and two interaction effects: p = .05/7/2 = .004).</p><p>In the perpetrator sample, the interaction between actor commitment and socialization term reached the adjusted level of significance in the case of actor relationship satisfaction and admiration (and the traditional &lt; .05 for intimacy and conflict). The pattern of the interaction is shown in Figure <ref type="figure" coords="18,190.82,674.27,10.02,8.76" target="#fig_10">4a</ref> (model coefficients are reported in Table <ref type="table" coords="18,142.77,686.27,15.08,8.76" target="#tab_3">S13</ref> in the Supplemental Material). Consistent with the expectancy violation theory, higher (vs. lower) levels of commitment were associated with worse adjustment. Depending on the outcome measure, individuals with a higher level of commitment experienced no change or a deterioration in well-being following infidelity (socialization effects at 1 SD above the mean of commitment: relationship satisfaction b = -0.03, p = .260; intimacy b = -0.02, p = .320; admiration b = -0.04, p = .037; conflict b = 0.002, p = .915). In contrast, individuals who were less committed to the relationship experienced an improvement in relationship functioning following infidelity (socialization effects at 1 SD below the mean of commitment: relationship satisfaction b = 0.05, p = .001; intimacy b = 0.03, p = .012; admiration b = 0.04, p = .009; conflict b = -0.04, p = .003).</p><p>In the case of victim infidelity, the interaction between commitment and socialization term reached the adjusted level of significance in the case of actor admiration and partner relationship satisfaction (and the  <ref type="table" coords="19,182.45,634.67,15.24,8.76" target="#tab_3">S13</ref> and Fig. <ref type="figure" coords="19,241.12,634.67,8.73,8.76" target="#fig_10">4b</ref>). Similar to perpetrator infidelity, higher levels of commitment were associated with no change in well-being following infidelity (e.g., socialization effects at 1 SD above the mean of commitment: actor relationship satisfaction b = -0.06, p = .316; actor intimacy b = -0.04, p = .100; actor admiration b = -0.02, p = .333; actor conflict b = 0.001, p = .963; partner relationship satisfaction b = -0.05, p = .137). In contrast, lower levels of commitment were associated with an improvement in well-being following infidelity (e.g., socialization effects at 1 SD below the mean of commitment: actor relationship satisfaction b = 0.05, p = .024; actor intimacy b = 0.04, p = .069; actor admiration b = 0.07, p = .001; actor conflict b = -0.07, p = .002; partner relationship satisfaction b = 0.06, p = .020).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gender</head><p>Infidelity prevalence and its perceived justifiability might differ across genders. For example, men are more likely than women to engage in infidelity, and infidelity committed by men is sometimes considered more justifiable than infidelity committed by women <ref type="bibr" coords="20,516.67,640.57,38.16,8.76;20,310.50,652.57,67.81,8.76" target="#b10">(Blow &amp; Hartnett, 2005;</ref><ref type="bibr" coords="20,383.12,652.57,102.82,8.76" target="#b19">Fincham &amp; May, 2017)</ref>. Therefore, in further exploratory (not preregistered) analyses, we examined whether selection, post-event baseline change, anticipation effects, and socialization effects were moderated by gender. We computed a series of</p><p>-10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -1.0 Years Actor Perpetrator / Partner Victim Control -1.0 Years Actor Perpetrator / Partner Victim Control -1.0 -0.5 0.0 0.5 1.5 1.0 Years Actor Intimacy Actor Victim / Partner Perpetrator Control -1.0 -0.5 0.0 0.5 1.5 1.0 Years Actor Relationship Satisfaction Actor Victim / Partner Perpetrator Control Actor Commitment: Low Actor Commitment: High Actor Commitment: Low Actor Commitment: High -1.0 -0.5 0.0 0.5 1.5 1.0 Years Actor conflict Actor Victim / Partner Perpetrator Control -1.0 -0.5 0.0 0.5 1.5 1.0 Years Actor Admiration Actor Victim / Partner Perpetrator Control b -1.0 -0.5 0.0 0.5 1.5 1.0 Partner Relationship Satisfaction Partner Commitment: Low Partner Commitment: High Actor Commitment: Low Actor Commitment: High Actor Commitment: Low Actor Commitment: High models that included four interaction effects between the event-related variables and gender (Gender × Selection, Gender × Anticipation, Gender × Post-Event Baseline Change, Gender × Socialization) and the four random slopes of the event-related variables. We used actor gender in the analyses of actor outcomes and partner gender in the analyses of partner outcomes. We implemented a p-value adjustment, given the large number of tests (seven outcomes and four event-related variables: p = .05/7/4 = .002).</p><p>In the case of perpetrator infidelity, the socialization effect was moderated by gender: The interaction effect reached the adjusted level of significance in the case of life satisfaction and self-esteem (and the traditional &lt; .05 for actor and partner admiration and partner relationship satisfaction). The model coefficients are shown in Table <ref type="table" coords="21,87.25,599.07,15.24,8.76" target="#tab_5">S15</ref> in the Supplemental Material. The pattern of the interaction is shown in Figure <ref type="figure" coords="21,215.53,611.07,3.91,8.76" target="#fig_12">5</ref>. Interestingly, a look at actor outcomes suggests that male perpetrators were more negatively affected by the event than female perpetrators. Strikingly, female perpetrators even tended to experience a gradual increase (often in the shape of a rebound following pre-event declines) in personal well-being after the event (e.g., life satisfaction and self-esteem: b = 0.05 and b = 0.05, p &lt; .001; admiration: b = 0.04, p = .027). At the same time, the analyses of partner outcomes of perpetrators point to some rebound effects for male (but not for female) victims. For example, male victims experienced an increase (post-event rebound) in relationship satisfaction (b = 0.07, p = .005), whereas female victims did not (b = -0.01, p = .639). Gender did not show consistent interactions with any other time-related variables. Further moderation analyses (by other relationship configuration variables, such as marital and coresident status) are presented in the Supplemental Material.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Separation</head><p>We explored whether the impact of infidelity extends beyond the relationship in which infidelity happened, affecting individuals' personal well-being even after separation (if separation takes place) and carrying over to the next relationship. Separation was more common in couples affected by infidelity than in the control sample (36% in both perpetrator and victim samples vs. 22% and 25% in the control samples, ps &lt; .001; see Table <ref type="table" coords="21,340.86,659.07,3.98,8.76" target="#tab_0">1</ref>). Also, a nontrivial number of participants reported new relationships following separation (75% vs. 52% in the perpetrator vs. control samples, p &lt; .001, and 57% vs. 50% in the victim vs. control samples, p = .31; see Table <ref type="table" coords="21,375.89,707.07,3.88,8.76" target="#tab_0">1</ref>). (b) Victim infidelity (actor reported being cheated on by partner). Zero indicates the event year. For the control sample, it is the year in which the propensity-score-matched participant in the infidelity sample experienced the event. Low and high commitment reflect 1 standard deviation below versus above the sample mean. The graph shows predicted values for anticipation and socialization variables while holding other variables in the model constant (at means for continuous variables and reference categories for categorical variables; see Tables <ref type="table" coords="21,48.01,366.72,3.53,7.01" target="#tab_3">3</ref><ref type="table" coords="21,51.54,366.72,3.53,7.01" target="#tab_4">4</ref><ref type="table" coords="21,51.54,366.72,3.53,7.01" target="#tab_5">5</ref><ref type="table" coords="21,55.07,366.72,3.53,7.01" target="#tab_6">6</ref>). The confidence bands represent the 95% confidence intervals obtained using the SjPlot package. The plots were created using the gam smoothing function of the ggplot2 package.</p><p>-1.0 -0.5 0.0 0.5 1.0 Years Actor self-esteem Actor Perpetrator / Partner Victim Control -1.0 -0.5 0.0 0.5 1.0 Years Actor Life Satisfaction Actor Perpetrator / Partner Victim Control -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 -10 -5 0 5 10 1.0 faction -1.0 -0.5 0.0 0.5 1.0 Years Actor Admiration Actor Perpetrator / Partner Victim Control Actor: Female Actor: Male Actor: Female Actor: Female Actor: Male Partner: Female Partner: Male 1.0 Partner: Female Actor: Male Partner: Male</p><p>In a set of exploratory analyses, we tested whether individuals' well-being trajectories after the infidelity event (i.e., socialization) differed across three groups of participants: the ones who stayed with their original partner (reference group, coded 0), the ones who separated from the original partner but remained single (coded 1), and the ones who separated from the original partner and found a new one (coded 2). We computed the interaction effects between the socialization variable and the new relationship/separation status. Some of the interaction effects reached (an unadjusted level of) significance for life satisfaction (but not for self-esteem) in the perpetrator sample (p = .032) and in the victim sample (p = .034; see Table <ref type="table" coords="22,486.28,117.27,15.24,8.76" target="#tab_4">S14</ref> in the Supplemental Material). The pattern of the interactions is plotted in Figure <ref type="figure" coords="22,392.42,141.27,3.91,8.76">6</ref>. Only participants who separated but did not find a new partner experienced a gradual deterioration in life satisfaction following the infidelity event (although not significant, see Fig. <ref type="figure" coords="23,228.85,392.77,5.00,8.76">6</ref> note regarding the sample size), whereas this was not observed in the similar control participants (i.e., separated, not repartnered).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We used prospective dyadic data to examine the temporal dynamics of personal and relationship well-being surrounding experiences of infidelity. Our analyses provided four main findings that we summarize below.</p><p>First, for the first time, we showed that infidelity events were preceded by a gradual decrease in personal and relationship well-being in victims and perpetrators, as evident in both actor and partner reports. In perpetrators, this decline might be a reason for starting an affair or even an intentional distress management strategy (see <ref type="bibr" coords="23,91.06,596.77,79.05,8.76" target="#b39">Scott et al., 2017)</ref>. In victims, a decrease in well-being might be a result of feeling the partner's dissatisfaction or represent a causal factor increasing their likelihood of being cheated on. Unhappiness has been associated with poor outcomes in social life in previous research <ref type="bibr" coords="23,132.24,656.77,118.44,8.76" target="#b32">(Lyubomirsky et al., 2005;</ref><ref type="bibr" coords="23,254.90,656.77,37.41,8.76;23,48.00,668.77,79.59,8.76" target="#b45">Stavrova &amp; Luhmann, 2016)</ref>. Hence, a decrease in personal wellbeing might make the future victim less attractive, contributing to the infidelity of the partner.</p><p>Second, in contrast to what most previous research on other negative interpersonal events (e.g., divorce, widowhood) indicated <ref type="bibr" coords="23,418.82,392.77,103.88,8.76" target="#b17">(Denissen et al., 2018;</ref><ref type="bibr" coords="23,527.46,392.77,27.65,8.76;23,310.50,404.77,23.48,8.76" target="#b30">Lucas, 2007;</ref><ref type="bibr" coords="23,337.41,404.77,95.64,8.76" target="#b31">Luhmann et al., 2012)</ref>, infidelity events were not followed by steady recovery patterns. Although we detected small rebound effects with respect to some of the outcome variables, neither victims nor perpetrators were able to return to their initial levels of well-being. Potentially, the guilt and social disapproval associated with infidelity renders this event particularly difficult to recover from.</p><p>Third, puzzled by the lack of recovery patterns, we explored potential sources of between-individuals heterogeneity in responses to infidelity. We found that individuals who were more (vs. less) committed to the relationship before the event tended to experience a stronger deterioration in well-being after cheating or being cheated on. Their less committed counterparts, on the other hand, seemed to report an upward wellbeing trend following infidelity. This pattern is consistent with the expectancy violation theory <ref type="bibr" coords="23,509.40,608.77,45.72,8.76;23,310.50,620.77,22.96,8.76" target="#b14">(Burgoon, 1993)</ref>: Higher commitment could be associated with higher relationship expectations and stronger disappointment when the expectations are violated.</p><p>Interestingly, our exploratory analyses detected one more group of participants who seem to recover and even thrive after infidelity, other than individuals with low relationship commitment: unfaithful women. Women (vs. men) are more likely to mention relationship dissatisfaction as a reason for their affair (Barta &amp; Kiene,  <ref type="table" coords="23,308.08,348.99,3.53,7.01" target="#tab_3">3</ref><ref type="table" coords="23,311.61,348.99,3.53,7.01" target="#tab_4">4</ref><ref type="table" coords="23,311.61,348.99,3.53,7.01" target="#tab_5">5</ref><ref type="table" coords="23,315.13,348.99,3.53,7.01" target="#tab_6">6</ref>). The confidence bands represent the 95% confidence intervals obtained using the SjPlot package. The plots were created using the gam smoothing function of the ggplot2 package.</p><p>2005), and prior research has shown that acts of infidelity committed because of relationship problems can lead to positive psychological outcomes <ref type="bibr" coords="25,192.86,93.77,99.66,8.76;25,48.00,105.77,22.33,8.76" target="#b8">(Beltrán-Morillas et al., 2020)</ref>. Potentially, women's affairs are more likely to be a result of partner dissatisfaction, and consequently, the affair may be a wake-up call for their partners, leading to positive behavioral change. These findings add to the small literature exploring the conditions in which infidelity might have positive consequences <ref type="bibr" coords="25,219.29,165.77,73.02,8.76;25,48.00,177.77,50.64,8.76" target="#b8">(Beltrán-Morillas et al., 2020;</ref><ref type="bibr" coords="25,102.03,177.77,100.37,8.76" target="#b47">Thompson et al., 2021)</ref>. Finally, the inclusion of actor and partner outcomes in both victim and perpetrator samples resulted in several potentially interesting observations. Negative wellbeing consequences (i.e., post-event baseline change) appeared more common in perpetrators who reported cheating themselves (i.e., actor well-being in the perpetrator sample) than in perpetrators whose partner reported cheating (i.e., partner well-being in the victim sample) and in victims (see Figs. <ref type="figure" coords="25,204.96,285.77,5.00,8.76" target="#fig_3">2</ref> and <ref type="figure" coords="25,235.44,285.77,3.88,8.76">3</ref>). Although this could be partially explained by differences in power (for sensitivity analyses, see the Supplemental Material), the nature of infidelity-disclosed versus secret-could have played a role, too. Disclosed infidelity was presumably more common in the victim sample (as it was reported by the victims) than in the perpetrator sample (as it was reported by the perpetrators). This is consistent with the perpetrator sample being almost twice as large as the victim sample, where secret affairs were probably unreported.</p><p>Potentially, perpetrators are more negatively affected by infidelity when it is kept secret (i.e., actor effects in the perpetrator sample) versus disclosed (i.e., partner effects in the victim sample). Disclosing infidelity can help some couples find a solution to the relationship problems that led to infidelity in the first place <ref type="bibr" coords="25,206.76,477.77,81.36,8.76" target="#b4">(Atkins et al., 2005)</ref>. The higher share of secret affairs in the perpetrator sample versus victim sample could also explain why perpetrators and their partners had chronically lower personal and relationship well-being, relative to the control sample, whereas neither victims of infidelity nor their partners differed from the control sample (selection effects; see Fig. <ref type="figure" coords="25,68.25,561.77,3.81,8.76" target="#fig_2">1</ref>). It should be noted that in the absence of the explicit information regarding infidelity disclosure rates, this interpretation remains speculative. Future research should test to what extent the perpetrator-victim differences in the present study are a result of differences in disclosure versus perpetrator/victim status.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations and future directions</head><p>The reliance on large-scale panel data resulted in many benefits: It allowed us to identify a high number (~1,000) of infidelity events, track them for several years before and after infidelity, and compare the relationship trajectories of participants who experienced infidelity with a large control sample of individuals who did not (~1,500). However, the reliance on these secondary data restricted our ability to influence sampling (e.g., Germany) and measurement decisions, resulting in several limitations. The lack of information regarding whether the infidelity has come to light or not is one of them (as discussed above). In addition, the phrasing of the infidelity measure ("extra-marital affair") could have left room for different interpretations (e.g., extradyadic sex vs. an online flirt) and included consensual nonmonogamous relationships. Comparing the effects of different infidelity types as well as examining whether changes in different aspects of relationship functioning could lead to different types of infidelity could be an interesting endeavor for future studies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Infidelity is often considered one of the most stressful events in a couple's life leading to relationship trouble. The present findings questioned this idea by showing that for both victims and perpetrators, infidelity was preceded (but not followed) by longer periods of decline in personal and relationship well-being. In contrast to most other negative life events and with the exception of individuals with lower initial commitment and unfaithful women, this decline did not recover in the follow-up years.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="10,401.92,634.01,5.26,9.00;10,401.92,540.01,5.26,9.00;10,401.92,444.01,5.26,9.00;10,401.92,351.01,5.26,9.00;10,401.92,255.01,5.26,9.00;10,401.92,162.01,5.26,9.00;10,401.92,75.01,5.26,9.00;10,417.92,706.13,5.26,20.88;10,417.92,699.05,5.26,5.16;10,425.42,693.05,5.26,27.96;10,432.92,709.73,5.26,11.28;10,432.92,693.77,5.26,14.04;10,417.92,634.01,5.26,9.00;10,417.92,540.01,5.26,9.00;10,417.92,444.01,5.26,9.00;10,417.92,351.01,5.26,9.00;10,417.92,255.01,5.26,9.00;10,417.92,162.01,5.26,9.00;10,417.92,75.01,5.26,9.00;10,441.42,706.13,5.26,20.88;10,441.42,699.05,5.26,5.16;10,448.92,688.61,5.26,32.40;10,441.42,634.01,5.26,13.56;10,441.42,540.01,5.26,13.56;10,441.42,444.01,5.26,13.56;10,441.42,351.01,5.26,13.56;10,441.42,255.01,5.26,13.56;10,441.42,162.01,5.26,13.56;10,441.42,75.01,5.26,13.56;10,465.68,713.21,5.26,13.80;10,465.68,692.69,5.26,18.60;10,465.68,675.17,5.26,15.60;10,465.68,647.33,5.26,25.92;10,465.68,631.85,5.26,13.56;10,465.68,609.89,5.26,20.04;10,465.68,600.77,5.26,7.20;10,465.68,586.85,5.26,12.00;10,465.68,556.01,5.26,28.92;10,465.68,533.33,5.26,20.76;10,465.68,528.41,5.26,3.00;10,465.23,523.20,5.52,3.29;10,465.68,507.36,5.26,13.92;10,465.68,502.44,5.26,3.00;10,465.23,497.23,5.52,3.29;10,465.68,476.59,5.26,18.72;10,465.68,457.87,5.26,16.80;10,465.68,426.55,5.26,29.40;10,465.68,421.63,5.26,3.00;10,465.23,416.41,5.52,3.29;10,465.68,381.61,5.26,32.88;10,465.68,376.69,5.26,3.00;10,465.23,371.48,5.52,3.29;10,465.68,335.24,5.26,34.32;10,465.68,315.92,5.26,17.40;10,465.68,298.04,5.26,15.96;10,465.68,293.12,5.26,3.00;10,465.23,287.90,5.52,3.29;10,465.68,253.34,5.26,32.64;10,465.68,220.58,5.26,30.84;10,465.68,215.66,5.26,3.00;10,465.23,210.45,5.52,3.29;10,465.68,200.13,5.26,8.40;10,465.68,176.85,5.26,21.36;10,465.68,147.45,5.26,27.48;10,465.68,129.57,5.26,15.96;10,465.68,124.65,5.26,3.00;10,465.23,119.44,5.52,3.29;10,465.68,103.36,5.26,14.16;10,465.68,80.20,5.26,21.24;10,465.68,67.00,5.26,11.28;10,465.68,45.04,5.26,20.04;10,473.18,724.01,5.26,3.00;10,472.73,718.80,5.52,3.29;10,473.18,708.48,5.26,8.40;10,473.18,692.40,5.26,14.16;10,473.18,667.68,5.26,22.80;10,473.18,634.08,5.26,31.68;10,473.18,616.20,5.26,15.96;10,473.18,611.28,5.26,3.00;10,472.73,606.07,5.52,3.29;10,473.18,599.23,5.26,4.92;10,473.18,594.43,5.26,2.88;10,473.18,560.71,5.26,31.80;10,473.18,555.79,5.26,3.00;10,472.73,550.57,5.52,3.29;10,473.18,540.25,5.26,8.40;10,473.18,533.41,5.26,4.92;10,473.18,528.61,5.26,2.88;10,473.18,494.89,5.26,31.80;10,473.18,465.85,5.26,27.12;10,473.18,447.97,5.26,15.96;10,473.18,443.05,5.26,3.00;10,472.73,437.84,5.52,3.29;10,473.18,409.64,5.26,26.28;10,473.18,404.72,5.26,3.00;10,472.73,399.50,5.52,3.29;10,473.18,389.30,5.26,8.28;10,473.18,378.98,5.26,8.40;10,473.18,354.14,5.26,22.92;10,473.18,340.10,5.26,12.12;10,473.18,327.98,5.26,10.20;10,473.18,322.10,5.26,3.96;10,473.18,308.06,5.26,12.12;10,473.18,298.94,5.26,7.20;10,473.18,263.54,5.26,33.48;10,473.18,245.18,5.26,16.44;10,473.18,217.22,5.26,26.04;10,473.18,210.74,5.26,4.56;10,473.18,200.78,5.26,8.04;10,473.18,186.74,5.26,12.12;10,473.18,153.38,5.26,31.44;10,473.18,146.54,5.26,4.92;10,473.18,136.58,5.26,8.04;10,473.18,97.46,5.26,37.20;10,473.18,79.82,5.26,15.72;10,473.18,70.70,5.26,7.20;10,473.18,60.86,5.26,7.92;10,480.68,698.69,5.26,28.32;10,480.68,687.17,5.26,9.60;10,480.68,655.01,5.26,30.24;10,480.68,624.77,5.26,28.32;10,480.68,613.25,5.26,9.60;10,480.68,600.77,5.26,10.56;10,480.68,591.65,5.26,7.20;10,480.68,576.29,5.26,13.44;10,480.68,545.81,5.26,28.56;10,480.68,523.01,5.26,20.88;10,480.68,515.93,5.26,5.16;10,480.68,481.61,5.26,32.40;10,480.68,463.73,5.26,15.96;10,480.68,445.97,5.26,15.84;10,480.68,436.01,5.26,8.04;10,480.68,415.49,5.26,18.60;10,480.68,392.81,5.26,20.76;10,480.68,385.73,5.26,5.16;10,480.68,364.49,5.26,19.32;10,480.68,346.37,5.26,16.20;10,480.68,337.73,5.26,6.72;10,480.68,308.21,5.26,27.60;10,480.68,282.05,5.26,24.24;10,480.68,274.49,5.26,5.64;10,480.23,269.29,5.52,3.29;10,480.68,239.05,5.26,28.32;10,480.68,216.49,5.26,20.64"><figDesc>effect: respective wave number for each participant. Gender: 1 = male, 0 = female. Sexual orientation: 1 = homosexual, 0 = heterosexual. Marital status: 1 = married/civil partnership, 0 = not married. Coresident status: 1 = living together with partner, 0 = not living together. Relationship status: 1 = in a relationship, 0 = not in a relationship. Separation status: 1 = separated, 0 = did not separate. Bold font is used for event-related effects significant at the level prespecified in the preregistration (.0125 for life satisfaction and relationship satisfaction and .005 for other outcomes). Number of observations differs across the models because of missing values on dependent variables. CI = confidence interval.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="11,452.84,165.01,5.26,13.56;11,452.84,71.96,5.26,13.56;11,477.09,713.33,5.26,13.68;11,477.09,693.05,5.26,18.42;11,477.09,675.77,5.26,15.42;11,477.09,648.26,5.26,25.65;11,477.09,632.93,5.26,13.47;11,477.09,611.18,5.26,19.89;11,477.09,602.18,5.26,7.14;11,477.09,588.41,5.26,11.91;11,477.09,557.96,5.26,28.59;11,477.09,535.52,5.26,20.58;11,477.09,530.66,5.26,3.00;11,476.65,525.50,5.52,3.29;11,477.09,509.85,5.26,13.80;11,477.09,504.99,5.26,3.00;11,476.65,499.84,5.52,3.29;11,477.09,479.44,5.26,18.54;11,477.09,460.93,5.26,16.65;11,477.09,430.00,5.26,29.07;11,477.09,425.14,5.26,3.00;11,476.65,419.98,5.52,3.29;11,477.09,385.54,5.26,32.58;11,477.09,380.68,5.26,3.00;11,476.65,375.53,5.52,3.29;11,477.09,339.71,5.26,33.96;11,477.09,320.63,5.26,17.22;11,477.09,302.99,5.26,15.78;11,477.09,298.13,5.26,3.00;11,476.65,292.97,5.52,3.29;11,477.09,258.83,5.26,32.28;11,477.09,226.46,5.26,30.51;11,477.09,221.60,5.26,3.00;11,476.65,216.45,5.52,3.29;11,477.09,206.25,5.26,8.34;11,477.09,183.24,5.26,21.15;11,477.09,154.17,5.26,27.21;11,477.09,136.53,5.26,15.78;11,477.09,131.67,5.26,3.00;11,476.65,126.52,5.52,3.29;11,477.09,110.65,5.26,14.01;11,477.09,87.76,5.26,21.03;11,477.09,74.71,5.26,11.19;11,477.09,53.02,5.26,19.83;11,477.09,48.16,5.26,3.00;11,476.65,43.00,5.52,3.29;11,484.59,718.60,5.26,8.40;11,484.59,702.52,5.26,14.16;11,484.59,677.80,5.26,22.80;11,484.59,644.20,5.26,31.68;11,484.59,626.32,5.26,15.96;11,484.59,621.40,5.26,3.00;11,484.15,616.19,5.52,3.29;11,484.59,609.35,5.26,4.92;11,484.59,604.55,5.26,2.88;11,484.59,570.83,5.26,31.80;11,484.59,565.91,5.26,3.00;11,484.15,560.69,5.52,3.29;11,484.59,550.37,5.26,8.40;11,484.59,543.53,5.26,4.92;11,484.59,538.73,5.26,2.88;11,484.59,505.01,5.26,31.80;11,484.59,475.97,5.26,27.12;11,484.59,458.09,5.26,15.96;11,484.59,453.17,5.26,3.00;11,484.15,447.96,5.52,3.29;11,484.59,419.76,5.26,26.28;11,484.59,414.84,5.26,3.00;11,484.15,409.63,5.52,3.29;11,484.59,399.43,5.26,8.28;11,484.59,389.11,5.26,8.40;11,484.59,364.27,5.26,22.92;11,484.59,350.23,5.26,12.12;11,484.59,338.11,5.26,10.20;11,484.59,332.23,5.26,3.96;11,484.59,318.19,5.26,12.12;11,484.59,309.07,5.26,7.20;11,484.59,273.67,5.26,33.48;11,484.59,255.31,5.26,16.44;11,484.59,227.35,5.26,26.04;11,484.59,220.87,5.26,4.56;11,484.59,210.91,5.26,8.04;11,484.59,196.87,5.26,12.12;11,484.59,163.51,5.26,31.44;11,484.59,156.67,5.26,4.92;11,484.59,146.71,5.26,8.04;11,484.59,107.59,5.26,37.20;11,484.59,89.95,5.26,15.72;11,484.59,80.83,5.26,7.20;11,484.59,70.99,5.26,7.92;11,484.59,40.75,5.26,28.32;11,492.09,717.40,5.26,9.60;11,492.09,685.24,5.26,30.24;11,492.09,655.00,5.26,28.32;11,492.09,643.48,5.26,9.60;11,492.09,631.00,5.26,10.56;11,492.09,621.88,5.26,7.20;11,492.09,606.52,5.26,13.44;11,492.09,576.04,5.26,28.56;11,492.09,553.24,5.26,20.88;11,492.09,546.16,5.26,5.16;11,492.09,511.84,5.26,32.40;11,492.09,493.96,5.26,15.96;11,492.09,476.20,5.26,15.84;11,492.09,466.24,5.26,8.04;11,492.09,445.72,5.26,18.60;11,492.09,423.04,5.26,20.76;11,492.09,415.96,5.26,5.16;11,492.09,394.72,5.26,19.32;11,492.09,376.60,5.26,16.20;11,492.09,367.96,5.26,6.72;11,492.09,338.44,5.26,27.60;11,492.09,312.28,5.26,24.24;11,492.09,304.72,5.26,5.64;11,491.65,299.51,5.52,3.29;11,492.09,269.27,5.26,28.32;11,492.09,246.71,5.26,20.64"><figDesc>effect: respective wave number for each participant. Gender: 1 = male, 0 = female. Sexual orientation: 1 = homosexual, 0 = heterosexual. Marital status: 1 = married/civil partnership, 0 = not married. Coresident status: 1 = living together with partner, 0 = not living together. Relationship status: 1 = in a relationship, 0 = not in a relationship. Separation status: 1 = separated, 0 = did not separate. Bold font is used for event-related effects significant at the level prespecified in the preregistration (.0125 for life satisfaction and relationship satisfaction and .005 for other outcomes). Number of observations differs across the models because of missing values on dependent variables. CI = confidence interval.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="13,76.26,511.71,450.83,7.01;13,76.26,521.21,450.10,7.01;13,76.26,530.70,450.18,7.01;13,76.26,540.20,450.15,7.01;13,76.26,549.69,446.77,7.01"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Effects of the selection and post-event baseline change variables on personal and relationship well-being. (a) Selection effect (difference in average well-being between infidelity and control samples). (b) Post-event baseline change (difference in well-being in the years before and after infidelity in the infidelity samples). The dots represent the effects from discontinuous change models (see Tables3-6). Red dots indicate effects significant at the level specified in the preregistration, corrected for multiple tests (.0125 for primary outcomes and .005 for secondary outcomes); black dots indicate nonsignificant effects.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="14,58.81,506.31,484.98,7.01;14,58.81,515.80,485.02,7.01;14,58.81,525.30,484.97,7.01;14,58.81,534.79,485.04,7.01;14,58.81,544.29,445.65,7.01"><head>Fig. 2 .</head><label>2</label><figDesc>Fig.2. Average personal and relationship well-being before and after infidelity. The graphs show predicted values for the post-event baseline change variable, while holding other variables in the model constant (at means for continuous variables and reference categories for categorical variables; see Tables3-6; the graphs were created using the SjPlot package). Outcome variables were standardized (in the long format, across all observations); we selected the outcome variables where at least one effect was significant (at the level specified in the preregistration, corrected for multiple tests; .0125 for primary outcomes and .005 for secondary outcomes).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="15,361.07,680.62,118.89,7.01"><head>Fig. 3 .Fig. 3 .</head><label>33</label><figDesc>Fig. 3. (continued on next page)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="17,361.07,680.92,118.89,7.01"><head>Fig. 3 .Fig. 3 .</head><label>33</label><figDesc>Fig. 3. (continued on next page)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="19,339.59,257.83,15.74,8.28;19,339.59,225.19,15.74,8.28;19,344.53,192.36,10.80,8.21;19,344.53,159.72,10.80,8.21;19,344.53,127.07,10.80,8.21;19,446.22,285.54,20.53,9.12;19,325.71,203.06,9.12,19.25;19,325.71,169.38,9.12,31.28;19,404.06,303.66,61.28,8.21;19,404.06,314.66,46.80,8.21;19,497.37,308.48,23.66,8.21;19,88.06,273.53,31.54,8.28;19,135.39,273.61,4.32,8.21;19,155.51,273.53,66.65,8.28;19,237.96,273.61,4.32,8.21;19,258.07,273.61,26.59,8.21;19,351.67,273.53,31.54,8.28;19,399.00,273.61,4.32,8.21;19,419.12,273.53,66.66,8.28;19,501.57,273.61,4.32,8.21;19,521.68,273.61,26.59,8.21;19,88.05,531.40,31.54,8.28;19,135.38,531.47,4.32,8.21;19,155.50,531.40,66.65,8.28;19,237.95,531.47,4.32,8.21;19,258.06,531.47,26.59,8.21;19,351.66,531.40,31.54,8.28;19,398.99,531.47,4.32,8.21;19,419.11,531.40,66.66,8.28;19,501.56,531.47,4.32,8.21;19,521.67,531.47,26.59,8.21;19,75.97,257.83,15.74,8.28;19,75.97,225.19,15.74,8.28;19,80.91,192.36,10.80,8.21;19,80.91,159.72,10.80,8.21;19,80.91,127.07,10.80,8.21;19,182.60,285.54,20.53,9.12;19,62.08,231.19,9.12,19.25;19,62.08,183.61,9.12,45.18;19,62.08,138.08,9.12,43.13;19,140.44,303.66,61.28,8.21;19,140.44,314.66,46.80,8.21;19,233.75,308.48,23.66,8.21;19,339.59,515.13,15.74,8.28;19,339.59,482.48,15.74,8.28;19,344.53,449.65,10.80,8.21;19,344.53,417.01,10.80,8.21;19,344.53,384.36,10.80,8.21;19,446.22,542.83,20.53,9.12;19,325.71,458.60,9.12,19.25;19,325.71,428.42,9.12,27.78;19,404.06,560.95,61.28,8.21;19,404.06,571.95,46.80,8.21;19,497.37,565.77,23.66,8.21;19,75.97,515.12,15.74,8.28;19,75.97,482.48,15.74,8.28;19,80.91,449.65,10.80,8.21;19,80.91,417.01,10.80,8.21;19,80.91,384.36,10.80,8.21;19,182.60,542.83,20.53,9.12;19,62.08,464.43,9.12,19.25;19,62.08,422.04,9.12,39.99;19,140.44,560.95,61.28,8.21;19,140.44,571.95,46.80,8.21;19,233.75,565.77,23.66,8.21;19,339.59,772.42,15.74,8.28;19,339.59,746.31,15.74,8.28;19,344.53,720.01,10.80,8.21;19,344.53,693.90,10.80,8.21;19,344.53,641.67,10.80,8.21;19,344.53,667.78,10.80,8.21;19,325.71,717.64,9.12,19.25;19,325.71,683.96,9.12,31.28;19,75.97,772.42,15.74,8.28;19,75.97,746.31,15.74,8.28;19,80.91,720.01,10.80,8.21;19,80.91,693.90,10.80,8.21;19,80.91,641.67,10.80,8.21;19,80.91,667.78,10.80,8.21;19,62.08,747.36,9.12,19.25;19,62.08,699.78,9.12,45.18;19,62.08,654.25,9.12,43.13;19,394.61,609.50,21.18,10.03;19,367.94,622.50,74.51,10.03;19,497.17,609.50,21.18,10.03;19,469.78,622.50,75.95,10.03;19,130.98,609.50,21.18,10.03;19,104.32,622.50,74.51,10.03;19,233.55,609.50,21.18,10.03;19,206.16,622.50,75.95,10.03;19,394.61,352.21,21.18,10.03;19,367.94,365.21,74.51,10.03;19,497.17,352.21,21.18,10.03;19,469.78,365.21,75.95,10.03;19,130.98,352.21,21.18,10.03;19,104.32,365.21,74.51,10.03;19,233.55,352.21,21.18,10.03;19,206.16,365.21,75.95,10.03;19,394.61,94.91,21.18,10.03;19,367.94,107.92,74.51,10.03;19,497.17,94.91,21.18,10.03;19,469.78,107.92,75.95,10.03;19,130.98,94.91,21.18,10.03;19,104.32,107.92,74.51,10.03;19,50.91,72.02,7.99,16.42;19,50.75,586.66,8.33,16.42;19,233.55,94.91,21.18,10.03;19,206.16,107.92,75.95,10.03;19,48.00,621.93,244.32,9.50;19,48.00,634.67,130.79,8.76"><figDesc>traditional &lt; .05 for actor relationship satisfaction, intimacy, and conflict; see Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="19,436.07,595.22,118.89,7.01"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. (continued on next page)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="20,434.02,594.09,118.89,7.01"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. (continued on next page)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10" coords="21,48.00,319.24,506.60,7.01;21,48.01,328.74,506.65,7.01;21,48.01,338.23,506.57,7.01;21,48.01,347.73,506.69,7.01;21,48.01,357.23,506.64,7.01;21,48.01,366.72,506.66,7.01;21,48.01,376.22,158.42,7.01"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Commitment and well-being trajectories surrounding infidelity. (a) Perpetrator infidelity (actor reported having cheated on partner).(b) Victim infidelity (actor reported being cheated on by partner). Zero indicates the event year. For the control sample, it is the year in which the propensity-score-matched participant in the infidelity sample experienced the event. Low and high commitment reflect 1 standard deviation below versus above the sample mean. The graph shows predicted values for anticipation and socialization variables while holding other variables in the model constant (at means for continuous variables and reference categories for categorical variables; see Tables3-6). The confidence bands represent the 95% confidence intervals obtained using the SjPlot package. The plots were created using the gam smoothing function of the ggplot2 package.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12" coords="22,428.30,707.99,118.89,7.01"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. (continued on next page)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13" coords="23,55.78,320.51,491.05,7.01;23,55.78,330.00,491.12,7.01;23,55.78,339.50,491.04,7.01;23,55.78,348.99,490.95,7.01;23,55.78,358.49,425.81,7.01"><head>Fig. 5 .</head><label>5</label><figDesc>Fig.5. Gender and well-being trajectories surrounding the event of committing infidelity. Zero indicates the event year. For the control sample, it is the year in which the propensity-score-matched participant in the infidelity sample experienced the event. The graph shows predicted values for anticipation and socialization variables while holding other variables in the model constant (at means for continuous variables and reference categories for categorical variables; see Tables3-6). The confidence bands represent the 95% confidence intervals obtained using the SjPlot package. The plots were created using the gam smoothing function of the ggplot2 package.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="4,49.69,77.18,497.13,639.83"><head>Table 1 .</head><label>1</label><figDesc>Propensity-Score-Matched Sample Characteristics</figDesc><table coords="4,68.19,132.31,40.89,349.79"><row><cell>Victim infidelity</cell><cell>Actor control</cell><cell>(n = 646)</cell></row><row><cell></cell><cell>Actor victim</cell><cell>(n = 338)</cell></row><row><cell>Perpetrator infidelity</cell><cell>Actor perpetrator Actor control</cell><cell>(n = 609) (n = 1,141)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="8,82.53,46.79,442.12,677.21"><head>Table 2 .</head><label>2</label><figDesc>Zero-Order Correlations VariableThe commitment variables represent the commitment values during the first wave of the target relationship (for measurement details, see the Commitment section in the Results section); outcome variables represent average values for each participant across the years.</figDesc><table coords="8,118.78,46.79,358.87,677.20"><row><cell>Victim sample: M 0.34 3.99 3.83 3.97 3.86 3.77 3.04 2.66 3.95 3.93 3.85 4.12 3.67 3.60 3.04 2.59 4.10</cell><cell>Victim sample: SD 0.48 0.56 0.72 0.76 0.73 0.70 0.61 0.68 0.86 0.70 0.80 0.64 0.73 0.70 0.58 0.65 0.70</cell><cell>1. Event -.14*** -.14*** -.24*** -.11*** -.22*** .15*** .24*** -.15*** -.07 -.05 -.15*** -.07 -.06 .04 .21*** -.13**</cell><cell>2. Life satisfaction: A -.13*** .47*** .41*** .24*** .23*** -.05 -.23*** .21*** .37*** .19*** .28*** .09* .14*** .00 -.17*** .22***</cell><cell>3. Self-esteem: A -.12*** .55*** .28*** .16*** .22*** -.02 -.20*** .11*** .12** .09* .11** .12** .06 -.05 -.10* .05</cell><cell>4. Relationship -.29*** .38*** .28*** .47*** .60*** -.11*** -.44*** .47*** .30*** .07 .43*** .29*** .34*** -.07 -.31*** .16***</cell><cell>satisfaction: A</cell><cell>5. Intimacy: A -.21*** .29*** .16*** .55*** .53*** -.06 -.24*** .27*** .20*** .06 .33*** .30*** .39*** -.02 -.24*** .09</cell><cell>6. Admiration: A -.16*** .28*** .19*** .58*** .54*** -.13*** -.42*** .28*** .22*** .08 .38*** .33*** .39*** -.08 -.28*** .11*</cell><cell>7. Dominance: A .02 -.08*** -.02 -.10*** -.03 -.08*** .28*** -.07* -.04 -.00 -.14** .02 -.07 -.06 .10* -.14***</cell><cell>8. Conflict: A .21*** -.26*** -.22*** -.49*** -.27*** -.43*** .29*** -.30*** -.26*** -.15*** -.33*** -.16*** -.30*** .21*** .57*** -.16***</cell><cell>9. Commitment: A -.21*** .16** .06** .43*** .30*** .26*** -.00 -.25*** .17*** .02 .24*** .05 .12** -.14** -.14** .24***</cell><cell>10. Life satisfaction: P -.14*** .28*** .10** .26*** .17*** .18*** -.03 -.20*** .13*** .59*** .60*** .28*** .40*** -.05 -.31*** .29***</cell><cell>11. Self-esteem: P -.12*** .20*** .15*** .18*** .14*** .10** -.08* -.09** .02 .57*** .35*** .14** .34*** -.09* -.31*** .18***</cell><cell>12. Relationship -.19*** .26*** .14*** .43*** .35*** .37*** -.11*** -.37*** .20*** .54*** .31*** .43*** .60*** -.17*** -.44*** .43***</cell><cell>satisfaction: P</cell><cell>13. Intimacy: P -.07* .14*** .13*** .31*** .32*** .38*** .07* -.22*** .08* .32*** .20*** .49*** .47*** -.04 -.26*** .13**</cell><cell>14. Admiration: P -.13*** .22*** .11*** .36*** .38*** .36*** -.08** -.32*** .12*** .38*** .25*** .60*** .48*** -.14** -.48*** .22***</cell><cell>15. Dominance: P .09** -.08** -.04 -.12*** .00 -.04 -.07* .18*** -.03 -.13*** -.08* -.14*** -.09** -.13*** .28*** -.06</cell><cell>16. Conflict: P .14*** -.18*** -.14*** -.32*** -.21*** -.28*** .19*** .56*** -.13*** -.33*** -.25*** -.53*** -.28*** -.45*** .32*** -.23***</cell><cell>17. Commitment: P -.14*** .11*** .01 .21*** .17*** .16*** -.07 -.14*** .28*** .26*** .09** .46*** .24*** .27*** -.08* -.23***</cell><cell>Perpetrator sample: M 0.35 4.03 3.92 4.00 3.78 3.81 3.01 2.60 3.93 3.98 3.87 4.09 3.74 3.55 3.07 2.55 4.05</cell><cell>Perpetrator sample: SD 0.48 0.54 0.68 0.69 0.74 0.69 0.57 0.66 0.85 0.64 0.79 0.68 0.73 0.73 0.59 0.61 0.72</cell></row></table><note coords="8,489.16,705.60,7.01,18.40;8,489.16,680.32,7.01,22.72;8,489.16,656.96,7.01,20.80;8,489.16,643.68,7.01,10.72;8,489.16,611.68,7.01,29.44;8,489.16,588.32,7.01,20.80;8,489.16,553.76,7.01,32.00;8,489.16,540.48,7.01,10.72;8,489.16,497.92,7.01,40.00;8,489.16,488.80,7.01,6.56;8,489.16,475.52,7.01,10.72;8,489.16,448.64,7.01,24.32;8,489.16,439.20,7.01,6.88;8,489.16,412.80,7.01,23.84;8,489.16,397.44,7.01,12.80;8,489.16,365.60,7.01,29.28;8,489.16,333.60,7.01,29.44;8,489.16,309.44,7.01,21.60;8,489.16,285.60,7.01,21.28;8,489.16,272.32,7.01,10.72;8,489.16,240.32,7.01,29.44;8,489.16,209.12,7.01,28.64;8,489.16,174.56,7.01,32.00;8,489.16,161.28,7.01,10.72;8,489.16,118.72,7.01,40.00;8,489.16,109.60,7.01,6.56;8,489.16,96.32,7.01,10.72;8,489.16,69.44,7.01,24.32;8,489.16,60.00,7.01,6.88;8,498.65,682.56,7.01,41.44;8,498.65,667.20,7.01,12.80;8,498.65,635.36,7.01,29.28;8,498.65,603.36,7.01,29.44;8,498.65,595.68,7.01,5.12;8,498.06,588.73,7.36,4.39;8,498.65,567.13,7.01,19.04;8,498.65,560.09,7.01,4.48;8,498.06,553.14,7.36,4.39;8,498.65,523.86,7.01,26.72;8,498.65,500.02,7.01,21.28;8,498.65,467.54,7.01,29.92;8,498.65,442.58,7.01,22.40;8,498.65,421.62,7.01,18.40;8,498.65,396.66,7.01,22.40;8,498.65,387.22,7.01,6.88;8,498.06,380.26,7.36,4.39;8,498.65,364.42,7.01,13.28;8,498.65,357.86,7.01,4.00;8,498.06,350.91,7.36,4.39;8,498.65,334.43,7.01,13.92;8,517.64,717.24,7.01,6.76;8,517.05,710.29,7.36,4.39;8,517.64,695.57,7.01,12.16;8,517.64,683.53,7.01,9.48;8,517.05,676.58,7.36,4.39;8,517.64,661.86,7.01,12.16;8,517.64,647.10,7.01,12.20;8,517.05,640.14,7.36,4.39;8,517.64,621.42,7.01,16.16"><p>Note: Values above the diagonal (blue) represent the correlations in the sample of victims and matched controls; values below the diagonal (yellow) represent the correlations in the sample of perpetrators and matched controls. A = actor; P = partner. Event: infidelity during study period (1 = yes, 0 = no). *p &lt; .05. **p &lt; .01. ***p &lt; .001.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="9,101.49,50.41,374.40,673.49"><head>Table 3 .</head><label>3</label><figDesc>Discontinuous Change Model, Perpetrator Infidelity (Actor Reported Having Cheated on Partner), Actor Outcomes</figDesc><table coords="9,118.87,365.28,5.26,40.44"><row><cell>Actor outcomes</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="10,101.28,39.31,313.40,687.70"><head>Table 4 .</head><label>4</label><figDesc>Discontinuous Change Model, Perpetrator Infidelity (Actor Reported Having Cheated on Partner), Partner Outcomes</figDesc><table coords="10,118.66,360.44,5.26,45.12"><row><cell>Partner outcomes</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="11,114.69,35.31,350.90,691.71"><head>Table 5 .</head><label>5</label><figDesc>Discontinuous Change Model, Victim Infidelity (Actor Reported Being Cheated on by Partner), Actor Outcomes</figDesc><table coords="11,132.07,361.26,5.26,40.44"><row><cell>Actor outcomes</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="12,112.78,49.47,335.90,678.53"><head>Table 6 .</head><label>6</label><figDesc>Discontinuous Change Model, Victim Infidelity (Actor Reported Being Cheated on by Partner), Partner Outcomes</figDesc><table coords="12,130.16,364.44,5.26,45.12"><row><cell>Partner outcomes</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0" coords="9,463.14,610.89,5.26,16.56;9,463.14,518.89,5.26,16.56;9,463.14,429.89,5.26,13.56;9,463.14,340.90,5.26,13.56;9,463.14,244.90,5.26,13.56;9,463.14,158.90,5.26,13.56;9,463.14,77.90,5.26,13.56;9,487.39,710.10,5.26,13.80;9,487.39,689.58,5.26,18.60;9,487.39,672.06,5.26,15.60;9,487.39,644.22,5.26,25.92;9,487.39,628.74,5.26,13.56;9,487.39,606.78,5.26,20.04;9,487.39,597.66,5.26,7.20;9,487.39,583.74,5.26,12.00;9,487.39,552.90,5.26,28.92;9,487.39,530.22,5.26,20.76;9,487.39,525.30,5.26,3.00;9,486.95,520.09,5.52,3.29;9,487.39,504.25,5.26,13.92;9,487.39,499.33,5.26,3.00;9,486.95,494.11,5.52,3.29;9,487.39,473.47,5.26,18.72;9,487.39,454.75,5.26,16.80;9,487.39,423.43,5.26,29.40;9,487.39,418.51,5.26,3.00;9,486.95,413.30,5.52,3.29;9,487.39,378.50,5.26,32.88;9,487.39,373.58,5.26,3.00;9,486.95,368.36,5.52,3.29;9,487.39,332.12,5.26,34.32;9,487.39,312.80,5.26,17.40;9,487.39,294.92,5.26,15.96;9,487.39,290.00,5.26,3.00;9,486.95,284.79,5.52,3.29;9,487.39,250.23,5.26,32.64;9,487.39,217.47,5.26,30.84;9,487.39,212.55,5.26,3.00;9,486.95,207.34,5.52,3.29;9,487.39,197.02,5.26,8.40;9,487.39,173.74,5.26,21.36;9,487.39,144.34,5.26,27.48;9,487.39,126.46,5.26,15.96;9,487.39,121.54,5.26,3.00;9,486.95,116.32,5.52,3.29;9,487.39,100.24,5.26,14.16;9,487.39,77.08,5.26,21.24;9,487.39,63.88,5.26,11.28;9,494.89,703.86,5.26,20.04;9,494.89,698.94,5.26,3.00;9,494.45,693.73,5.52,3.29;9,494.89,683.41,5.26,8.40;9,494.89,667.33,5.26,14.16;9,494.89,642.61,5.26,22.80;9,494.89,609.01,5.26,31.68;9,494.89,591.13,5.26,15.96;9,494.89,586.21,5.26,3.00;9,494.45,580.99,5.52,3.29;9,494.89,574.15,5.26,4.92;9,494.89,569.35,5.26,2.88;9,494.89,535.63,5.26,31.80;9,494.89,530.71,5.26,3.00;9,494.45,525.50,5.52,3.29;9,494.89,515.18,5.26,8.40;9,494.89,508.34,5.26,4.92;9,494.89,503.54,5.26,2.88;9,494.89,469.82,5.26,31.80;9,494.89,440.78,5.26,27.12;9,494.89,422.90,5.26,15.96;9,494.89,417.98,5.26,3.00;9,494.45,412.76,5.52,3.29;9,494.89,384.56,5.26,26.28;9,494.89,379.64,5.26,3.00;9,494.45,374.43,5.52,3.29;9,494.89,364.23,5.26,8.28;9,494.89,353.91,5.26,8.40;9,494.89,329.07,5.26,22.92;9,494.89,315.03,5.26,12.12;9,494.89,302.91,5.26,10.20;9,494.89,297.03,5.26,3.96;9,494.89,282.99,5.26,12.12;9,494.89,273.87,5.26,7.20;9,494.89,238.47,5.26,33.48;9,494.89,220.11,5.26,16.44;9,494.89,192.15,5.26,26.04;9,494.89,185.67,5.26,4.56;9,494.89,175.71,5.26,8.04;9,494.89,161.67,5.26,12.12;9,494.89,128.31,5.26,31.44;9,494.89,121.47,5.26,4.92;9,494.89,111.51,5.26,8.04;9,494.89,72.39,5.26,37.20;9,494.89,54.75,5.26,15.72;9,494.89,45.63,5.26,7.20;9,502.39,715.98,5.26,7.92;9,502.39,685.74,5.26,28.32;9,502.39,674.22,5.26,9.60;9,502.39,642.06,5.26,30.24;9,502.39,611.82,5.26,28.32;9,502.39,600.30,5.26,9.60;9,502.39,587.82,5.26,10.56;9,502.39,578.70,5.26,7.20;9,502.39,563.34,5.26,13.44;9,502.39,532.86,5.26,28.56;9,502.39,510.06,5.26,20.88;9,502.39,502.98,5.26,5.16;9,502.39,468.66,5.26,32.40;9,502.39,450.78,5.26,15.96;9,502.39,433.02,5.26,15.84;9,502.39,423.06,5.26,8.04;9,502.39,402.54,5.26,18.60;9,502.39,379.86,5.26,20.76;9,502.39,372.78,5.26,5.16;9,502.39,351.54,5.26,19.32;9,502.39,333.42,5.26,16.20;9,502.39,324.78,5.26,6.72;9,502.39,295.26,5.26,27.60;9,502.39,269.10,5.26,24.24;9,502.39,261.54,5.26,5.64;9,501.95,256.33,5.52,3.29;9,502.39,226.09,5.26,28.32;9,502.39,203.53,5.26,20.64"><p>13,261 13,070 8,590 8,491 8,491 8,483 8,486 Note: Testing effect: respective wave number for each participant. Gender: 1 = male, 0 = female. Sexual orientation: 1 = homosexual, 0 = heterosexual. Marital status: 1 = married/civil partnership, 0 = not married. Coresident status: 1 = living together with partner, 0 = not living together. Relationship status: 1 = in a relationship, 0 = not in a relationship. Separation status: 1 = separated, 0 = did not separate. Bold font is used for event-related effects significant at the level prespecified in the preregistration (.0125 for life satisfaction and relationship satisfaction and .005 for other outcomes). Number of observations differs across the models because of missing values on dependent variables. CI = confidence interval.</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Transparency Action Editor: <rs type="person">Paul Jose</rs> Editor: <rs type="person">Patricia J. Bauer Author</rs> Contributions <rs type="person">O. Stavrova</rs> contributed to the following aspects: Conceptualization; Data curation; Formal analysis; Investigation; Methodology; Visualization; Writing -original draft. <rs type="person">T. Pronk</rs> contributed to the following aspects: Conceptualization; Writing -review &amp; editing. <rs type="person">J. Denissen</rs> contributed to the following aspects: Conceptualization; Formal analysis; Methodology; Writing -review &amp; editing.</p></div>
+<div><head>Declaration of Conflicting Interests</head><p>The author(s) declared that there were no conflicts of interest with respect to the authorship or the publication of this article.</p></div>
+<div><head>Open Practices</head><p>All data have been made publicly available via the Open Science Framework and can be accessed at osf.io/fqm84. This article has received the badges for Open Data, Open Materials, and Preregistration. More information about the Open Practices badges can be found at <ref type="url" coords="25,507.18,637.38,47.68,7.88;25,322.50,648.37,186.97,7.88" target="http://www.psychologicalscience.org/publications/badges">http://www  .psycho logicalscience.org/publications/badges</ref>.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The confidence bands represent the 95% confidence intervals obtained using the SjPlot package. The plots were created using the gam smoothing function of the ggplot2 package.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplemental Material</head><p>Additional supporting information can be found at <ref type="url" coords="26,266.09,85.40,26.30,7.88;26,48.00,96.39,244.57,7.88" target="http://journals.sagepub.com/doi/suppl/10.1177/09567976221116892">http://  journals.sagepub.com/doi/suppl/10.1177/09567976221116892</ref> Notes 1. Participants were asked whether the relationship they reported during the last wave was still ongoing (with the exception of Waves 1 and 2). We report the descriptive statistics regarding the separation status in Table <ref type="table" coords="26,148.31,165.39,3.40,7.88">1</ref>.</p><p>2. Using age at study onset (instead of age as a time-varying variable) provided similar results (see the Supplemental Material).</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="26,48.00,224.40,244.65,7.88;26,64.00,235.39,228.46,7.88;26,64.00,246.39,228.53,7.88;26,64.00,257.39,109.67,7.88" status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coords="26,188.08,224.40,104.57,7.88;26,64.00,235.39,193.06,7.88">The association of divorce and extramarital sex in a representative U.S. sample</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">S</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">C</forename><surname>Atkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0192513x12439692</idno>
+		<ptr target="https://doi.org/10.1177/0192513x12439692" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,263.24,235.39,29.21,7.88;26,64.00,246.39,67.41,7.88">Journal of Family Issues</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1477" to="1493" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,48.00,268.39,244.72,7.88;26,64.00,279.39,228.53,7.88;26,64.00,290.38,228.33,7.88;26,64.00,301.38,228.34,7.88;26,64.00,312.38,228.56,7.88;26,64.00,323.38,29.36,7.88" status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coords="26,178.70,279.39,113.83,7.88;26,64.00,290.38,228.33,7.88;26,64.00,301.38,95.23,7.88">Intrapersonal, interpersonal, and contextual factors in engaging in and responding to extramarital involvement</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">S</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">C</forename><surname>Atkins</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">H</forename><surname>Baucom</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">K</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">C</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">P</forename><surname>Glass</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/clipsy.bpi014</idno>
+		<ptr target="https://doi.org/10.1093/clipsy.bpi014" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,165.68,301.38,126.66,7.88;26,64.00,312.38,31.25,7.88">Clinical Psychology: Science and Practice</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="101" to="130" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,48.00,334.38,244.34,7.88;26,64.00,345.37,228.70,7.88;26,64.00,356.37,228.49,7.88;26,64.00,367.37,216.60,7.88" status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coords="26,253.25,345.37,39.45,7.88;26,64.00,356.37,116.53,7.88">Premarital precursors of marital infidelity</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">S</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">K</forename><surname>Rhoades</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Stanley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">J</forename><surname>Markman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Melton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">L</forename><surname>Clements</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1545-5300.2008.00251.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1545-5300.2008.00251.x" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,186.11,356.37,55.91,7.88">Family Process</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="243" to="259" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,48.00,378.37,244.69,7.88;26,64.00,389.37,228.35,7.88;26,64.00,400.36,228.44,7.88;26,64.00,411.36,130.46,7.88" status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coords="26,182.71,378.37,109.98,7.88;26,64.00,389.37,224.14,7.88">People&apos;s reasons for divorcing: Gender, social class, the life course, and adjustment</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">R</forename><surname>Amato</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Previti</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0192513X03254507</idno>
+		<ptr target="https://doi.org/10.1177/0192513X03254507" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,64.00,400.36,102.87,7.88">Journal of Family Issues</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="602" to="626" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,48.00,422.36,244.69,7.88;26,64.00,433.36,228.32,7.88;26,64.00,444.36,228.47,7.88;26,64.00,455.35,228.44,7.88;26,64.00,466.35,54.58,7.88" status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coords="26,93.53,433.36,198.79,7.88;26,64.00,444.36,84.92,7.88">Infidelity and behavioral couple therapy: Optimism in the face of betrayal</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">C</forename><surname>Atkins</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">A</forename><surname>Eldridge</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">H</forename><surname>Baucom</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Christensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-006x.73.1.144</idno>
+		<ptr target="https://doi.org/10.1037/0022-006x.73.1.144" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,155.35,444.36,137.12,7.88;26,64.00,455.35,41.20,7.88">Journal of Consulting and Clinical Psychology</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="144" to="150" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,48.00,477.35,244.58,7.88;26,64.00,488.35,228.49,7.88;26,64.00,499.35,228.36,7.88;26,64.00,510.34,228.50,7.88;26,64.00,521.34,191.77,7.88" status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coords="26,128.55,477.35,164.03,7.88;26,64.00,488.35,228.49,7.88;26,64.00,499.35,228.36,7.88;26,64.00,510.34,51.02,7.88">Statistical criteria for selecting the optimal number of untreated subjects matched to each treated subject when using many-to-one matching on the propensity score</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">C</forename><surname>Austin</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/aje/kwq224</idno>
+		<ptr target="https://doi.org/10.1093/aje/kwq224" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,121.65,510.34,134.91,7.88">American Journal of Epidemiology</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1092" to="1097" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,48.00,532.34,244.68,7.88;26,64.00,543.34,228.57,7.88;26,64.00,554.34,228.37,7.88;26,64.00,565.33,228.66,7.88;26,64.00,576.33,27.99,7.88" status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coords="26,139.44,532.34,153.24,7.88;26,64.00,543.34,228.57,7.88;26,64.00,554.34,84.22,7.88">An introduction to propensity score methods for reducing the effects of confounding in observational studies</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">C</forename><surname>Austin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00273171.2011.568786</idno>
+		<ptr target="https://doi.org/10.1080/00273171.2011.568786" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,155.64,554.34,132.52,7.88">Multivariate Behavioral Research</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="399" to="424" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,48.00,587.33,244.30,7.88;26,64.00,598.33,228.35,7.88;26,64.00,609.33,228.59,7.88;26,64.00,620.32,228.47,7.88;26,64.00,631.32,172.24,7.88" status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coords="26,193.46,587.33,98.84,7.88;26,64.00,598.33,228.35,7.88;26,64.00,609.33,191.93,7.88">Motivations for infidelity in heterosexual dating couples: The roles of gender, personality differences, and sociosexual orientation</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">D</forename><surname>Barta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Kiene</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0265407505052440</idno>
+		<ptr target="https://doi.org/10.1177/0265407505052440" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,262.46,609.33,30.13,7.88;26,64.00,620.32,153.49,7.88">Journal of Social and Personal Relationships</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="339" to="360" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,48.00,642.32,244.52,7.88;26,64.00,653.32,228.34,7.88;26,64.00,664.32,228.30,7.88;26,64.00,675.31,228.31,7.88;26,64.00,686.31,228.31,7.88;26,64.00,697.31,228.48,7.88;26,64.00,708.31,210.74,7.88" status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coords="26,147.46,664.32,144.85,7.88;26,64.00,675.31,228.31,7.88;26,64.00,686.31,228.31,7.88;26,64.00,697.31,101.24,7.88">The relationship between the motivation to commit infidelity and negative affect and selfesteem: How cheating in romance might signal positive well-being in adolescents</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">M</forename><surname>Beltrán-Morillas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Alonso-Ferres</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Garrido-Macías</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Villanueva-Moya</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">D</forename><surname>Sánchez-Hernández</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Expósito</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0033294120973947</idno>
+		<ptr target="https://doi.org/10.1177/0033294120973947" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,172.41,697.31,83.79,7.88">Psychological Reports</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="517" to="544" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,48.00,719.31,244.37,7.88;26,64.00,730.30,228.47,7.88;26,326.51,69.60,228.42,7.88;26,326.51,80.60,186.12,7.88" status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coords="26,124.05,719.31,168.32,7.88;26,64.00,730.30,56.31,7.88">Causes of conjugal dissolution: A crosscultural study</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Betzig</surname></persName>
+		</author>
+		<ptr target="http://search.ebscohost.com/login.aspx?direct=true&amp;db=psyh&amp;AN=1990-09592-001&amp;site=ehost-live" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,129.20,730.30,88.54,7.88">Current Anthropology</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="654" to="676" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,91.60,244.31,7.88;26,326.51,102.60,228.44,7.88;26,326.51,113.60,228.42,7.88;26,326.51,124.59,162.14,7.88" status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coords="26,466.15,91.60,88.67,7.88;26,326.51,102.60,176.69,7.88">Infidelity in committed relationships II: A substantive review</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">J</forename><surname>Blow</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Hartnett</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1752-0606.2005.tb01556.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1752-0606.2005.tb01556.x" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,512.41,102.60,42.53,7.88;26,326.51,113.60,111.96,7.88">Journal of Marital and Family Therapy</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="217" to="233" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,135.59,244.62,7.88;26,326.51,146.59,228.39,7.88;26,326.51,157.59,228.66,7.88;26,326.51,168.59,178.56,7.88" status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coords="26,326.51,146.59,228.39,7.88;26,326.51,157.59,107.95,7.88">Personality and mate preferences: Five factors in mate selection and marital satisfaction</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">D</forename><surname>Botwin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">M</forename><surname>Buss</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">K</forename><surname>Shackelford</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-6494.ep9709060970</idno>
+		<ptr target="https://doi.org/10.1111/1467-6494" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,440.63,157.59,84.24,7.88">Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="107" to="136" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,505.06,168.59,50.09,7.88" status="extracted"  xml:id="b12">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1111/1467-6494.ep9709060970</idno>
+		<idno>ep9709060970</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,179.58,244.32,7.88;26,326.51,190.58,228.65,7.88;26,326.51,201.58,228.67,7.88;26,326.51,212.58,228.40,7.88;26,326.51,223.58,228.34,7.88;26,326.51,234.57,228.33,7.88;26,326.51,245.57,208.46,7.88" status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coords="26,405.42,223.58,149.43,7.88;26,326.51,234.57,80.48,7.88">The German Family Panel (PAIRFAM) (GESIS Data Archive</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Brüderl</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">ˇ</forename><surname>Drobnic</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Hank</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Neyer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Walper</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Alt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Bozoyan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Finn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Frister</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Garrett</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Gonzalez Avilés</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Greischel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Gröpler</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Hajek</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Herzig</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Huyer-May</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Lenke</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Minkus</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">.</forename><forename type="middle">.</forename><surname>Wilhelm</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename></persName>
+		</author>
+		<idno type="DOI">10.4232/pairfam.5678.11.0.0</idno>
+		<ptr target="https://doi.org/10.4232/pairfam.5678.11.0.0" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,452.76,234.57,102.08,7.88">5678 Data File Version</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">0</biblScope>
+			<date type="published" when="2020">2020</date>
+			<pubPlace>Cologne. ZA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,256.57,244.31,7.88;26,326.51,267.57,228.49,7.88;26,326.51,278.57,228.42,7.88;26,326.51,289.56,143.48,7.88" status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coords="26,399.39,256.57,155.42,7.88;26,326.51,267.57,175.80,7.88">Interpersonal expectations, expectancy violations, and emotional communication</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">K</forename><surname>Burgoon</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0261927X93121003</idno>
+		<ptr target="https://doi.org/10.1177/0261927X93121003" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,512.27,267.57,42.72,7.88;26,326.51,278.57,127.40,7.88">Journal of Language and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="30" to="48" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,300.56,244.35,7.88;26,326.51,311.56,228.33,7.88;26,326.51,322.56,228.30,7.88;26,326.51,333.56,165.29,7.88" status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coords="26,452.16,300.56,102.69,7.88;26,326.51,311.56,228.33,7.88;26,326.51,322.56,137.69,7.88">Infidelity and separations precipitate major depressive episodes and symptoms of nonspecific depression and anxiety</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Cano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">D</forename><surname>Leary</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,470.61,322.56,84.20,7.88;26,326.51,333.56,95.16,7.88">Journal of Consulting and Clinical Psychology</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="774" to="781" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,344.55,244.26,7.88;26,326.51,355.55,228.29,7.88;26,326.51,366.55,228.46,7.88;26,326.51,377.55,176.94,7.88" status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coords="26,389.24,344.55,165.53,7.88;26,326.51,355.55,228.29,7.88;26,326.51,366.55,37.24,7.88">Distal and proximal influences on the risk of extramarital sex: A prospective study of longer duration marriages</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Demaris</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00224490902915993</idno>
+		<ptr target="https://doi.org/10.1080/00224490902915993" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,371.78,366.55,111.87,7.88">The Journal of Sex Research</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="597" to="607" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,388.55,244.31,7.88;26,326.51,399.54,228.35,7.88;26,326.51,410.54,228.36,7.88;26,326.51,421.54,228.40,7.88;26,326.51,432.54,87.26,7.88" status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coords="26,358.70,399.54,196.16,7.88;26,326.51,410.54,133.31,7.88">Transactions between life events and personality traits across the adult lifespan</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J A</forename><surname>Denissen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Bleidorn</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/pspp0000196</idno>
+		<ptr target="https://doi.org/10.1037/pspp0000196" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,466.94,410.54,87.92,7.88;26,326.51,421.54,87.31,7.88">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="612" to="633" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,443.54,244.53,7.88;26,326.51,454.53,228.31,7.88;26,326.51,465.53,228.46,7.88;26,326.51,476.53,173.54,7.88" status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coords="26,543.96,443.54,11.07,7.88;26,326.51,454.53,191.77,7.88">An investment model prediction of dating infidelity</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Drigotas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">A</forename><surname>Safstrom</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Gentilia</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-3514.77.3.509</idno>
+		<ptr target="https://doi.org/10.1037/0022-3514.77.3.509" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,524.63,454.53,30.19,7.88;26,326.51,465.53,153.46,7.88">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="509" to="524" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,487.53,244.31,7.88;26,326.51,498.53,228.47,7.88;26,326.51,509.52,179.51,7.88" status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coords="26,468.42,487.53,86.40,7.88;26,326.51,498.53,50.03,7.88">Infidelity in romantic relationships</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">D</forename><surname>Fincham</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">W</forename><surname>May</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.copsyc.2016.03.008</idno>
+		<ptr target="https://doi.org/10.1016/j.copsyc.2016.03.008" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,383.57,498.53,122.51,7.88">Current Opinion in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="70" to="74" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,520.52,244.32,7.88;26,326.51,531.52,228.65,7.88;26,326.51,542.52,228.36,7.88;26,326.51,553.52,228.51,7.88;26,326.50,564.51,110.79,7.88" status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coords="26,357.06,531.52,198.10,7.88;26,326.51,542.52,134.20,7.88">Dealing with betrayal in close relationships: Does commitment promote forgiveness</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">J</forename><surname>Finkel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">E</forename><surname>Rusbult</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Kumashiro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">A</forename><surname>Hannon</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-3514.82.6.956</idno>
+		<ptr target="https://doi.org/10.1037/0022-3514.82.6.956" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,467.66,542.52,87.20,7.88;26,326.51,553.52,89.17,7.88">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="956" to="974" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.49,575.51,244.31,7.88;26,326.50,586.51,228.49,7.88;26,326.50,597.51,228.54,7.88;26,326.50,608.51,228.49,7.88;26,326.51,619.50,210.74,7.88" status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coords="26,454.06,575.51,100.75,7.88;26,326.50,586.51,228.49,7.88;26,326.50,597.51,228.54,7.88;26,326.50,608.51,9.22,7.88">It did not mean anything (about me): Cognitive dissonance theory and the cognitive and affective consequences of romantic infidelity</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">D</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">A</forename><surname>Misra</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0265407512472324</idno>
+		<ptr target="https://doi.org/10.1177/0265407512472324" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,342.74,608.51,180.16,7.88">Journal of Social and Personal Relationships</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="835" to="857" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,630.50,244.52,7.88;26,326.51,641.50,228.54,7.88;26,326.51,652.50,228.48,7.88;26,326.51,663.50,210.74,7.88" status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coords="26,486.24,630.50,68.79,7.88;26,326.51,641.50,224.40,7.88">The network of relationships inventory: Behavioral systems version</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Furman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Buhrmester</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0165025409342634</idno>
+		<ptr target="https://doi.org/10.1177/0165025409342634" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="26,326.51,652.50,196.30,7.88">International Journal of Behavioral Development</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="470" to="478" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,674.49,244.38,7.88;26,326.51,685.49,228.52,7.88;26,326.51,696.49,228.43,7.88;26,326.51,707.49,49.14,7.88" status="extracted"  xml:id="b23">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Gallup</surname></persName>
+		</author>
+		<ptr target="http://www.gallup.com/poll/105682/most-americans-willing-forgive-unfaithful-spouse.aspx" />
+		<title level="m" coords="26,381.35,674.49,173.53,7.88;26,326.51,685.49,116.48,7.88">Gallup poll: Most Americans not willing to forgive unfaithful spouse</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,310.50,718.49,244.40,7.88;26,326.51,729.48,228.45,7.88;27,64.00,69.69,228.44,7.88;27,64.00,80.69,228.49,7.88;27,64.00,91.69,18.61,7.88" status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coords="26,463.56,718.49,91.35,7.88;26,326.51,729.48,228.45,7.88;27,64.00,69.69,111.27,7.88">Skalen zum Investitionsmodell von Rusbult [Measuring components of the investment model by Rusbult</title>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Grau</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Mikula</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Engel</surname></persName>
+		</author>
+		<idno type="DOI">10.1024/0044-3514.32.1.29</idno>
+		<ptr target="https://doi.org/10.1024/0044-3514.32.1.29" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,185.09,69.69,107.35,7.88;27,64.00,80.69,16.70,7.88">Zeitschrift für Sozialpsychologie</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="29" to="44" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,102.69,244.31,7.88;27,64.00,113.68,228.51,7.88;27,64.00,124.68,228.43,7.88;27,64.00,135.68,142.22,7.88" status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coords="27,201.43,102.69,90.88,7.88;27,64.00,113.68,181.67,7.88">Psychological distress: Precursor or consequence of dating infidelity?</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">H</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">D</forename><surname>Fincham</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0146167208327189</idno>
+		<ptr target="https://doi.org/10.1177/0146167208327189" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,248.28,113.68,44.24,7.88;27,64.00,124.68,123.76,7.88">Personality and Social Psychology Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="143" to="159" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,146.68,244.30,7.88;27,64.00,157.68,228.60,7.88;27,64.00,168.67,198.02,7.88" status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coords="27,259.95,146.68,32.35,7.88;27,64.00,157.68,228.60,7.88;27,64.00,168.67,17.05,7.88">MatchIt: Nonparametric preprocessing for parametric causal inference</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">E</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Imai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">A</forename><surname>Stuart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,88.61,168.67,117.47,7.88">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1" to="28" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,179.67,244.49,7.88;27,64.00,190.67,228.39,7.88;27,64.00,201.67,228.30,7.88;27,64.00,212.67,228.59,7.88;27,64.00,223.66,160.15,7.88" status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coords="27,173.96,190.67,118.43,7.88;27,64.00,201.67,228.30,7.88;27,64.00,212.67,87.80,7.88">Panel Analysis of Intimate Relationships and Family Dynamics (PAIRFAM): Conceptual framework and design</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Huinink</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Brüderl</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Nauck</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Walper</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Castiglioni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Feldhaus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,158.33,212.67,134.26,7.88;27,64.00,223.66,106.65,7.88">Zeitschrift für Familienforschung/ Journal of Family Research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="77" to="101" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,234.66,244.56,7.88;27,64.00,245.66,228.47,7.88;27,64.00,256.66,228.49,7.88;27,64.00,267.66,189.13,7.88" status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coords="27,224.11,234.66,68.45,7.88;27,64.00,245.66,228.47,7.88;27,64.00,256.66,93.32,7.88">The longitudinal course of marital quality and stability: A review of theory, methods, and research</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">R</forename><surname>Karney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">N</forename><surname>Bradbury</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-2909.118.1.3</idno>
+		<ptr target="https://doi.org/10.1037/0033-2909.118.1" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,165.72,256.66,89.01,7.88">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="34" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,278.65,244.60,7.88;27,64.00,289.65,228.46,7.88;27,64.00,300.65,228.52,7.88;27,64.00,311.65,228.35,7.88;27,64.00,322.65,78.62,7.88" status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coords="27,192.59,278.65,100.01,7.88;27,64.00,289.65,148.18,7.88">Patterns of change in marital satisfaction over the newlywed years</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">A</forename><surname>Lavner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">N</forename><surname>Bradbury</surname></persName>
+		</author>
+		<ptr target="http://search.ebscohost.com/login.aspx?direct=true&amp;db=psyh&amp;AN=2010-20850-009&amp;site=ehost-live" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,217.75,289.65,74.72,7.88;27,64.00,300.65,45.80,7.88">Journal of Marriage and Family</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1171" to="1187" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,333.64,244.31,7.88;27,64.00,344.64,228.48,7.88;27,64.00,355.64,228.48,7.88;27,64.00,366.64,226.33,7.88" status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coords="27,117.59,333.64,174.73,7.88;27,64.00,344.64,228.48,7.88;27,64.00,355.64,27.91,7.88">Adaptation and the set-point model of subjective well-being: Does happiness change after major life events?</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Lucas</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-8721.2007.00479.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1467-8721.2007.00479.x" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,94.42,355.64,168.01,7.88">Current Directions in Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="75" to="79" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,377.64,244.73,7.88;27,64.00,388.63,228.33,7.88;27,64.00,399.63,228.66,7.88;27,64.00,410.63,202.81,7.88" status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coords="27,64.00,388.63,228.33,7.88;27,64.00,399.63,30.72,7.88">Subjective well-being and adaptation to life events: A metaanalysis</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Eid</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Lucas</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0025948</idno>
+		<ptr target="https://doi.org/10.1037/a0025948" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,103.02,399.63,185.45,7.88">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="592" to="615" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,421.63,244.33,7.88;27,64.00,432.63,228.33,7.88;27,64.00,443.62,228.42,7.88;27,64.00,454.62,135.20,7.88" status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coords="27,242.00,421.63,50.33,7.88;27,64.00,432.63,228.33,7.88;27,64.00,443.62,19.33,7.88">The benefits of frequent positive affect: Does happiness lead to success?</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Lyubomirsky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Diener</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-2909.131.6.803</idno>
+		<ptr target="https://doi.org/10.1037/0033-2909.131.6.803" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,86.13,443.62,86.82,7.88">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="803" to="855" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,465.62,244.30,7.88;27,64.00,476.62,228.41,7.88;27,64.00,487.62,228.31,7.88;27,64.00,498.61,228.52,7.88;27,64.00,509.61,186.71,7.88" status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coords="27,202.44,476.62,89.97,7.88;27,64.00,487.62,228.31,7.88;27,64.00,498.61,35.05,7.88">Predictors of extradyadic sexual involvement in unmarried opposite-sex relationships</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">M</forename><surname>Maddox Shaw</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">K</forename><surname>Rhoades</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">S</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Stanley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">J</forename><surname>Markman</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00224499.2012.666816</idno>
+		<ptr target="https://doi.org/10.1080/00224499.2012.666816" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,107.16,498.61,113.22,7.88">The Journal of Sex Research</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="598" to="610" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,520.61,244.29,7.88;27,64.00,531.61,228.53,7.88;27,64.00,542.61,228.56,7.88;27,64.00,553.60,42.08,7.88" status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coords="27,189.54,520.61,102.74,7.88;27,64.00,531.61,175.56,7.88">Understanding infidelity: Pitfalls and lessons for couples counselors</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">R</forename><surname>Peluso</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Spina</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1066480708323282</idno>
+		<ptr target="https://doi.org/10.1177/1066480708323282" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,247.74,531.61,44.79,7.88;27,64.00,542.61,28.62,7.88">The Family Journal</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="324" to="327" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,564.60,244.35,7.88;27,64.00,575.60,228.47,7.88;27,64.00,586.60,228.45,7.88;27,64.00,597.60,129.20,7.88" status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coords="27,192.09,564.60,100.26,7.88;27,64.00,575.60,155.09,7.88">Is infidelity a cause or a consequence of poor marital quality?</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Previti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">R</forename><surname>Amato</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0265407504041384</idno>
+		<ptr target="https://doi.org/10.1177/0265407504041384" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,223.38,575.60,69.09,7.88;27,64.00,586.60,109.37,7.88">Journal of Social and Personal Relationships</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="217" to="230" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,608.59,244.40,7.88;27,64.00,619.59,108.47,7.88" status="extracted"  xml:id="b36">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<title level="m" coords="27,140.70,608.59,147.81,7.88">Society and the adolescent self-image</title>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,630.59,244.31,7.88;27,64.00,641.59,228.49,7.88;27,64.00,652.59,228.64,7.88;27,64.00,663.58,228.47,7.88;27,64.00,674.58,183.85,7.88" status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coords="27,133.41,641.59,159.08,7.88;27,64.00,652.59,224.31,7.88">Accommodation processes in close relationships: Theory and preliminary empirical evidence</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">E</forename><surname>Rusbult</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Verette</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">A</forename><surname>Whitney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">F</forename><surname>Slovik</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Lipkus</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-3514.60.1.53</idno>
+		<ptr target="https://doi.org/10.1037/0022-3514.60.1.53" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,64.00,663.58,179.11,7.88">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="53" to="78" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,48.00,685.58,244.44,7.88;27,64.00,696.58,228.65,7.88;27,64.00,707.58,228.32,7.88;27,64.00,718.57,228.33,7.88;27,326.50,69.58,228.33,7.88;27,326.50,80.57,107.14,7.88" status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coords="27,191.62,685.58,100.82,7.88;27,64.00,696.58,228.65,7.88;27,64.00,707.58,228.32,7.88;27,64.00,718.57,228.33,7.88;27,326.50,69.58,220.84,7.88">Die deutsche Form der Relationship Assessment Scale (RAS): Eine kurze Messung der Zufriedenheit in der Partnerschaft [The German version of the Relationship Assessment Scale (RAS): A short scale for measuring satisfaction in a dyadic relationship</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Sander</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Böcker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,326.50,80.57,46.39,7.88">Diagnostica</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="62" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.51,91.57,244.31,7.88;27,326.51,102.57,228.49,7.88;27,326.51,113.57,228.69,7.88;27,326.51,124.57,228.48,7.88;27,326.51,135.56,209.68,7.88" status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coords="27,448.73,102.57,106.27,7.88;27,326.51,113.57,228.69,7.88;27,326.51,124.57,77.04,7.88">Changes in the sexual relationship and relationship adjustment precede extradyadic sexual involvement</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">B</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Parsons</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">M</forename><surname>Post</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Stanley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">J</forename><surname>Markman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">K</forename><surname>Rhoades</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10508-016-0797-0</idno>
+		<ptr target="https://doi.org/10.1007/s10508-016-0797-0" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,411.62,124.57,111.19,7.88">Archives of Sexual Behavior</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="395" to="406" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.51,146.56,244.30,7.88;27,326.51,157.56,228.33,7.88;27,326.51,168.56,228.46,7.88;27,326.51,179.56,35.23,7.88" status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coords="27,508.55,146.56,46.26,7.88;27,326.51,157.56,129.46,7.88">Motivations for extradyadic infidelity revisited</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Selterman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">R</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Tsapelas</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00224499.2017.1393494</idno>
+		<ptr target="https://doi.org/10.1080/00224499.2017.1393494" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,461.91,157.56,88.83,7.88">Journal of Sex Research</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="273" to="286" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.51,190.55,244.38,7.88;27,326.51,201.55,228.64,7.88;27,326.51,212.55,228.33,7.88;27,326.51,223.55,228.48,7.88;27,326.51,234.55,228.39,7.88;27,326.50,245.54,129.92,7.88" status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coords="27,533.76,190.55,21.13,7.88;27,326.51,201.55,228.64,7.88;27,326.51,212.55,228.33,7.88;27,326.51,223.55,179.27,7.88">What do people do, say, and feel when they have affairs? Associations between extradyadic infidelity motives with behavioral, emotional, and sexual outcomes</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Selterman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">R</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Tsapelas</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/0092623X.2020.1856987</idno>
+		<ptr target="https://doi.org/10.1080/0092623X.2020.1856987" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,514.22,223.55,40.78,7.88;27,326.51,234.55,89.64,7.88">Journal of Sex &amp; Marital Therapy</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="238" to="252" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.50,256.54,244.34,7.88;27,326.50,267.54,228.47,7.88;27,326.50,278.54,196.65,7.88" status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coords="27,515.28,256.54,39.56,7.88;27,326.50,267.54,85.18,7.88">Emotional reactions to infidelity</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">K</forename><surname>Shackelford</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">J</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Drass</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02699930050117657</idno>
+		<ptr target="https://doi.org/10.1080/02699930050117657" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,418.51,267.54,82.41,7.88">Cognition &amp; Emotion</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="643" to="659" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.50,289.54,244.30,7.88;27,326.50,300.53,228.47,7.88;27,326.50,311.53,228.63,7.88;27,326.50,322.53,228.47,7.88;27,326.50,333.53,129.20,7.88" status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main" coords="27,468.56,289.54,86.24,7.88;27,326.50,300.53,228.47,7.88;27,326.50,311.53,157.98,7.88">Infidelity&apos;s aftermath: Appraisals, mental health, and health-compromising behaviors following a partner&apos;s infidelity</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">R</forename><surname>Shrout</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">J</forename><surname>Weigel</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0265407517704091</idno>
+		<ptr target="https://doi.org/10.1177/0265407517704091" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,490.38,311.53,64.76,7.88;27,326.50,322.53,105.86,7.88">Journal of Social and Personal Relationships</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1067" to="1091" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.50,344.53,244.66,7.88;27,326.50,355.52,228.42,7.88;27,326.50,366.52,66.89,7.88" status="extracted"  xml:id="b44">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">D</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">B</forename><surname>Willett</surname></persName>
+		</author>
+		<title level="m" coords="27,452.59,344.53,102.56,7.88;27,326.50,355.52,192.79,7.88">Applied longitudinal data analysis: Modeling change and event occurrence</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.50,377.52,244.31,7.88;27,326.50,388.52,228.50,7.88;27,326.50,399.52,228.39,7.88;27,326.50,410.51,119.27,7.88" status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main" coords="27,458.93,377.52,95.89,7.88;27,326.50,388.52,176.68,7.88">Social connectedness as a source and consequence of meaning in life</title>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Stavrova</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Luhmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17439760.2015.1117127</idno>
+		<ptr target="https://doi.org/10.1080/17439760.2015.1117127" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,508.74,388.52,46.27,7.88;27,326.50,399.52,84.27,7.88">The Journal of Positive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="470" to="479" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.50,421.51,244.37,7.88;27,326.50,432.51,228.36,7.88;27,326.50,443.51,228.43,7.88;27,326.50,454.51,156.69,7.88" status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main" coords="27,472.72,421.51,82.15,7.88;27,326.50,432.51,224.24,7.88">A systematic review of propensity score methods in the social sciences</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">J</forename><surname>Thoemmes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00273171.2011.540475</idno>
+		<ptr target="https://doi.org/10.1080/00273171.2011.540475" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,326.50,443.51,131.19,7.88">Multivariate Behavioral Research</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="90" to="118" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.50,465.50,244.30,7.88;27,326.50,476.50,228.33,7.88;27,326.50,487.50,228.33,7.88;27,326.50,498.50,228.47,7.88;27,326.50,509.50,215.82,7.88" status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main" coords="27,513.07,465.50,41.72,7.88;27,326.50,476.50,228.33,7.88;27,326.50,487.50,228.33,7.88;27,326.50,498.50,55.90,7.88">Examining variations in participation and outcomes of consensual and nonconsensual extradyadic behavior among Ashley Madison users</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">E</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Wilder</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Kulibert</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00224499.2021.1908509</idno>
+		<ptr target="https://doi.org/10.1080/00224499.2021.1908509" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,389.13,498.50,108.42,7.88">The Journal of Sex Research</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1194" to="1204" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.50,520.49,244.26,7.88;27,326.50,531.49,228.56,7.88;27,326.50,542.49,228.43,7.88;27,326.50,553.49,228.47,7.88;27,326.50,564.49,97.79,7.88" status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main" coords="27,539.71,520.49,15.05,7.88;27,326.50,531.49,228.56,7.88;27,326.50,542.49,138.26,7.88">The longitudinal association between forgiveness and relationship closeness and commitment</title>
+		<author>
+			<persName coords=""><forename type="first">J.-A</forename><surname>Tsang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">E</forename><surname>Mccullough</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">D</forename><surname>Fincham</surname></persName>
+		</author>
+		<idno type="DOI">10.1521/jscp.2006.25.4.448</idno>
+		<ptr target="https://doi.org/10.1521/jscp.2006.25.4.448" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,471.98,542.49,82.95,7.88;27,326.50,553.49,78.09,7.88">Journal of Social and Clinical Psychology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="448" to="472" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.50,575.48,244.30,7.88;27,326.50,586.48,228.46,7.88;27,326.50,597.48,228.32,7.88;27,326.50,608.48,228.47,7.88;27,326.51,619.48,192.13,7.88" status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main" coords="27,472.16,575.48,82.64,7.88;27,326.50,586.48,228.46,7.88;27,326.50,597.48,228.32,7.88;27,326.50,608.48,70.64,7.88">Extradyadic sex and psychological distress among married and cohabiting young adults: An examination of internalized and externalized responses</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">R</forename><surname>Wenger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">L</forename><surname>Frisco</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0192513x20927766</idno>
+		<ptr target="https://doi.org/10.1177/0192513x20927766" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,405.13,608.48,96.14,7.88">Journal of Family Issues</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="785" to="812" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.51,630.47,244.53,7.88;27,326.51,641.47,228.40,7.88;27,326.51,652.47,228.54,7.88;27,326.51,663.47,143.51,7.88" status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main" coords="27,415.03,630.47,140.01,7.88;27,326.51,641.47,228.40,7.88;27,326.51,652.47,96.62,7.88">Discovery of a partner affair and major depressive episode in a probability sample of married or cohabiting adults</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Whisman</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/famp.12185</idno>
+		<ptr target="https://doi.org/10.1111/famp.12185" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,429.57,652.47,57.09,7.88">Family Process</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="713" to="723" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,310.51,674.47,244.33,7.88;27,326.51,685.46,228.64,7.88;27,326.51,696.46,228.38,7.88;27,326.51,707.46,228.39,7.88;27,326.51,718.46,54.40,7.88" status="extracted"  xml:id="b51">
+	<analytic>
+		<title level="a" type="main" coords="27,357.00,685.46,198.15,7.88;27,326.51,696.46,85.61,7.88">Commitment, pro-relationship behavior, and trust in close relationships</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Wieselquist</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">E</forename><surname>Rusbult</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">A</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">R</forename><surname>Agnew</surname></persName>
+		</author>
+		<idno type="DOI">10.1037//0022-3514.77.5.942</idno>
+		<ptr target="https://doi.org/10.1037//0022-3514.77.5.942" />
+	</analytic>
+	<monogr>
+		<title level="j" coords="27,419.77,696.46,135.13,7.88;27,326.51,707.46,40.71,7.88">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="942" to="966" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
