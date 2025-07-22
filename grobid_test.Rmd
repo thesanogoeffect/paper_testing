@@ -1,0 +1,9 @@
+library(papercheck)
+
+{r}
+papercheck::pdf2grobid(
+    filename = "/home/jakub/Projects/paper_testing/documents_to_test/pdfs/kelders-et-al-2024.pdf",
+    grobid_url = "https://thesanogoeffect-grobid-papercheck.hf.space",
+    consolidateCitations = 0,
+    consolidateHeader = 0,
+    consolidateFunders = 0)
