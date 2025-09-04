@@ -17,7 +17,7 @@ CORRIGENDUM_PAPERS_START_DICT <- list( # maps for which papers we have to specif
     "0956797618795679.pdf" = 2,
     "0956797618815482.pdf" = 2,
     "0956797619830329.pdf" = 2,
-    "0956797620959594.pdf" = 4,
+    "0956797620959594.pdf" = 4
 )
 GROBID_VERSION_TO_ENDPOINT <- list(
     "0.8.2-delft" = "http://grobid-server.panda-pythagorean.ts.net:8100/",
