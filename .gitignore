@@ -6,6 +6,8 @@
 .RData
 .RDataTmp
 
+papercheck/
+
 # User-specific files
 .Ruserdata
 

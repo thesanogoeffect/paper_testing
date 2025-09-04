@@ -1,0 +1,49 @@
+# --- Configuration ---
+PDF_SOURCE_DIR <- 'papercheck/pdfs'
+OUTPUT_DIR <- 'papercheck/grobid_xmls'
+NTFY_URL <- 'https://ntfy.jakubwerner.com/papercheck'
+CORRIGENDUM_PAPERS_START_DICT <- list( # maps for which papers we have to specify start=X
+    "0956797617710785.pdf" = 6,
+    "0956797618795679.pdf" = 2,
+    "0956797618815482.pdf" = 2,
+    "0956797619830329.pdf" = 2,
+    "0956797620959594.pdf" = 4
+)
+GROBID_VERSION_TO_ENDPOINT <- list(
+    "0.8.2-delft" = "http://grobid-server.panda-pythagorean.ts.net:8100/",
+    "0.8.2-crf" = "http://grobid-server.panda-pythagorean.ts.net:8098/",
+    "0.8.3-delft" = "http://grobid-server.panda-pythagorean.ts.net:8080/",
+    "0.8.3-crf" = "http://grobid-server.panda-pythagorean.ts.net:8070/"
+)
+
+library(papercheck)
+
+# To spin up the Grobid server, first we need to send a GET request to papercheck.uk/start-grobid, and then wait up to 90 seconds
+library(httr)
+response <- httr::GET("https://papercheck.uk/start-grobid/", timeout(90), verbose())
+print(paste("Response status:", response$status_code))
+
+# Now, convert the PDFs with pdf2grobid into distinct subfolders for each of the grobid versions
+for (grobid_version in names(GROBID_VERSION_TO_ENDPOINT)) {
+    grobid_endpoint <- GROBID_VERSION_TO_ENDPOINT[[grobid_version]]
+    output_dir <- file.path(PDF_SOURCE_DIR, "grobid_xmls", grobid_version)
+    dir.create(output_dir, showWarnings = FALSE)
+    dir.create(paste0(output_dir, "unconsolidated"), showWarnings = FALSE)
+    # let's process all the files in the PDF_SOURCE_DIR
+    pdf_files <- list.files(PDF_SOURCE_DIR, pattern = "\\.pdf$", full.names = TRUE)
+    print(paste("Processing", length(pdf_files), "files with Grobid version", grobid_version))
+    for (pdf_file in pdf_files) {
+        papercheck::pdf2grobid(pdf_file, save_path = paste0(output_dir, "unconsolidated"),
+                           grobid_url = grobid_endpoint,
+                           start = ifelse(basename(pdf_file) %in% names(CORRIGENDUM_PAPERS_START_DICT),
+                                          CORRIGENDUM_PAPERS_START_DICT[[basename(pdf_file)]], -1),
+                           end = -1,
+                           consolidateCitations = 0,
+                           consolidateHeader = 0,
+                           consolidateFunders = 0)
+    }
+
+    # now, let's start with non-consolidation
+}
+
+library(ollamar) # will help us determine differences between XMLs

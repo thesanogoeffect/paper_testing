@@ -9,8 +9,8 @@ format: html
 
 ```{r}
 # --- Configuration ---
-PDF_SOURCE_DIR <- '~/Library/CloudStorage/Nextcloud-jakub@next.jakubwerner.com/papercheck/pdfs/psych_science_250_oa'
-OUTPUT_DIR <- '~/Library/CloudStorage/Nextcloud-jakub@next.jakubwerner.com/papercheck/grobid_xmls'
+PDF_SOURCE_DIR <- '~/dev/paper_testing/papercheck/pdfs/psych_science_250_oa'
+OUTPUT_DIR <- '~/dev/paper_testing/papercheck/grobid_xmls'
 NTFY_URL <- 'https://ntfy.jakubwerner.com/papercheck'
 CORRIGENDUM_PAPERS_START_DICT <- list( # maps for which papers we have to specify start=X
     "0956797617710785.pdf" = 6,
@@ -21,9 +21,9 @@ CORRIGENDUM_PAPERS_START_DICT <- list( # maps for which papers we have to specif
 )
 GROBID_VERSION_TO_ENDPOINT <- list(
     "0.8.2-delft" = "http://grobid-server.panda-pythagorean.ts.net:8100/",
-    "0.8.2-crf" = "http://grobid-server.panda-pythagorean.ts.net:8098/",
-    "0.8.3-delft" = "http://grobid-server.panda-pythagorean.ts.net:8080/",
-    "0.8.3-crf" = "http://grobid-server.panda-pythagorean.ts.net:8070/"
+    "0.8.2-crf" = "http://grobid-server.panda-pythagorean.ts.net:8098/"
+    # "0.8.3-delft" = "http://grobid-server.panda-pythagorean.ts.net:8080/",
+    # "0.8.3-crf" = "http://grobid-server.panda-pythagorean.ts.net:8070/"
 )
 
 library(papercheck)
@@ -33,34 +33,50 @@ To spin up the Grobid server, first we need to send a GET request to papercheck.
 
 ```{r}
 library(httr)
-response <- httr::GET("https://papercheck.uk/start-grobid/", timeout(90))
+response <- httr::GET("https://papercheck.uk/start-grobid/", timeout(90), verbose())
 print(paste("Response status:", response$status_code))
 
 ```
 
-Now, convert the PDFs with pdf2grobid into distinct subfolders for each of the grobid versions
+### Now, convert the PDFs with pdf2grobid into distinct subfolders for each of the grobid versions
+
+
+### First, without consolidation of citations, headers, and funders
+
+
 
 ```{r}
 
+pdf_files <- list.files(PDF_SOURCE_DIR, pattern = "\\.pdf$", full.names = TRUE)
+start_values <- CORRIGENDUM_PAPERS_START_DICT
+# for all other papers, start = 1
+
 for (grobid_version in names(GROBID_VERSION_TO_ENDPOINT)) {
     grobid_endpoint <- GROBID_VERSION_TO_ENDPOINT[[grobid_version]]
-    output_dir <- file.path(PDF_SOURCE_DIR, "grobid_xmls", grobid_version)
-    dir.create(output_dir, showWarnings = FALSE)
-    dir.create(paste0(output_dir, "unconsolidated"), showWarnings = FALSE)
+    file_path <- file.path(OUTPUT_DIR, paste0(grobid_version, "_unconsolidated"))
+    dir.create(file_path, showWarnings = FALSE, recursive = TRUE)
     # let's process all the files in the PDF_SOURCE_DIR
-    pdf_files <- list.files(PDF_SOURCE_DIR, pattern = "\\.pdf$", full.names = TRUE)
+    flush.console()
     print(paste("Processing", length(pdf_files), "files with Grobid version", grobid_version))
     for (pdf_file in pdf_files) {
-        papercheck::pdf2grobid(pdf_file, save_path = paste0(output_dir, "unconsolidated"),
+        print(paste("Processing file:", pdf_file))
+        flush.console()
+        pdf_basename <- basename(pdf_file)
+        papercheck::pdf2grobid(pdf_file, save_path = file_path,
                            grobid_url = grobid_endpoint,
-                           start = ifelse(basename(pdf_file) %in% names(CORRIGENDUM_PAPERS_START_DICT),
-                                          CORRIGENDUM_PAPERS_START_DICT[[basename(pdf_file)]], -1),
+                           start = start_values[[pdf_basename]],
                            end = -1,
                            consolidateCitations = 0,
                            consolidateHeader = 0,
                            consolidateFunders = 0)
+        Sys.sleep(5) # to avoid overwhelming the server
     }
+    httr::POST(NTFY_URL, body = paste("Finished processing with Grobid version", grobid_version))
+}
 
-    # now, let's start with non-consolidation
+```
 
+
+```{r}
+library(ollamar) # will help us determine differences between XMLs
 ```
