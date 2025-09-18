@@ -90,10 +90,6 @@ for (grobid_version in names(GROBID_VERSION_TO_ENDPOINT)) {
 ```
 
 ```{r}
-library(ollamar) # will help us determine differences between XMLs
-```
-
-```{r}
 psychsci = papercheck::read('~/Nextcloud/papercheck/grobid_xmls/psych_science_250_oa/0.8.3-SNAPSHOT-20250914-delft_consolidated_glutton_v1/0956797614527830.xml')
 
 papercheck::info_table(psychsci, c("title", "keywords", "doi", "description"))
@@ -124,92 +120,15 @@ pt = create_paper_table(paper)
 
 
 pt
+```
 
+```{r}
 # --- Build paper tables for every Grobid version & paper ---
 # Requires that the XMLs have already been generated in the earlier chunk.
-
-source("scripts/create_paper_table.R")
 
 timestamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
 all_tables <- list()
 
-consolidation_modes <- c("unconsolidated", "consolidated_glutton_v1")
-
-message("Collecting XML outputs to build paper tables...")
-for (grobid_version in names(GROBID_VERSION_TO_ENDPOINT)) {
-    for (mode in consolidation_modes) {
-        xml_dir <- file.path(OUTPUT_DIR, paste0(grobid_version, "_", mode))
-        if (!dir.exists(xml_dir)) {
-            message("Directory does not exist (skipping): ", xml_dir)
-            next
-        }
-        xml_files <- list.files(xml_dir, pattern = "\\.xml$", full.names = TRUE)
-        if (length(xml_files) == 0) {
-            message("No XML files in ", xml_dir, ", skipping.")
-            next
-        }
-        message("Processing ", length(xml_files), " XML files for version ", grobid_version, " (", mode, ") ...")
-        for (xf in xml_files) {
-            # Robust read with retry (in case of transient IO issues)
-            attempt <- 1
-            paper <- NULL
-            while (attempt <= 2) { # up to two attempts
-                paper <- tryCatch(papercheck::read(xf), error = function(e) e)
-                if (!inherits(paper, "error")) break
-                message("Read failed (attempt ", attempt, ") for ", xf, ": ", paper$message)
-                Sys.sleep(0.5)
-                attempt <- attempt + 1
-            }
-            if (inherits(paper, "error")) {
-                message("Giving up on ", xf)
-                next
-            }
-            tbl <- tryCatch(create_paper_table(paper), error = function(e) e)
-            if (inherits(tbl, "error")) {
-                message("create_paper_table failed for ", xf, ": ", tbl$message)
-                next
-            }
-            # Ensure it's a data.frame / tibble
-            if (!inherits(tbl, c("data.frame", "tbl_df", "tbl"))) {
-                message("Unexpected table type for ", xf, ", coercing to data.frame")
-                tbl <- as.data.frame(tbl)
-            }
-            tbl$grobid_version <- grobid_version
-            tbl$consolidation_mode <- mode
-            tbl$pdf_filename <- sub("\\.xml$", ".pdf", basename(xf))
-            all_tables[[length(all_tables) + 1]] <- tbl
-        }
-    }
-}
-
-if (length(all_tables) == 0) {
-    warning("No tables were generated. Nothing to save.")
-} else {
-    suppressWarnings({
-        suppressMessages({
-            if (!requireNamespace("dplyr", quietly = TRUE)) {
-                message("Package 'dplyr' not available; attempting to bind via base::do.call.")
-                final_table <- do.call(rbind, all_tables)
-            } else {
-                final_table <- dplyr::bind_rows(all_tables)
-            }
-        })
-    })
-    save_rds_path <- file.path(OUTPUT_DIR, paste0("paper_tables_", timestamp, ".rds"))
-    saveRDS(final_table, save_rds_path)
-    message("Saved RDS: ", save_rds_path)
-    if (requireNamespace("readr", quietly = TRUE)) {
-        csv_path <- file.path(OUTPUT_DIR, paste0("paper_tables_", timestamp, ".csv"))
-        readr::write_csv(final_table, csv_path)
-        message("Saved CSV: ", csv_path)
-    } else {
-        message("Package 'readr' not installed; skipping CSV export.")
-    }
-
-    # Quick preview
-    message("Preview of combined table (first 5 rows):")
-    print(utils::head(final_table, 5))
-}
 ```
 
 \`\`\`
